@@ -1,0 +1,12 @@
+{
+ "author": "dim",
+ "contributor": "dim",
+ "name": "Canon EOS 5D Mark II Sunlight D50 WB matrix",
+ "description": "A matrix input profile for the Canon EOS 5D Mark II, built for sunlight with D50 white balance.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Canon EOS 5D Mark II" ],
+ "files": [ "Canon EOS 5D Mark II - Sunlight D50 WB (Dimitrios).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/three-ducks-in-the-river-2-on-the-rock/30360/1",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/5EJ2MZq90JSacebEMIFJpFbxoTs.icc" ]
+}

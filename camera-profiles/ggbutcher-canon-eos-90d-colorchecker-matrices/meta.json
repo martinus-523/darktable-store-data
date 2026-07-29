@@ -1,0 +1,18 @@
+{
+ "author": "Glenn Butcher",
+ "contributor": "ggbutcher",
+ "name": "Canon EOS 90D ColorChecker matrix profiles",
+ "description": "Two matrix input profiles for the Canon EOS 90D made from a ColorChecker shot: one built with ArgyllCMS colprof and one with dcamprof.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Canon EOS 90D" ],
+ "files": [
+   "Canon EOS 90D - matrix colprof (ggbutcher).icc",
+   "Canon EOS 90D - matrix dcamprof (ggbutcher).icc"
+ ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/canon-90d-cr3-very-poor-colour-rendering/23531/3",
+ "source": [
+   "https://discuss.pixls.us/uploads/short-url/vTZLg6FQEfvmv22dOggzVxp82y6.icc",
+   "https://discuss.pixls.us/uploads/short-url/tQkHiG7H5PeC8rVN1titt0fX1BC.icc"
+ ]
+}

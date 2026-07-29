@@ -1,0 +1,12 @@
+{
+ "author": "Glenn Butcher",
+ "contributor": "ggbutcher",
+ "name": "Nikon D750 OpenFilmTools SSF LUT",
+ "description": "A LUT input profile for the Nikon D750 built from OpenFilmTools spectral sensitivity data; a different build than the dcamprof SSF LUT package.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Nikon D750" ],
+ "files": [ "Nikon D750 - OpenFilmTools SSF LUT (ggbutcher).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/color-transforms-in-raw-processing/19024/5",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/xPgJ0T1uheDwbt1EX9UdmxDsMR8.icc" ]
+}

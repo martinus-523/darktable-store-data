@@ -1,0 +1,12 @@
+{
+ "author": "Matt Maguire",
+ "contributor": "matt-maguire",
+ "name": "Sony A7R IV 5600K matrix",
+ "description": "A 5600K matrix input profile for the Sony A7R IV (ILCE-7RM4), made with an X-Rite ColorChecker Passport.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Sony A7R IV" ],
+ "files": [ "Sony A7R IV (ILCE-7RM4) - 5600K matrix (Matt Maguire).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/sony-7r-iv-profile-file/27915/4",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/dpL7uh8O5E8UXvitYUJLIMUMuuH.icc" ]
+}

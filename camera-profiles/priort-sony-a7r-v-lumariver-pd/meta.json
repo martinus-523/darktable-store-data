@@ -1,0 +1,12 @@
+{
+ "author": "Todd Prior",
+ "contributor": "priort",
+ "name": "Sony A7R V Lumariver Profile Designer profile",
+ "description": "A LUT input profile for the Sony A7R V (ILCE-7RM5) made with Lumariver Profile Designer 1.0.2 from a ColorChecker chart shot.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Sony A7R V" ],
+ "files": [ "Sony A7R V (ILCE-7RM5) - Lumariver PD (priort).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/color-calibration-icc-real-colors/58801/43",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/wJae67Dyyj1Le762HN6KrT7wb2s.icc" ]
+}

@@ -1,0 +1,22 @@
+{
+ "author": "reffort1",
+ "contributor": "reffort1",
+ "name": "Sony A7R V ColorChecker matrix/LUT iterations",
+ "description": "Four input profile iterations for the Sony A7R V (ILCE-7RM5) made from a ColorChecker chart shot: matrix and LUT builds, including a BabelColor-referenced variant.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Sony A7R V" ],
+ "files": [
+   "Sony A7R V (ILCE-7RM5) - ColChart test2 matrix (reffort1).icc",
+   "Sony A7R V (ILCE-7RM5) - ColChart test2 v2 LUT (reffort1).icc",
+   "Sony A7R V (ILCE-7RM5) - ColChart test2 v2 matrix (reffort1).icc",
+   "Sony A7R V (ILCE-7RM5) - ColChart test2 v5 LUT BabelColor (reffort1).icc"
+ ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/color-calibration-icc-real-colors/58801/42",
+ "source": [
+   "https://discuss.pixls.us/uploads/short-url/r82b3x4EYx5492PXQyls5NIhGPq.icc",
+   "https://discuss.pixls.us/uploads/short-url/q8gqUlFvbybRQqrz6rwHKGMhdR6.icc",
+   "https://discuss.pixls.us/uploads/short-url/cn44s4D26QS7ILRFub00Am9e8U2.icc",
+   "https://discuss.pixls.us/uploads/short-url/1sklHzi23YdRlGrvkRRLeWoPM5y.icc"
+ ]
+}

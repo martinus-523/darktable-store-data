@@ -1,0 +1,16 @@
+{
+    "author": "Michał",
+    "name": "RGB Primaries \"Classic Chrome\"",
+    "contributor": "leniwiec",
+    "description": "An rgb primaries preset that achieves a look similar to Fujifilm's Classic Chrome film simulation, with the colour grading done entirely within this one module. Works best with daylight white balancing.",
+    "license": "CC-BY-NC-SA-4.0",
+    "files": {
+        "en": [ "primaries_Michal Chrome.dtpreset" ]
+    },
+    "languages": [ "en" ],
+    "readme": false,
+    "dt-versions": [ 4.8 ],
+    "url": "https://discuss.pixls.us/t/rgb-primaries-classic-chrome/46454/1",
+    "source": [ "https://discuss.pixls.us/uploads/short-url/980rJgFKUrY8DnIOn9d65VGiEoS.dtpreset" ],
+    "modules": [ "primaries" ]
+}

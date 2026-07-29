@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<darktable_preset version="1.0">
+  <preset>
+    <name>Mitten | + 0.4 EV</name>
+    <description/>
+    <operation>toneequal</operation>
+    <op_params>75eb39bc00d7233c00d7233d285c8f3ed0cccc3e285c8f3e00d7233d00d7233cbf9e27bc0000a040f304b53f0000e0400000000000000000000000c0040000000400000003000000</op_params>
+    <op_version>2</op_version>
+    <enabled>1</enabled>
+    <autoapply>0</autoapply>
+    <model>%</model>
+    <maker>%</maker>
+    <lens>%</lens>
+    <iso_min>0.000000</iso_min>
+    <iso_max>340282346638528859811704183484516925440.000000</iso_max>
+    <exposure_min>0.000000</exposure_min>
+    <exposure_max>340282346638528859811704183484516925440.000000</exposure_max>
+    <aperture_min>0.000000</aperture_min>
+    <aperture_max>340282346638528859811704183484516925440.000000</aperture_max>
+    <focal_length_min>0</focal_length_min>
+    <focal_length_max>100000</focal_length_max>
+    <blendop_params>gz09eJxjYGBgYAFiCQYYOOHEgAZY0QVwggZ7CB6pfOygYtaVAyCMi48L/AcCEA0AmawnoA==</blendop_params>
+    <blendop_version>14</blendop_version>
+    <multi_priority>0</multi_priority>
+    <multi_name>Mitten + 0.4 EV</multi_name>
+    <multi_name_hand_edited>0</multi_name_hand_edited>
+    <filter>0</filter>
+    <def>0</def>
+    <format>7</format>
+  </preset>
+</darktable_preset>

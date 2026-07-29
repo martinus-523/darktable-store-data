@@ -1,0 +1,22 @@
+{
+    "author": "Christian Bouhon",
+    "name": "Blender AgX in darktable (proof of concept)",
+    "contributor": "christian-b",
+    "description": "Two basic agx presets created with the help of a color chart and a few test photos: one tuned for portraits and one general-purpose base preset that approximates Blender's AgX rendering in darktable.",
+    "license": "CC-BY-NC-SA-4.0",
+    "files": {
+        "en": [
+            "agx_1 Portrait RGB.dtpreset",
+            "agx_2 base RGB (vs Blender Like).dtpreset"
+        ]
+    },
+    "languages": [ "en" ],
+    "readme": false,
+    "dt-versions": [ 5.2 ],
+    "url": "https://discuss.pixls.us/t/blender-agx-in-darktable-proof-of-concept/48697/1048",
+    "source": [
+        "https://discuss.pixls.us/uploads/short-url/9yh7Ks0wzcY3mXKsEBP26vtlvI7.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/yCRTZVOpT7WuqvfuvuVYbR3VEr.dtpreset"
+    ],
+    "modules": [ "agx" ]
+}

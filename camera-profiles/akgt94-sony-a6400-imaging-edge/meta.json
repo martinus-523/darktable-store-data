@@ -1,0 +1,12 @@
+{
+ "author": "akgt94",
+ "contributor": "akgt94",
+ "name": "Sony A6400 Imaging Edge conversion",
+ "description": "A LUT input profile for the Sony A6400 (ILCE-6400), converted from Sony Imaging Edge output.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Sony A6400" ],
+ "files": [ "Sony A6400 (ILCE-6400) - Imaging Edge conversion (akgt94).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/do-you-want-a-straight-out-of-camera-jpeg-style-in-darktable-here-we-help-each-other/25366/81",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/gzqVsmDivX1jO3betq8VaQtz7T3.icc" ]
+}

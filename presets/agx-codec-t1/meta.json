@@ -1,0 +1,16 @@
+{
+    "author": "thumper",
+    "contributor": "thumper",
+    "name": "AgX as a Digital Film Stock - Codec T1",
+    "description": "An AgX-based digital film stock inspired by Kodak Ektar 100, offering vibrant colours, fine contrast, and clean, cinematic highlight roll-off.",
+    "license": "CC-BY-NC-SA-4.0",
+    "files": {
+        "en": [ "codec_t1.dtpreset" ]
+    },
+    "languages": [ "en" ],
+    "readme": false,
+    "dt-versions": [ 5.6 ],
+    "url": "https://discuss.pixls.us/t/free-agx-digital-film-stock-dfs-codec-t1/59390",
+    "source": [ "https://discuss.pixls.us/uploads/short-url/npIpUu5LrR4SsvxRfW4tvIVt6Np.dtpreset" ],
+    "modules": [ "agx" ]
+}

@@ -1,0 +1,12 @@
+{
+ "author": "Thomas Link",
+ "contributor": "thomas-link",
+ "name": "Sony A7R V ColorChecker matrix",
+ "description": "A ColorChecker matrix input profile for the Sony A7R V (ILCE-7RM5).",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Sony A7R V" ],
+ "files": [ "Sony A7R V (ILCE-7RM5) - ColChart test2 matrix (Thomas Link).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/color-calibration-icc-real-colors/58801/25",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/gjMWHgnIqUur1ochHCQzecP4AfD.icc" ]
+}

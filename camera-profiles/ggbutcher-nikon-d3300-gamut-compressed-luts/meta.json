@@ -1,0 +1,18 @@
+{
+ "author": "Glenn Butcher",
+ "contributor": "ggbutcher",
+ "name": "Nikon D3300 gamut-compressed dcamprof LUTs",
+ "description": "Two gamut-compressed dcamprof LUT input profiles for the Nikon D3300: a standard build and a strong AdobeRGB-compressed variant.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Nikon D3300" ],
+ "files": [
+   "Nikon D3300 - dcamprof LUT gamut-compressed (ggbutcher).icc",
+   "Nikon D3300 - dcamprof LUT gamut-compressed AdobeRGB strong (ggbutcher).icc"
+ ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/red-flower-monster/24093/22",
+ "source": [
+   "https://discuss.pixls.us/uploads/short-url/4clYtaTkKtwqsFx9DvWz4Y0Zq5n.icc",
+   "https://discuss.pixls.us/uploads/short-url/zxmcw4FvrgTRsoMVCapWkHWCPVI.icc"
+ ]
+}

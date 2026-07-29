@@ -1,0 +1,16 @@
+{
+  "author": "n01r",
+  "name": "Best sharpen",
+  "contributor": "n01r",
+  "description": "A diffuse or sharpen preset strong sharpening aimed at matching out-of-camera JPEG crispness, with the module's edge sensitivity control raised to suppress the haloing that plagued earlier iterations.",
+  "license": "CC-BY-NC-SA-4.0",
+  "files": {
+    "en": [ "diffuse_Best sharpen.dtpreset" ]
+  },
+  "languages": [ "en" ],
+  "readme": false,
+  "dt-versions": [ 4.0 ],
+  "url": "https://discuss.pixls.us/t/still-need-sharpen-module-after-d-s/32569/39",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/ygpBjHaNmM3GoELVlZ5Z3BW7ulo.dtpreset" ],
+  "modules": [ "diffuse" ]
+}

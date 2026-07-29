@@ -1,0 +1,12 @@
+{
+ "author": "Christian Bouhon",
+ "contributor": "christian-b",
+ "name": "Olympus OM-D E-M5 matrix profile",
+ "description": "A dcamprof matrix input profile for the Olympus OM-D E-M5.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Olympus OM-D E-M5" ],
+ "files": [ "Olympus OM-D E-M5 - matrix (Christian B).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/what-do-a-cave-and-a-monkey-have-in-common-nothing/48945/9",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/yvtsLtisvyOQ8T7bmymHYIDvjOP.icc" ]
+}

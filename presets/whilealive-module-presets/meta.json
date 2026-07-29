@@ -1,0 +1,25 @@
+{
+  "author": "whilealive",
+  "name": "whilealive's module presets",
+  "license": "CC-BY-NC-SA-4.0",
+  "contributor": "whilealive",
+  "description": "Module presets from whilealive's darktable-styles-n-presets repository: six color balance RGB looks (two recreating Boris Hajdukovic's settings, one recreating Avid Andrew's starting point, two base-sigmoid variants and a test preset), a magenta-to-green/yellow-to-blue color calibration preset, clarity and fast-sharpen presets for diffuse or sharpen, and a standard lens correction preset.",
+  "files": {
+    "en": [
+      "colorbalancergb_Boris_01.dtpreset",
+      "colorbalancergb_Boris_02.dtpreset",
+      "colorbalancergb_base_sigmoid_v1.dtpreset",
+      "colorbalancergb_base_sigmoid_v2.dtpreset",
+      "colorbalancergb_test_01.dtpreset",
+      "channelmixerrgb_magenta-to-green, yellow-to-blue.dtpreset",
+      "diffuse_clarity_v01.dtpreset",
+      "diffuse_sharpen_fast_v01.dtpreset"
+    ]
+  },
+  "languages": [ "en" ],
+  "readme": false,
+  "dt-versions": [ 4.2, 4.4 ],
+  "url": "https://github.com/whilealive/darktable-styles-n-presets",
+  "source": [ "https://github.com/whilealive/darktable-styles-n-presets/archive/refs/heads/main.zip" ],
+  "modules": [ "colorbalancergb", "channelmixerrgb", "diffuse", "lens" ]
+}

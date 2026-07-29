@@ -1,0 +1,18 @@
+{
+ "author": "Elle Stone",
+ "contributor": "elle",
+ "name": "Canon EOS 400D + Sony A7 dcraw matrices",
+ "description": "Two dcraw-matrix input profiles: one for the Canon EOS 400D and one for the Sony A7. The A7 profile was made from a UniWB target shot and requires a UniWB workflow.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Canon EOS 400D", "Sony A7" ],
+ "files": [
+   "Canon EOS 400D - dcraw matrix (Elle Stone).icc",
+   "Sony A7 (ILCE-7) - UniWB dcraw matrix (Elle Stone).icc"
+ ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/gimp-2-10-6-out-of-range-rgb-values-from-cr2-file/9532/67",
+ "source": [
+   "https://d2x313g9lpht1q.cloudfront.net/original/3X/c/1/c1320d14292639aab4a499b0f563d97bce614aaf.icc",
+   "https://d2x313g9lpht1q.cloudfront.net/original/3X/e/b/eb18b99b905bf1f4ce0362b0baa1947bbcb28859.icc"
+ ]
+}

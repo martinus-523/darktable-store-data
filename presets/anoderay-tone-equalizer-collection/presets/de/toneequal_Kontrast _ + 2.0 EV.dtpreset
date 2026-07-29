@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<darktable_preset version="1.0">
+  <preset>
+    <name>Kontrast | + 2.0 EV</name>
+    <description/>
+    <operation>toneequal</operation>
+    <op_params>aaaa8abf176c81bfdedd5dbf3ee913bf000000003ee9133fdedd5d3f176c813faaaa8a3f0000a040f304b53f0000fa430000000000000000000000c0000000000400000001000000</op_params>
+    <op_version>2</op_version>
+    <enabled>1</enabled>
+    <autoapply>0</autoapply>
+    <model>%</model>
+    <maker>%</maker>
+    <lens>%</lens>
+    <iso_min>0.000000</iso_min>
+    <iso_max>340282346638528859811704183484516925440.000000</iso_max>
+    <exposure_min>0.000000</exposure_min>
+    <exposure_max>340282346638528859811704183484516925440.000000</exposure_max>
+    <aperture_min>0.000000</aperture_min>
+    <aperture_max>340282346638528859811704183484516925440.000000</aperture_max>
+    <focal_length_min>0</focal_length_min>
+    <focal_length_max>100000</focal_length_max>
+    <blendop_params>gz08eJxjYGBgYAFiCQYYOOHEgAZY0QWAgBGLGANDgz0Ej1Q+dlAx68oBEMbFxwX+AwGIBgCbGCeh</blendop_params>
+    <blendop_version>14</blendop_version>
+    <multi_priority>0</multi_priority>
+    <multi_name>Kontrast + 2.0 EV</multi_name>
+    <multi_name_hand_edited>0</multi_name_hand_edited>
+    <filter>0</filter>
+    <def>0</def>
+    <format>7</format>
+  </preset>
+</darktable_preset>

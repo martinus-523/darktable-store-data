@@ -1,0 +1,47 @@
+{
+  "author": "Christian Bouhon",
+  "name": "Clarity and texture presets",
+  "contributor": "christian-b",
+  "description": "Six French-named presets by Christian Bouhon that he uses to recover the contrast and detail lost during tone mapping.",
+  "license": "CC-BY-NC-SA-4.0",
+  "files": {
+    "fr": [
+      "atrous_Clarté et Contraste Soft.dtpreset",
+      "bilat_Texture Basse Lumière.dtpreset",
+      "bilat_Texture Haute Lumière.dtpreset",
+      "diffuse_Blooming.dtpreset",
+      "diffuse_Clarté 2.dtpreset",
+      "diffuse_Clarté et texture (+ net) 3 It .dtpreset"
+    ],
+    "en": [
+      "atrous_Soft Clarity and Contrast.dtpreset",
+      "bilat_Shadow Texture.dtpreset",
+      "bilat_Highlight Texture.dtpreset",
+      "diffuse_Blooming.dtpreset",
+      "diffuse_Clarity 2.dtpreset",
+      "diffuse_Clarity and texture (+ sharp) 3 It .dtpreset"
+    ]
+  },
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "readme": false,
+  "dt-versions": [
+    4.0
+  ],
+  "url": "https://discuss.pixls.us/t/blair-castle-in-sunshine-and-shadow/33602/12",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/p2ZYzMn2XpWmGUSdqVrBaoUWEcm.dtpreset",
+    "https://discuss.pixls.us/uploads/short-url/hAqNp4CwcAZVWpsCC7AaRGcTBtE.dtpreset",
+    "https://discuss.pixls.us/uploads/short-url/rIqEUeCvQRcSYc7uhoUKDoktE0b.dtpreset",
+    "https://discuss.pixls.us/uploads/short-url/nPMQFSo16O9eoZCaAZFD1OyJ5TG.dtpreset",
+    "https://discuss.pixls.us/uploads/short-url/xP5IuIsJJ5MFCDIIWAe8Y4ZOICJ.dtpreset",
+    "https://discuss.pixls.us/uploads/short-url/3s2g51l2EeGRcVqb56fRvpxD16P.dtpreset"
+  ],
+  "modules": [
+    "atrous",
+    "bilat",
+    "diffuse"
+  ]
+}

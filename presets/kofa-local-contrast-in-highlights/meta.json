@@ -1,0 +1,22 @@
+{
+    "author": "István Kovács",
+    "name": "kofa Highlight Details Presets",
+    "contributor": "kofa",
+    "description": "Ever enabled sigmoid or filmic and watched a beautiful sky turn flat and lifeless? These two presets bring the detail back: the local contrast module, pre-masked to target only the highlights, restores crisp texture to skies, clouds and other bright areas while leaving the rest of the image untouched. Pick the regular version for a clear effect or the subtle variant for a gentler touch, and fine-tune the mask to fit your photo.",
+    "license": "CC-BY-NC-SA-4.0",
+    "files": {
+        "en": [
+            "highlight details (subtle).dtpreset",
+            "highlight details.dtpreset"
+        ]
+    },
+    "languages": [ "en" ],
+    "readme": false,
+    "dt-versions": [ 5.2 ],
+    "url": "https://discuss.pixls.us/t/preserve-local-contrast-in-the-highlights-after-tone-mapping/54042/10",
+    "source": [
+        "https://discuss.pixls.us/uploads/short-url/sgfA6lbtibGQjQuDbwzjzUbqorr.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/hBz5amjs0NicViKgPFETcuUo3Zz.dtpreset"
+    ],
+    "modules": [ "bilat" ]
+}

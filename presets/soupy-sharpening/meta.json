@@ -1,0 +1,16 @@
+{
+    "author": "Tim",
+    "name": "Sharpening strategies in Darktable",
+    "contributor": "soupy",
+    "description": "A diffuse or sharpen preset that works great on pretty much all images. A variation on the standard deblur presets, masked out of highlights to avoid sharpening clouds or bright lights, and with a details mask so it only affects edges, which helps prevent increasing noise on noisy images.",
+    "license": "CC-BY-NC-SA-4.0",
+    "files": {
+        "en": [ "deblur i20.dtpreset" ]
+    },
+    "languages": [ "en" ],
+    "readme": false,
+    "dt-versions": [ 4.4 ],
+    "url": "https://discuss.pixls.us/t/sharpening-strategies-in-darktable/39821/6",
+    "source": [ "https://discuss.pixls.us/uploads/short-url/c7tirJGlVMV8ae5lFXPVY8wWMO2.dtpreset" ],
+    "modules": [ "diffuse" ]
+}

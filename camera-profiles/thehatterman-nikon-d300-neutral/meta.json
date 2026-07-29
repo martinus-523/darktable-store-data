@@ -1,0 +1,12 @@
+{
+ "author": "thehatterman",
+ "contributor": "thehatterman",
+ "name": "Nikon D300 Neutral profile",
+ "description": "A LUT input profile for the Nikon D300 reproducing Nikon's 'Neutral' picture control.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Nikon D300" ],
+ "files": [ "Nikon D300 - Neutral (thehatterman).icm" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/does-anyone-use-custom-nikon-icc-profiles/49882/30",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/uVfWZLhvUQHGhZmdVdBD412Qo1T.icm" ]
+}

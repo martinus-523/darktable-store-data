@@ -1,0 +1,12 @@
+{
+ "author": "Glenn Butcher",
+ "contributor": "ggbutcher",
+ "name": "Panasonic DMC-G85 gamut-compressed dcamprof LUT",
+ "description": "A gamut-compressed dcamprof LUT input profile for the Panasonic DMC-G85, made from a DPReview target shot.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Panasonic DMC-G85" ],
+ "files": [ "Panasonic DMC-G85 - dcamprof LUT gamut-compressed (ggbutcher).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/flowers-with-nice-bokeh-background/26973/4",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/ncINzztw2sR9XMsh5HFcro8ArD5.icc" ]
+}

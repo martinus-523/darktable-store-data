@@ -1,0 +1,12 @@
+{
+ "author": "Glenn Butcher",
+ "contributor": "ggbutcher",
+ "name": "Sony A6100 matrix profile",
+ "description": "A matrix input profile for the Sony A6100 (ILCE-6100).",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Sony A6100" ],
+ "files": [ "Sony A6100 (ILCE-6100) - matrix (ggbutcher).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/darktable-3-0-1-released/16870/64",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/qmfFO9qVl6Z0idvrr9yD5TfD1GE.icc" ]
+}

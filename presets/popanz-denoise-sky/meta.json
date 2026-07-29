@@ -1,0 +1,17 @@
+{
+  "author": "Uli (Popanz)",
+  "name": "Denoise sky",
+  "contributor": "popanz",
+  "description": "'Himmel entrauschen' (denoise sky), a denoise (non-local means) preset in astrophoto mode.",
+  "license": "CC-BY-NC-SA-4.0",
+  "files": {
+    "de": [ "Himmel entrauschen.dtpreset" ],
+    "en": [ "Denoise sky.dtpreset" ]
+  },
+  "languages": [ "de", "en" ],
+  "readme": false,
+  "dt-versions": [ 5.2 ],
+  "url": "https://discuss.pixls.us/t/cap-san-diego-in-hamburg/54320/20",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/1c5yHp15g8wPToXVslLFqvmheeK.dtpreset" ],
+  "modules": [ "nlmeans" ]
+}

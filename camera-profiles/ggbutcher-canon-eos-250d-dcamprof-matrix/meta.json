@@ -1,0 +1,12 @@
+{
+ "author": "Glenn Butcher",
+ "contributor": "ggbutcher",
+ "name": "Canon EOS 250D dcamprof matrix",
+ "description": "A dcamprof matrix input profile for the Canon EOS 250D, made from a DPReview studio comparison shot (max dE 4.33).",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Canon EOS 250D" ],
+ "files": [ "Canon EOS 250D - matrix dcamprof (ggbutcher).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/colour-of-cr3-from-eos250d-is-faded/19862/18",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/hN1LjybWJT2cStINJhaIjE0h6bD.icc" ]
+}

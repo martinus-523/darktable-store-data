@@ -1,0 +1,12 @@
+{
+ "author": "Andy Dodd",
+ "contributor": "entropy512",
+ "name": "Panasonic DC-S1H V-Gamut V-Log colorspace profile",
+ "description": "A colorspace profile with V-Gamut primaries and the V-Log curve for the Panasonic DC-S1H V-Log workflow; not a measured camera profile.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Panasonic DC-S1H" ],
+ "files": [ "Panasonic DC-S1H - V-Gamut V-Log colorspace (entropy512).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/converting-s1h-raw-files-to-v-log-gamma/24368/122",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/lXclqhpA6yxqPnGO8PmYbsaORUU.icc" ]
+}

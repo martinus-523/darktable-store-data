@@ -1,0 +1,12 @@
+{
+ "author": "Jacques",
+ "contributor": "jade-nl",
+ "name": "Nikon Z6 II LUT profile",
+ "description": "A LUT input profile for the Nikon Z6 II (May 2022 build); the embedded description reads 'NIKON Z 6_2 - 202205160700'.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Nikon Z6 II" ],
+ "files": [ "Nikon Z6 II - LUT 2022-05 (Jade NL).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/iris-in-the-morning/31059/15",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/uVizNuUEvIK80YMuMNoHNVF81Wx.icc" ]
+}

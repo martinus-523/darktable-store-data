@@ -1,0 +1,16 @@
+{
+    "author": "Christoph Fischer (darktable.info)",
+    "name": "DT Pro module groups",
+    "contributor": "darktable.info",
+    "description": "A module-group layout preset ('DT Pro') for darktable 5.4: organises the UI into Basics (AgX, Color Balance RGB, Contrast Equalizer, Color Calibration, Crop, Tone Equalizer, Exposure, ...) and Details groups, hides outdated modules, scene-referred workflow.",
+    "license": "CC-BY-SA-4.0",
+    "files": {
+        "en": [ "DT Pro.dtpreset" ]
+    },
+    "languages": [ "en" ],
+    "readme": true,
+    "dt-versions": [ 5.4 ],
+    "url": "https://darktable.info/en/preset-module-dt-pro/",
+    "source": [ "https://darktable.info/sdc_download/2625/?key=9w5djvdvpjqq7dspbpzzk4o1dufn0t" ],
+    "modules": [ "modulegroups" ]
+}

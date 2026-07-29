@@ -1,0 +1,26 @@
+{
+    "author": "Todd Prior",
+    "name": "Pro Contrast Moose Peterson",
+    "contributor": "priort",
+    "description": "Four local contrast presets in the spirit of Moose Peterson's Pro Contrast look, leveraging reverse multiply blending: a Clarity preset and three DNR variants for the local contrast (bilateral) module.",
+    "license": "CC-BY-NC-SA-4.0",
+    "files": {
+        "en": [
+            "bilat_Clarity-BH.dtpreset",
+            "bilat_DNR 1 - BH.dtpreset",
+            "bilat_DNR 2 - BH.dtpreset",
+            "bilat_DNR 3 -BH.dtpreset"
+        ]
+    },
+    "languages": [ "en" ],
+    "readme": false,
+    "dt-versions": [ 3.6 ],
+    "url": "https://discuss.pixls.us/t/pro-contrast-moose-peterson/27934/5",
+    "source": [
+        "https://discuss.pixls.us/uploads/short-url/mFNyhabXCdeXbJWAvmg3M88aMAm.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/jHbrSrJXBn4j9huq591Il5T9Ihb.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/kejxDvQZVipzMoNQIq203QZgusH.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/ftXwHHPvEN0vUegOcjFYR9fRb1y.dtpreset"
+    ],
+    "modules": [ "bilat" ]
+}

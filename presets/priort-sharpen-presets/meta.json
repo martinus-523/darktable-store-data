@@ -1,0 +1,32 @@
+{
+  "author": "Todd Prior",
+  "name": "Todd Prior sharpening presets",
+  "contributor": "priort",
+  "description": "Seven diffuse or sharpen for sharpening, Most are deliberately on the strong side — lower the module's opacity to taste and raising the threshold slider if artifacts remain.",
+  "license": "CC-BY-NC-SA-4.0",
+  "files": {
+    "en": [
+      "diffuse_1-Subract Watercolor.dtpreset",
+      "diffuse_ART-Like-1.dtpreset",
+      "diffuse_Sharpen 1.dtpreset",
+      "diffuse_Sharpen @ 50%.dtpreset",
+      "diffuse_TP_sharpen_details.dtpreset",
+      "diffuse_Test Sharpen.dtpreset",
+      "diffuse_module test.dtpreset"
+    ]
+  },
+  "languages": [ "en" ],
+  "readme": false,
+  "dt-versions": [ 4.8 ],
+  "url": "https://discuss.pixls.us/t/differences-in-the-output-sharpness-of-jpg-when-processed-with-dt-or-lr/43724/42",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/mYaln9Av7cfu6e57PfkzMm9zdGe.dtpreset",
+    "https://discuss.pixls.us/uploads/short-url/ggLVgyGlomnljsZruCM8VGJkIBr.dtpreset",
+    "https://discuss.pixls.us/uploads/short-url/blvT3qXxdmrjkmICuT4R7FOhrXM.dtpreset",
+    "https://discuss.pixls.us/uploads/short-url/VNPLY9po24ZP4G9i2KEBNfnze8.dtpreset",
+    "https://discuss.pixls.us/uploads/short-url/jNzhgz2h1YBr7154bxoX18NeyZz.dtpreset",
+    "https://discuss.pixls.us/uploads/short-url/9X6rT13xVgvYBsvrco1kCINMHUr.dtpreset",
+    "https://discuss.pixls.us/uploads/short-url/cSaCbzO12zKeLrNb0t5KTi0fIV8.dtpreset"
+  ],
+  "modules": [ "diffuse" ]
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<darktable_preset version="1.0">
+    <preset>
+        <name>DT Pro</name>
+        <description></description>
+        <operation>modulegroups</operation>
+        <op_params>gz03eJx1UtF1wjAMXCUbhK7QR/vVJRRHsfWwrVSWKR8aiQVYiSn6QgoEUr5s6U46new325yPp42ZuQA5Y0x0QBHftYppRAGtgivMBeEEq3SoayrFWBNlyLqCPpvCVdy65utje4M4suB3hdiO4B9iLzCGZSJzj80YwWHCrIaHkUsVbK+XmdtBhOxw0vGRO4jN1c3/6J46mVKv8DKtCJQ4v2J0QjHSpQeUQIO2wjpX9JiZCo7CA0Vsiwpmr8GUMy5d3uMEZddcHTWO04i5zM2eSI6zChR9JEXMxTqKoG2PChTPx9M7FHLFuumwextzwuPfyLdt2vJfgArXYuAPz96f39QcOBZBp+fjaXsRLobDgE7NfkBREshunu5xKSaoXF2wnoahluUXMC9A2fbkM6riXWMSDORDJB+0/ALpoDIL</op_params>
+        <op_version>1</op_version>
+        <enabled>1</enabled>
+        <autoapply>0</autoapply>
+        <model>%</model>
+        <maker>%</maker>
+        <lens>%</lens>
+        <iso_min>0.000000</iso_min>
+        <iso_max>340282346638528859811704183484516925440.000000</iso_max>
+        <exposure_min>0.000000</exposure_min>
+        <exposure_max>340282346638528859811704183484516925440.000000</exposure_max>
+        <aperture_min>0.000000</aperture_min>
+        <aperture_max>340282346638528859811704183484516925440.000000</aperture_max>
+        <focal_length_min>0</focal_length_min>
+        <focal_length_max>1000</focal_length_max>
+        <blendop_params></blendop_params>
+        <blendop_version>0</blendop_version>
+        <multi_priority>0</multi_priority>
+        <multi_name>(null)</multi_name>
+        <multi_name_hand_edited>0</multi_name_hand_edited>
+        <filter>0</filter>
+        <def>0</def>
+        <format>0</format>
+    </preset>
+</darktable_preset>

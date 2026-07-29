@@ -1,0 +1,26 @@
+{
+ "author": "Celsus",
+ "contributor": "celsus",
+ "name": "Canon EOS M100 DPP picture-style profiles",
+ "description": "Six matrix input profiles for the Canon EOS M100, one per Canon DPP picture style (Faithful, Fine Detail, Landscape, Neutral, Portrait, Standard), made from DPP output.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Canon EOS M100" ],
+ "files": [
+   "Canon EOS M100 - DPP Faithful (Celsus).icc",
+   "Canon EOS M100 - DPP Fine Detail (Celsus).icc",
+   "Canon EOS M100 - DPP Landscape (Celsus).icc",
+   "Canon EOS M100 - DPP Neutral (Celsus).icc",
+   "Canon EOS M100 - DPP Portrait (Celsus).icc",
+   "Canon EOS M100 - DPP Standard (Celsus).icc"
+ ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/canon-m100-icc-profiles-for-darktable-made-from-dpp-output/13368/3",
+ "source": [
+   "https://discuss.pixls.us/uploads/short-url/l5MrfeU3Z2w3Sbg8kxiN1h3igNk.icc",
+   "https://discuss.pixls.us/uploads/short-url/72Dsdd8hyo1EUhoHvGZ6OnS14d5.icc",
+   "https://discuss.pixls.us/uploads/short-url/vFRRlaokl5YBWiDy0dFwhxV4LAo.icc",
+   "https://discuss.pixls.us/uploads/short-url/nnSm8hdEgs9Y8qVGJ3rOkSrZQSg.icc",
+   "https://discuss.pixls.us/uploads/short-url/aX0rPcmhKye1BPlWOVQW7vRT8l5.icc",
+   "https://discuss.pixls.us/uploads/short-url/eK8XuvdGYiWkBrmr0KGMpRrAWnM.icc"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "author": "Daniel Kraus",
+  "name": "bovender's darktable presets",
+  "contributor": "bovender",
+  "description": "Three presets by Daniel Kraus (bovender), heavily inspired by Boris Hajdukovic's (s7habo) darktable tutorials on YouTube: 'inverted linear boris', a tone equalizer preset with an inverted-linear curve; 'mist', a diffuse or sharpen preset for a soft misty rendering; and 'neutral gray sRGB Boris', a sigmoid preset for a neutral tone mapping. ",
+  "license": "CC0-1.0",
+  "files": {
+    "en": [
+      "inverted linear Boris.dtpreset",
+      "mist.dtpreset",
+      "neutral gray sRGB Boris.dtpreset"
+    ]
+  },
+  "languages": [ "en" ],
+  "readme": false,
+  "dt-versions": [ 5.0 ],
+  "url": "https://github.com/bovender/darktable-presets-and-styles",
+  "source": [ "https://github.com/bovender/darktable-presets-and-styles/archive/refs/heads/main.zip" ],
+  "modules": [ "toneequal", "diffuse", "sigmoid" ]
+}

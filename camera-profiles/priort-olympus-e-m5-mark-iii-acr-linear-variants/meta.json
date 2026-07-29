@@ -1,0 +1,22 @@
+{
+ "author": "Todd Prior",
+ "contributor": "priort",
+ "name": "Olympus OM-D E-M5 Mark III ACR + linear variants",
+ "description": "Four LUT input profiles for the Olympus OM-D E-M5 Mark III made with dcamprof: ACR-derived and linear variants, each with and without white balance.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Olympus OM-D E-M5 Mark III" ],
+ "files": [
+   "Olympus OM-D E-M5 Mark III - ACR no-WB (priort).icc",
+   "Olympus OM-D E-M5 Mark III - ACR2 (priort).icc",
+   "Olympus OM-D E-M5 Mark III - Linear (priort).icc",
+   "Olympus OM-D E-M5 Mark III - Linear no-WB (priort).icc"
+ ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/olympus-em5-mk-3-greenish-tint-white-balance-issue/38587/34",
+ "source": [
+   "https://discuss.pixls.us/uploads/short-url/mCGlguV5IinzCyyx0R1tiG8syM8.icc",
+   "https://discuss.pixls.us/uploads/short-url/vFAQ4Xj6sbdhAA9JZKNsgATToSH.icc",
+   "https://discuss.pixls.us/uploads/short-url/4bb3fOBt1UTqJ844aRrELuRPyVZ.icc",
+   "https://discuss.pixls.us/uploads/short-url/p3K7PryqGBYeyt2L0NmT7zDPquC.icc"
+ ]
+}

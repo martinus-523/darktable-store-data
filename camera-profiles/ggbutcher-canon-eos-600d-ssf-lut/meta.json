@@ -1,0 +1,12 @@
+{
+ "author": "Glenn Butcher",
+ "contributor": "ggbutcher",
+ "name": "Canon EOS 600D SSF LUT profile",
+ "description": "A LUT input profile for the Canon EOS 600D, generated from measured spectral sensitivity functions.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Canon EOS 600D" ],
+ "files": [ "Canon EOS 600D - SSF LUT (ggbutcher).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/color-issues-canon-550d-and-600d-input-profile-choice/17739/5",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/hkMCzyZJJgDg3glj0t8fQD2nTvl.icc" ]
+}

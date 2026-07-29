@@ -1,0 +1,20 @@
+{
+ "author": "finestructure",
+ "contributor": "finestructure",
+ "name": "Sony A6600 illuminant matrix profiles",
+ "description": "Three matrix input profiles for the Sony A6600 (ILCE-6600), one per illuminant: D50, D75, and Standard Illuminant A.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Sony A6600" ],
+ "files": [
+   "Sony A6600 (ILCE-6600) - D50 matrix (finestructure).icc",
+   "Sony A6600 (ILCE-6600) - D75 matrix (finestructure).icc",
+   "Sony A6600 (ILCE-6600) - StdA matrix (finestructure).icc"
+ ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/color-calibration-icc-real-colors/58801/75",
+ "source": [
+   "https://discuss.pixls.us/uploads/short-url/8Ps7K2OPpzR8pkrK2mxMKJ7VZSI.icc",
+   "https://discuss.pixls.us/uploads/short-url/zW6JxjArp7RgG30mEY7PzhNf2MN.icc",
+   "https://discuss.pixls.us/uploads/short-url/dxLlcoXzpsxccrX2YfhfRtl4IWL.icc"
+ ]
+}

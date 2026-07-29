@@ -1,0 +1,15 @@
+{
+ "author": "Todd Prior",
+ "contributor": "priort",
+ "name": "Sony A6400 custom profiles",
+ "description": "Two custom LUT input profiles for the Sony A6400 (ILCE-6400), made from the DPReview studio comparison shot: a raw-based and a JPG-based variant.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Sony A6400" ],
+ "files": [ "Sony A6400 (ILCE-6400) - Custom (priort).icc", "Sony A6400 (ILCE-6400) - Custom JPG (priort).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/do-you-want-a-straight-out-of-camera-jpeg-style-in-darktable-here-we-help-each-other/25366/78",
+ "source": [
+   "https://discuss.pixls.us/uploads/short-url/6tyOMWHHb73Jq5ZfJZgOOJDhvB0.icc",
+   "https://discuss.pixls.us/uploads/short-url/r6LMfXwcmNYDbBThsQmwFxnkyin.icc"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+    "author": "Christian Bouhon",
+    "name": "Detail and Texture Presets",
+    "contributor": "christian-b",
+    "description": "Bring back the fine detail that tone mapping takes away. These are the three presets wildlife photographer Christian Bouhon applies to almost every shot: a local contrast preset that recovers details lost to Sigmoid compression in highlights and shadows, a self-made diffuse or sharpen preset that adds natural texture, and a contrast equalizer preset for a touch of accentuated clarity. Perfect for bird and wildlife photography where feather detail in dark or bright areas easily gets crushed, and just as useful on any image that needs extra bite.",
+    "license": "CC-BY-NC-SA-4.0",
+    "files": {
+        "en": [
+            "atrous_Accentuated Clarity 0.2.dtpreset",
+            "bilat_Detail Sigmoid.dtpreset",
+            "diffuse_Texture R200.dtpreset"
+        ],
+        "fr": [
+            "atrous_Clarté Accentuée 0.2.dtpreset",
+            "bilat_Détail Sigmoïde.dtpreset",
+            "diffuse_Texture R200.dtpreset"
+        ]
+    },
+    "languages": [ "en", "fr" ],
+    "readme": false,
+    "dt-versions": [ 5.0 ],
+    "url": "https://discuss.pixls.us/t/geese-on-ice-on-a-sunny-day/48452/16",
+    "source": [
+        "https://discuss.pixls.us/uploads/short-url/pFVFC4Vrwl9XM0RWWaPDrARYHEw.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/gAe7MsvAxjBZUUaqp32vWgtCf1V.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/rkS4c6D0ERPXrSf6Q3dQ09VIYTO.dtpreset"
+    ],
+    "modules": [ "atrous", "bilat", "diffuse" ]
+}

@@ -1,0 +1,12 @@
+{
+ "author": "Todd Prior",
+ "contributor": "priort",
+ "name": "Olympus OM-D E-M5 Mark II ColorMatch profile",
+ "description": "A ColorMatch LUT input profile for the Olympus OM-D E-M5 Mark II.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Olympus OM-D E-M5 Mark II" ],
+ "files": [ "Olympus OM-D E-M5 Mark II - ColorMatch (priort).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/help-with-default-exposure-in-scene-referred-configuration/20877/30",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/rrGJRsv5CBZO35jL8XMU8mdi2ZP.icc" ]
+}

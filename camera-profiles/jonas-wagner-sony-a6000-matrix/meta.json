@@ -1,0 +1,12 @@
+{
+ "author": "Jonas Wagner",
+ "contributor": "jonas-wagner",
+ "name": "Sony A6000 matrix profile",
+ "description": "A matrix input profile for the Sony A6000 (ILCE-6000).",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Sony A6000" ],
+ "files": [ "Sony A6000 (ILCE-6000) - matrix (Jonas Wagner).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/playraw-raw-challenge-backlit/1676/21",
+ "source": [ "https://29a.ch/tmp/a6000_darktable.icc" ]
+}

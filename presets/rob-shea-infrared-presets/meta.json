@@ -1,0 +1,28 @@
+{
+    "author": "Rob Shea",
+    "name": "darktable Infrared Presets",
+    "contributor": "robsheaphotography.com",
+    "description": "Presets to quickly color-swap infrared images in darktable: channel-mixer color swaps (color calibration module) and hue-shift swaps in 30° steps (color balance RGB module). Free download; Rob Shea also publishes darktable IR tutorials on YouTube.",
+    "license": "MIT",
+    "files": {
+        "en": [
+            "channelmixerrgb_IR_swap_RB.dtpreset",
+            "channelmixerrgb_IR_swap_RB_G-B.dtpreset",
+            "channelmixerrgb_IR_swap_RB_G-R.dtpreset",
+            "channelmixerrgb_IR_swap_RB_G-Split.dtpreset",
+            "colorbalancergb_IR_hue_shift_+030.dtpreset",
+            "colorbalancergb_IR_hue_shift_+060.dtpreset",
+            "colorbalancergb_IR_hue_shift_+090.dtpreset",
+            "colorbalancergb_IR_hue_shift_+120.dtpreset",
+            "colorbalancergb_IR_hue_shift_+150.dtpreset",
+            "colorbalancergb_IR_hue_shift_+180.dtpreset",
+            "colorbalancergb_IR_hue_shift_-030.dtpreset"
+        ]
+    },
+    "languages": [ "en" ],
+    "readme": true,
+    "dt-versions": [ 3.4, 3.6 ],
+    "url": "https://www.robsheaphotography.com/darktable-infrared-presets/",
+    "source": [ "https://www.dropbox.com/scl/fi/43fl8el4kxsmupw6tpf43/darktable-IR-presets.zip?rlkey=sppppw1kw0uj0zm50f54g49fo&dl=1" ],
+    "modules": [ "channelmixerrgb", "colorbalancergb" ]
+}

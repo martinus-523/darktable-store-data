@@ -1,0 +1,16 @@
+{
+  "author": "Garrett LeSage",
+  "name": "Pixel 6 Pro color calibration",
+  "contributor": "garrett",
+  "description": "A color calibration preset that fixes the desaturated colors of DNG raws from the Google Pixel 6 Pro's default camera app, made by shooting a Color Checker Passport in daylight. The preset is set to auto-apply to images whose camera model matches 'Pixel 6 Pro'.",
+  "license": "CC-BY-NC-SA-4.0",
+  "files": {
+    "en": [ "Pixel 6 Pro - Standard.dtpreset" ]
+  },
+  "languages": [ "en" ],
+  "readme": false,
+  "dt-versions": [ 4.0 ],
+  "url": "https://discuss.pixls.us/t/issue-with-desaturated-dngs-produced-by-a-phone-camera/32178/23",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/bSITPO4zAiLdR8uprgJgRLQ1wvi.dtpreset" ],
+  "modules": [ "channelmixerrgb" ]
+}

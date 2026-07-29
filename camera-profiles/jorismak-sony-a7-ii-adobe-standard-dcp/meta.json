@@ -1,0 +1,18 @@
+{
+ "author": "Joris Mak",
+ "contributor": "jorismak",
+ "name": "Sony A7 II Adobe Standard DCP conversions",
+ "description": "Two LUT input profiles for the Sony A7 II (ILCE-7M2), converted from the Adobe Standard DCP: D65 and Standard Illuminant A variants.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Sony A7 II" ],
+ "files": [
+   "Sony A7 II (ILCE-7M2) - Adobe Standard D65 (jorismak).icc",
+   "Sony A7 II (ILCE-7M2) - Adobe Standard StdA (jorismak).icc"
+ ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/help-converting-dcp-to-icc-using-dcamprof/14411/21",
+ "source": [
+   "https://discuss.pixls.us/uploads/short-url/akPRGQkeLB7sZJ3wy2luTPGyPVT.icc",
+   "https://discuss.pixls.us/uploads/short-url/oDX4eRLNe7VaqrmegRqhHH4I9G6.icc"
+ ]
+}

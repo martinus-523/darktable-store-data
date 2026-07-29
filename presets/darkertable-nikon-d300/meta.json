@@ -1,0 +1,22 @@
+{
+    "author": "DarkerTable",
+    "name": "Nikon D300 Input Color Profile Presets",
+    "contributor": "darkertable",
+    "description": "Get colors out of your Nikon D300 raw files that finally match the in-camera JPEGs. This pack contains two auto-apply presets that set up darktable to use genuine Nikon input color profiles extracted from Capture NX-D, Capture NX 2 or ViewNX-i: an 'unbreak input profile' preset with the correct gamma settings, and an 'input color profile' preset that selects the Nikon neutral profile with a linear Rec.2020 working profile and gamut clipping disabled. They accompany a detailed guide on discuss.pixls.us that walks you through extracting and renaming the Nikon .icm profiles the presets are designed to work with.",
+    "license": "CC-BY-NC-SA-4.0",
+    "files": {
+        "en": [
+            "Nikon D300 input color profile.dtpreset",
+            "Nikon D300 unbreak input profile.dtpreset"
+        ]
+    },
+    "languages": [ "en" ],
+    "readme": false,
+    "dt-versions": [ 4.8 ],
+    "url": "https://discuss.pixls.us/t/proper-use-of-nikon-and-other-custom-input-color-profiles-in-darktable/45426",
+    "source": [
+        "https://discuss.pixls.us/uploads/short-url/xydQXlv12kJqxlv9JPsIhqQRnsu.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/kpQqdKcgB4L7856pAJFmTErMrRS.dtpreset"
+    ],
+    "modules": [ "profile_gamma", "colorin" ]
+}

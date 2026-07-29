@@ -1,0 +1,22 @@
+{
+ "author": "Glenn Butcher",
+ "contributor": "ggbutcher",
+ "name": "Sony A7 II dcamprof matrix + LUT variants",
+ "description": "Four dcamprof input profiles for the Sony A7 II (ILCE-7M2) from a DPReview ColorChecker shot: a plain matrix and three gamut-compressed LUTs (sRGB, AdobeRGB, AdobeRGB strong).",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Sony A7 II" ],
+ "files": [
+   "Sony A7 II (ILCE-7M2) - LUT gamut-compress AdobeRGB (ggbutcher).icc",
+   "Sony A7 II (ILCE-7M2) - LUT gamut-compress AdobeRGB strong (ggbutcher).icc",
+   "Sony A7 II (ILCE-7M2) - LUT gamut-compress sRGB (ggbutcher).icc",
+   "Sony A7 II (ILCE-7M2) - matrix dcamprof (ggbutcher).icc"
+ ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/deliberately-difficult-gamut-colors-in-macro-shot-of-hex-nut/20357/14",
+ "source": [
+   "https://discuss.pixls.us/uploads/short-url/AbRAnv6kc5ao19uIHAkT7XSP8UG.icc",
+   "https://discuss.pixls.us/uploads/short-url/txgu3d5kVhvZw4vAIjzPNhWuLdW.icc",
+   "https://discuss.pixls.us/uploads/short-url/gp9s0qAniAcuyYe2lRVlD1qj08V.icc",
+   "https://discuss.pixls.us/uploads/short-url/3kszZzDIQzp5Q83ybb2VR4VVBnb.icc"
+ ]
+}

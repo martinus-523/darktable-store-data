@@ -1,0 +1,12 @@
+{
+ "author": "Andrew",
+ "contributor": "rawconvert",
+ "name": "Canon EOS 6D SSF LUT profile",
+ "description": "A LUT input profile for the Canon EOS 6D, generated from spectral sensitivity function data.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Canon EOS 6D" ],
+ "files": [ "Canon EOS 6D - SSF LUT (rawconvert).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/diy-photography-equipment/57779/23",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/2He7oGJucvEVoYxx28YOynFzvu8.icc" ]
+}

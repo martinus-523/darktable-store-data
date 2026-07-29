@@ -1,0 +1,12 @@
+{
+ "author": "Glenn Butcher",
+ "contributor": "ggbutcher",
+ "name": "Nikon Z30 DPReview matrix",
+ "description": "A matrix input profile for the Nikon Z30, made from a DPReview studio scene ColorChecker shot (max dE 3.6).",
+ "license": "CC-BY-4.0",
+ "cameras": [ "Nikon Z30" ],
+ "files": [ "Nikon Z30 - matrix from DPReview studio shot (ggbutcher).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/failed-to-read-white-balance-nikon-z30/34533/5",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/uq87MytiwaU3glgWgoDt8HSOEup.icc" ]
+}

@@ -1,0 +1,32 @@
+{
+    "author": "Boris Hajdukovic",
+    "name": "s7habo Sharpen and Diffuse Presets",
+    "contributor": "s7habo",
+    "description": "Give your images extra depth, texture and pop with seven hand-tuned presets for darktable's diffuse or sharpen module.",
+    "license": "CC-BY-NC-SA-4.0",
+    "files": {
+        "en": [
+            "diffuse_clarity.dtpreset",
+            "diffuse_lc new 2.dtpreset",
+            "diffuse_lc new 3.dtpreset",
+            "diffuse_lc new.dtpreset",
+            "diffuse_local contrast 2.dtpreset",
+            "diffuse_local contrast 3.dtpreset",
+            "diffuse_local contrast small.dtpreset"
+        ]
+    },
+    "languages": [ "en" ],
+    "readme": false,
+    "dt-versions": [ 3.6 ],
+    "url": "https://discuss.pixls.us/t/editing-moments-with-darktable/11770/319",
+    "source": [
+        "https://discuss.pixls.us/uploads/short-url/2PdNvxF2Z2DnQ5oSDrzjvtqS8Wk.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/yS2btSSBbWnzQ5dDbvJiIpSTmLT.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/yIDQQXC8OqEYcNXN4RWsHjiv5RW.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/gOzCqaXZosFFeEIuBtr1DLAU2kx.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/vOYhMIwJH8VwWLngdIPK3tvzM8S.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/yyW9zofJx0nHhtjzBVFzJJopOP1.dtpreset",
+        "https://discuss.pixls.us/uploads/short-url/oOsWBPLAYUXd5e8Gl1omIGyA2EZ.dtpreset"
+    ],
+    "modules": [ "diffuse" ]
+}

@@ -1,0 +1,16 @@
+{
+  "author": "Regi",
+  "name": "Sharp for small details",
+  "contributor": "dbutox3",
+  "description": "A diffuse or sharpen preset tuned to bring darktable's output sharpness for fine details close to what ART and Lightroom produce.",
+  "license": "CC-BY-NC-SA-4.0",
+  "files": {
+    "en": [ "Sharp for small details.dtpreset" ]
+  },
+  "languages": [ "en" ],
+  "readme": false,
+  "dt-versions": [ 4.8 ],
+  "url": "https://discuss.pixls.us/t/differences-in-the-output-sharpness-of-jpg-when-processed-with-dt-or-lr/43724/41",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/m685UDpy4ZBF74FOcmOJNIx5TjA.dtpreset" ],
+  "modules": [ "diffuse" ]
+}

@@ -1,0 +1,16 @@
+{
+  "author": "Miguel B (mbs)",
+  "name": "Module order with early diffuse or sharpen",
+  "contributor": "mbs",
+  "description": "A custom module order preset by Miguel B (mbs) from the 'Default module order preset' thread on pixls.us: darktable's default module order with one change — a diffuse or sharpen instance (for the sharpen demosaicing preset) placed before the input color profile module. The preset is set to auto-apply.",
+  "license": "CC-BY-NC-SA-4.0",
+  "files": {
+    "en": [ "MB.dtpreset" ]
+  },
+  "languages": [ "en" ],
+  "readme": false,
+  "dt-versions": [ 4.4 ],
+  "url": "https://discuss.pixls.us/t/default-module-order-preset/39967/6",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/s6dH51a9Xagc7Ec8LkoFEXr8AYm.dtpreset" ],
+  "modules": [ "ioporder" ]
+}

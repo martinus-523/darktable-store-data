@@ -1,0 +1,12 @@
+{
+ "author": "Glenn Butcher",
+ "contributor": "ggbutcher",
+ "name": "Nikon D750 dcamprof SSF LUT",
+ "description": "A dcamprof LUT input profile for the Nikon D750, built from OpenFilmTools spectral sensitivity data.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Nikon D750" ],
+ "files": [ "Nikon D750 - dcamprof SSF LUT (ggbutcher).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/help-with-a-poorly-lit-portrait/20538/31",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/ldCAzGijnpXn3jq2RmVyIjIeT7H.icc" ]
+}

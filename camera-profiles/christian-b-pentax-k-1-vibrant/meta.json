@@ -1,0 +1,12 @@
+{
+ "author": "Christian Bouhon",
+ "contributor": "christian-b",
+ "name": "Pentax K-1 Vibrant matrix",
+ "description": "A vibrant-rendering matrix input profile for the Pentax K-1.",
+ "license": "CC-BY-NC-SA-4.0",
+ "cameras": [ "Pentax K-1" ],
+ "files": [ "Pentax K-1 - Vibrant (Christian B).icc" ],
+ "dt-versions": [ 5.2 ],
+ "url": "https://discuss.pixls.us/t/extreme-highlight-recovery-in-darktable/28668/133",
+ "source": [ "https://discuss.pixls.us/uploads/short-url/yD0yVPcfI3s6wsMUlCf28g5ZpMA.icc" ]
+}
