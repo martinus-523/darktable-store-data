@@ -5,8 +5,8 @@
   "description": "Adoptation of the Ansel theme to darktable.",
   "notes" : "The theme is a direct copy, however the default darktable styles is included to prevent th UI from looking funky.",
   "license": "GPL-3.0",
-  "source": "https://github.com/aurelienpierreeng/ansel/blob/master/data/themes/ansel.css",
-  "type": "color",
+  "source": [ "https://github.com/aurelienpierreeng/ansel/blob/master/data/themes/ansel.css" ],
+  "type": "grey",
   "files": [ "ansel.css" ],
   "screenshots": [ "screenshot-1.webp", "screenshot-2.webp" ],
   "dt-versions": [ 5.6 ]
