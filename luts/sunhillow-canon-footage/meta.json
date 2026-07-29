@@ -1,0 +1,19 @@
+{
+  "author": "unknown (shared by Hansgeorg Zauner)",
+  "contributor": "sunhillow",
+  "name": "Canon Footage (correction)",
+  "description": "A warm-toned LUT ('Canon Footage (correction)') originally from the RawTherapee forum thread 'How can I add more warmth into my pictures', reshared with an edit in the 'Walk through the forest' thread on pixls.us.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Canon footage (correction).png"
+  ],
+  "dt-versions": [
+    4.2
+  ],
+  "url": "https://discuss.pixls.us/t/walk-through-the-forest/34182",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/scyOFoLP5x30OoB8UKh6W94ChsZ.png"
+  ]
+}

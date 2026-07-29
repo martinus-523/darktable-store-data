@@ -1,0 +1,32 @@
+{
+  "author": "Cranberry Carborundum",
+  "contributor": "criticalconundrum",
+  "name": "HaldCLUT Set: Cinematic Film",
+  "description": "A set of cinematic film emulation HaldCLUTs covering Fuji and Kodak still film stocks, Kodak Vision3 cinema stocks, LPP Tetrachrome and Lomo Color Implosion. The LUTs are deliberately low in contrast, making it easy to tweak contrast to taste.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Fuji Pro 400.png",
+    "Fuji Superior 200.png",
+    "FujiColor 200.png",
+    "Kodak Ektar 100.png",
+    "Kodak Elite Chrome 200.png",
+    "Kodak Elite Color 200.png",
+    "Kodak Gold Gen.6 200.png",
+    "Kodak Ultramax 400.png",
+    "Kodak Vision3 200T 5213 (NEG).png",
+    "Kodak Vision3 250D 5207 (NEG).png",
+    "Kodak Vision3 500T 5219 (C41).png",
+    "Kodak Vision3 500T 5219 (NEG).png",
+    "Kodak Vision3 50D 5203 (DP).png",
+    "Kodak Vision3 50D 5203 (NEG).png",
+    "LPP Tetrachrome 400.png",
+    "Lomo Color Implosion 21.png"
+  ],
+  "dt-versions": [ 3.0 ],
+  "url": "https://discuss.pixls.us/t/haldclut-set-cinematic-film/7810",
+  "source": [
+    "https://pixls-discuss.s3.amazonaws.com/original/2X/1/11ca0dcca9644e8b865f04bc047116516edbd401.zip"
+  ]
+}

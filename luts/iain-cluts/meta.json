@@ -1,0 +1,26 @@
+{
+  "author": "Iain",
+  "contributor": "iain",
+  "name": "Iain's CLUTs",
+  "description": "Tone CLUTs by Iain, converted from his G'MIC 'tone presets' filter: Expired 69, Faded Print, Magenta Yellow, Modern Film, Seventies Magazine, Velvetia, Warm Vintage and Whiter Whites.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Expired 69.png",
+    "Faded Print.png",
+    "Magenta Yellow.png",
+    "Modern Film.png",
+    "Seventies Magazine.png",
+    "Velvetia.png",
+    "Warm Vintage.png",
+    "Whiter Whites.png"
+  ],
+  "dt-versions": [
+    3.0
+  ],
+  "url": "https://discuss.pixls.us/t/help-to-create-a-set-of-pixls-us-color-luts/14422",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/oKSbMq1ielZRiBkvhOm8u4qQ6Kn.zip"
+  ]
+}

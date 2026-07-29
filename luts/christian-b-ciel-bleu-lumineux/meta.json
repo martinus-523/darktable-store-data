@@ -1,0 +1,19 @@
+{
+  "author": "Christian Bouhon",
+  "contributor": "christian-b",
+  "name": "Ciel Bleu Lumineux",
+  "description": "A LUT ('Ciel bleu lumineux') by Christian Bouhon, shared with his edit in the 'Warm sunset light in southern Mississippi' thread on pixls.us.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Ciel_Bleu_Lumineux.png"
+  ],
+  "dt-versions": [
+    4.8
+  ],
+  "url": "https://discuss.pixls.us/t/warm-sunset-light-in-southern-mississippi/46470",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/znm8ncwIlLAf3wIEsHoZ9VvGoxv.zip"
+  ]
+}

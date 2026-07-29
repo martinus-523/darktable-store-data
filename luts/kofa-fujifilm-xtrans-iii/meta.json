@@ -1,0 +1,29 @@
+{
+  "author": "Stuart Sowerby",
+  "contributor": "kofa",
+  "name": "Fuji Film Simulation Profiles (X-Trans III)",
+  "description": "Fifteen HaldCLUTs by Stuart Sowerby emulating the in-camera film simulations of Fujifilm X-Trans III cameras: Provia, Velvia, Astia, Classic Chrome, Pro Neg Hi and Std, Sepia, and the Acros and Mono black-and-white simulations with their green, red and yellow filter variants. Designed to be applied to a neutral image before other tonal adjustments.",
+  "license": "GPL-3",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Fuji XTrans III - Acros+G.png",
+    "Fuji XTrans III - Acros+R.png",
+    "Fuji XTrans III - Acros+Ye.png",
+    "Fuji XTrans III - Acros.png",
+    "Fuji XTrans III - Astia.png",
+    "Fuji XTrans III - Classic Chrome.png",
+    "Fuji XTrans III - Mono+G.png",
+    "Fuji XTrans III - Mono+R.png",
+    "Fuji XTrans III - Mono+Ye.png",
+    "Fuji XTrans III - Mono.png",
+    "Fuji XTrans III - Pro Neg Hi.png",
+    "Fuji XTrans III - Pro Neg Std.png",
+    "Fuji XTrans III - Provia.png",
+    "Fuji XTrans III - Sepia.png",
+    "Fuji XTrans III - Velvia.png"
+  ],
+  "dt-versions": [ 3.4 ],
+  "url": "https://discuss.pixls.us/t/summer-by-the-sea/25624",
+  "source": [ "https://github.com/cedeber/hald-clut/archive/refs/heads/master.zip" ]
+}

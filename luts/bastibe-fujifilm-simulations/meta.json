@@ -1,0 +1,38 @@
+{
+  "author": "Bastian Bechtold",
+  "contributor": "bastibe",
+  "name": "Fujifilm Film Simulation LUTs",
+  "description": "HaldCLUT film simulation LUTs for Fujifilm cameras (Provia, Astia, Velvia, Classic Chrome, Eterna, Pro Neg Std and Pro Neg Hi), created from exposure-bracketed training shots matched against in-camera output. The lowercase files are later revised versions of the corresponding simulations.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Astia.png",
+    "Classic Chrome.png",
+    "Eterna.png",
+    "Pro Neg High.png",
+    "Pro Neg Std.png",
+    "Provia.png",
+    "Velvia.png",
+    "classic_chrome.png",
+    "pro_neg_high.png",
+    "pro_neg_std.png"
+  ],
+  "dt-versions": [
+    3.8,
+    4.0
+  ],
+  "url": "https://discuss.pixls.us/t/help-me-build-a-lua-script-for-automatically-applying-fujifilm-film-simulations-and-more/30287",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/sajqrkzFgMeKOSWTeBArS4D5kfX.png",
+    "https://discuss.pixls.us/uploads/short-url/hEKHpx7gJDo05d3Gy2aqJfUkUKq.png",
+    "https://discuss.pixls.us/uploads/short-url/k8R2lWdEHq562IbSgd92Jj9b4aC.png",
+    "https://discuss.pixls.us/uploads/short-url/pOELbnlivaw8eYJ11EGdJaJgBcL.png",
+    "https://discuss.pixls.us/uploads/short-url/xc5tVQwNQSNlsdHeDckB5yxvAS6.png",
+    "https://discuss.pixls.us/uploads/short-url/sfddBAqkFPtZHnOjgdTGKxpZFxI.png",
+    "https://discuss.pixls.us/uploads/short-url/nGrmoEFwOt3WFyaPVHQVXjQBXkq.png",
+    "https://discuss.pixls.us/uploads/short-url/rRGJRPwzwU3HvolQlvPPKE0cGLv.png",
+    "https://discuss.pixls.us/uploads/short-url/c6fCjL9ricwkJl5LTOT5aUculFc.png",
+    "https://discuss.pixls.us/uploads/short-url/tMoNnsH1lDoFc2ACN3hoM0EDm6K.png"
+  ]
+}

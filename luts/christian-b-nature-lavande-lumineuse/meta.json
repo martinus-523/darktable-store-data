@@ -1,0 +1,19 @@
+{
+  "author": "Christian Bouhon",
+  "contributor": "christian-b",
+  "name": "Nature Lavande Lumineuse",
+  "description": "A nature LUT ('Nature lavande lumineuse') by Christian Bouhon, shared with his edit in the 'Bee in a crocus flower' thread on pixls.us to refine the rendering.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Nature_lavande_lumineuse.png"
+  ],
+  "dt-versions": [
+    4.6
+  ],
+  "url": "https://discuss.pixls.us/t/bee-in-a-crocus-flower/42443",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/jpfaMBjPpGwp6UedmEozHdHjBbh.zip"
+  ]
+}

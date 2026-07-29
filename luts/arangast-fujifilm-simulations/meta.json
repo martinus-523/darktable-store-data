@@ -1,0 +1,20 @@
+{
+  "author": "Stuart Sowerby",
+  "contributor": "arangast",
+  "name": "Fuji Film Simulations for RawTherapee",
+  "description": "HaldCLUT profiles of the Fuji film simulations, made using exports from Fuji's RAW file converter, giving very close results to those out of camera. Includes CLUTs for Provia, Astia, Velvia, Classic Chrome, Pro Neg Std and Pro Neg Hi.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Fuji XTrans II - Astia v3.png",
+    "Fuji XTrans II - Classic Chrome v3.png",
+    "Fuji XTrans II - Pro Neg Hi v3.png",
+    "Fuji XTrans II - Pro Neg Std v3.png",
+    "Fuji XTrans II - Provia v3.png",
+    "Fuji XTrans II - Velvia v3.png"
+  ],
+  "dt-versions": [ 3.0 ],
+  "url": "https://discuss.pixls.us/t/fuji-film-simulations-for-rawtherapee/3247",
+  "source": [ "https://pixls-discuss.s3.amazonaws.com/original/2X/4/476b41c2a37af1391d5620c60c4297133d15d9ef.zip" ]
+}

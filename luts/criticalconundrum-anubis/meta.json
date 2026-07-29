@@ -1,0 +1,13 @@
+{
+  "author": "Cranberry Carborundum",
+  "contributor": "criticalconundrum",
+  "name": "HaldCLUT Set: ANUBIS (Fujicolor200)",
+  "description": "The Fujicolor200 film emulation HaldCLUT from Cranberry Carborundum's ANUBIS set, shared in the 'HaldCLUT Set: ANUBIS' thread on pixls.us. Deliberately mild in contrast, so an S-curve can be added to taste.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [ "Fujicolor200.png" ],
+  "dt-versions": [ 3.0 ],
+  "url": "https://discuss.pixls.us/t/haldclut-set-anubis/7752",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/inlI4CCdHU4FDJoSuHbiRexMyW5.png" ]
+}

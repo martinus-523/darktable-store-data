@@ -1,0 +1,19 @@
+{
+  "author": "Andrea Volpato",
+  "contributor": "arctic",
+  "name": "spektrafilm Kodak Gold 200 + Supra Endura (AdobeRGB)",
+  "description": "Kodak Gold 200 film with Kodak Supra Endura print emulation from Andrea Volpato's spektrafilm project (v0.3.2), shared by arctic in the 'spektrafilm LUTs' thread on pixls.us. This export takes Adobe RGB input and outputs Adobe RGB, so in darktable's lut3d module set the application color space to Adobe RGB. Licensed CC BY-SA 4.0.",
+  "license": "CC-BY-SA-4.0",
+  "input-colorspace": "Adobe RGB",
+  "output-colorspace": "Adobe RGB",
+  "files": [
+    "lut_v032_gold200_supraendura_adobergb.cube"
+  ],
+  "dt-versions": [
+    5.2
+  ],
+  "url": "https://discuss.pixls.us/t/spektrafilm-luts/57879",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/311paPM5qc72euhB56r9Dq5lO4O.zip"
+  ]
+}

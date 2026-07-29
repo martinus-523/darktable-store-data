@@ -1,0 +1,23 @@
+{
+    "author" : "Martinus",
+    "contributor" : "martinus",
+    "name" : "iOS Inspired Luts",
+    "description" : "A HALD 3D LUT for darktable emulating the look of the iOS photo filters.",
+    "license" : "MIT",
+    "input-colorspace": "sRGB",
+    "output-colorspace": "sRGB",
+    "native": true,
+    "files" : [
+        "dramatic.png",
+        "dramatic-cool.png",
+        "dramatic-warm.png",
+        "noir.png",
+        "mono.png",
+        "silvertone.png",
+        "vivid-warm.png",
+        "vivid-cool.png",
+        "vivid.png"
+    ],
+    "dt-versions" : [ 5.4, 5.6 ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "author": "Pat David (RawTherapee Film Simulation Collection)",
+  "contributor": "luator",
+  "name": "Agfa Vista 200",
+  "description": "An Agfa Vista 200 film simulation HaldCLUT from the RawTherapee Film Simulation Collection, shared by Felix Kloss with his darktable 3.6 edit in the 'High contrast autumn forest scene' thread on pixls.us.",
+  "license": "CC-BY-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Agfa Vista 200.png"
+  ],
+  "dt-versions": [
+    3.6
+  ],
+  "url": "https://discuss.pixls.us/t/high-contrast-autumn-forest-scene/27793",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/v7tRsZfNjDut26HrytRAGqrMl06.png"
+  ]
+}

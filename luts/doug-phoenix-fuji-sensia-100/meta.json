@@ -1,0 +1,13 @@
+{
+  "author": "Natron",
+  "contributor": "doug-phoenix",
+  "name": "Fuji Sensia 100",
+  "description": "A Fuji Sensia 100 film simulation HaldCLUT from the Natron/G'MIC CLUT collection, shared by Doug-Phoenix with his darktable edit in the 'Lets see some of your edits' thread on pixls.us.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [ "fuji_sensia_100.png" ],
+  "dt-versions": [ 5.2 ],
+  "url": "https://discuss.pixls.us/t/lets-see-some-of-your-edits/57666",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/7Rfap4CnN1QWohc4jXs11hESIPr.png" ]
+}

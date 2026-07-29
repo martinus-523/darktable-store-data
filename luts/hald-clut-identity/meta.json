@@ -1,0 +1,14 @@
+{
+    "author": "João Almeida, et al.",
+    "name": "Hald CLUT Identity",
+    "license": "MIT",
+    "input-colorspace": "sRGB",
+    "output-colorspace": "sRGB",
+    "contributor": "joaoalmeida",
+    "description" : "This identity file can be used to create LUT from every .dtstyle in darktable. Simply open this file in darktable, apply a style and save it as PNG.",
+    "url" : "https://github.com/t3mujinpack/t3mujinpack/",
+    "source" : [ "https://github.com/t3mujinpack/t3mujinpack/raw/refs/heads/master/haldcluts/Hald_CLUT_Identity.tif" ],
+    "files" : [ "Hald_CLUT_Identity.png" ],
+    "dt-versions" : [ 5.4, 5.6 ]
+}
+

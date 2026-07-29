@@ -1,0 +1,13 @@
+{
+  "author": "Pat David (RawTherapee Film Simulation Collection)",
+  "contributor": "jade-nl",
+  "name": "Ilford Delta 100",
+  "description": "A black-and-white Ilford Delta 100 film simulation HaldCLUT from the RawTherapee Film Simulation Collection, shared by Jade_NL in the 'Up for a photo editing challenge' thread on pixls.us.",
+  "license": "CC-BY-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [ "Ilford Delta 100.png" ],
+  "dt-versions": [ 4.0 ],
+  "url": "https://discuss.pixls.us/t/up-for-a-photo-editing-challenge/29683",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/nLXUf6YnhHyWxwJCpREABfr9LE4.png" ]
+}

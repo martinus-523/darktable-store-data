@@ -1,0 +1,16 @@
+{
+  "author": "Vente",
+  "contributor": "vente",
+  "name": "Classic Teal and Orange & Vintage Chrome",
+  "description": "Two .cube LUTs (Classic Teal and Orange, Vintage Chrome) shared by Vente with a mixed teal-orange / vintage-chrome edit in the 'Museum exhibit' thread on pixls.us.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Classic Teal and Orange.cube",
+    "Vintage Chrome.cube"
+  ],
+  "dt-versions": [ 4.8 ],
+  "url": "https://discuss.pixls.us/t/museum-exhibit/46127",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/4ukP7u4LoT9CxMwzHE6qhNvhMtR.zip" ]
+}

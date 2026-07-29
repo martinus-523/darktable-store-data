@@ -1,0 +1,13 @@
+{
+  "author": "Tim (Soupy)",
+  "contributor": "soupy",
+  "name": "Saturation Map",
+  "description": "A diagnostic HaldCLUT by Tim (Soupy) from the '\"objectively\" judging saturation' thread on pixls.us: it renders highly saturated colors as white and lowly saturated colors as black, turning the image into a grayscale saturation map. Apply it temporarily in the lut3d module to judge where an edit's saturation actually sits, rather than as a creative look.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [ "saturation-map.png" ],
+  "dt-versions": [ 5.2 ],
+  "url": "https://discuss.pixls.us/t/objectively-judging-saturation/50740",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/4ZicxTcjpg7ytsFGIWkqXmXzesr.png" ]
+}

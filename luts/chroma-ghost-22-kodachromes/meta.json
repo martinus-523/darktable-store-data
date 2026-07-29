@@ -1,0 +1,40 @@
+{
+  "author": "Oleg",
+  "contributor": "chroma-ghost",
+  "name": "22 Kodachromes Film Print Emulation",
+  "description": "A collection of 22 Kodachrome film print emulation LUTs (.cube) covering various Kodachrome stocks and eras, including faded, slide and skin-tone variants, shared in the '[PlayRaw] The Tree in Evening Light' thread on pixls.us.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Kodachrome Brighter_Expo-7_Oleg_Film Print Emulation.cube",
+    "Kodachrome1936-1962_Expo-7_Oleg_Film Print Emulation.cube",
+    "KodachromeII(1962-1974)_Expo-7_Oleg_Film Print Emulation.cube",
+    "KodachromeII(CyanShift)_Expo-7_Oleg_Film Print Emulation.cube",
+    "KodachromeII(Muted)_Expo-7_Oleg_Film Print Emulation.cube",
+    "KodachromeII_Slide_Expo-7_Oleg_Film Print Emulation.cube",
+    "Kodachrome_Faded(creamy)_Expo-7_Oleg_Film Print Emulation.cube",
+    "Kodachrome_Faded(creamy-dark)_Expo-7_Oleg_Film Print Emulation.cube",
+    "Kodachrome_Faded(cyan)_Expo-7_Oleg_Film Print Emulation.cube",
+    "Kodachrome_Faded(cyan-orange)_Expo-7_Oleg_Film Print Emulation.cube",
+    "Kodachrome_Old_Expo-7_Oleg_Film Print Emulation.cube",
+    "Kodachrome_SkinTone(brown)_Expo-7_Oleg_Film Print Emulation.cube",
+    "Kodachrome_SkinTone(warm)_Expo-7_Oleg_Film Print Emulation.cube",
+    "Kodachrome_SlideFrame_Expo-7_Oleg_Film Print Emulation.cube",
+    "Kodachrome_Transparancy_Expo-7_Oleg_Film Print Emulation.cube",
+    "Kodak KodaChrome 200_DXO5_Oleg_Film Print Emulation.cube",
+    "Kodak KodaChrome 25_DXO5_Oleg_Film Print Emulation.cube",
+    "Kodak KodaChrome 64_DXO5_Oleg_Film Print Emulation.cube",
+    "KodakKodachrome200_Expo-7_Oleg_Film Print Emulation.cube",
+    "KodakKodachrome25_Expo-7_Oleg_Film Print Emulation.cube",
+    "KodakKodachrome25sharp_Expo-7_Oleg_Film Print Emulation.cube",
+    "KodakKodachrome64_Expo-7_Oleg_Film Print Emulation.cube"
+  ],
+  "dt-versions": [
+    3.0
+  ],
+  "url": "https://discuss.pixls.us/t/playraw-the-tree-in-evening-light/4754",
+  "source": [
+    "https://pixls-discuss.s3.amazonaws.com/original/2X/5/57adf9df7388ec27fcba490558cc9432cbbf59af.zip"
+  ]
+}

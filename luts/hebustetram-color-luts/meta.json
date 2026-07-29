@@ -1,0 +1,29 @@
+{
+  "author": "Hebus Tetram",
+  "contributor": "hebustetram",
+  "name": "PIXLS.US Color LUTs by Hebus Tetram",
+  "description": "Colour HaldCLUTs by Hebus Tetram from the community effort to create a set of PIXLS.US colour LUTs: PrussianBlue, Dark Blues in Sunlight, Tarraco, Sweet Bubblegum, Sweet Gelatto Intense and Night Spy.",
+  "license": "CC-BY-NC-SA-4.0",
+  "input-colorspace": "sRGB",
+  "output-colorspace": "sRGB",
+  "files": [
+    "Dark Blues in Sunlight.png",
+    "Night Spy.png",
+    "PrussianBlue.png",
+    "Sweet Bubblegum.png",
+    "Sweet Gelatto Intense.png",
+    "Tarraco.png"
+  ],
+  "dt-versions": [
+    3.0
+  ],
+  "url": "https://discuss.pixls.us/t/help-to-create-a-set-of-pixls-us-color-luts/14422",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/oLhZi0ZkWxJrV97y1C75subK53n.png",
+    "https://discuss.pixls.us/uploads/short-url/sqdpO1Xqr1WnfY809wFU6i5DKM2.png",
+    "https://discuss.pixls.us/uploads/short-url/wWBLarSp7DzwCHvxdtV40sSEGUm.png",
+    "https://discuss.pixls.us/uploads/short-url/niJgr23eEzU8mvZZew0IGTB5Z0S.png",
+    "https://discuss.pixls.us/uploads/short-url/mAbzidTW3IuTOp0irPahy0i5tKz.png",
+    "https://discuss.pixls.us/uploads/short-url/2jgL0l1JDnlZk78ZJZhd7594hOR.png"
+  ]
+}
