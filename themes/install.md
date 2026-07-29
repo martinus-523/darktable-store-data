@@ -9,7 +9,7 @@ Custom themes are placed in the user's configuration
 directory and typically build on one of
 the built-in themes, such as darktable-elegant-dark, by overriding specific style rules.
 
-In this repository the themes are created a such a way that you anly have to copy the css file to the correct folder.
+In this repository the themes are created a such a way that you only have to copy the css file to the correct folder.
 
 - **Linux / MacOS** ~/.config/darktable/themes/
 - **Linux  Flatpak** ~/.var/app/org.darktable.Darktable/config/darktable/
