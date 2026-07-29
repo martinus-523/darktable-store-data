@@ -1,0 +1,12 @@
+{
+    "author" : "Martinus",
+    "name" : "Light Pro",
+    "description" : "The light counterpart of Dark Pro: a calm, neutral light interface with a muted blue accent that keeps the focus on the photo. The darkroom canvas stays middle grey for accurate tone and color judgement.",
+    "license" : "GPL-3.0",
+    "native": true,
+    "type" : "light",
+    "files" : [ "light-pro.css" ],
+    "screenshots" : [ "screenshot-1.webp" ],
+    "dt-versions" : [ 5.4, 5.6 ],
+    "contributor" : "martinus"
+}

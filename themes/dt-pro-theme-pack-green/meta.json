@@ -1,0 +1,13 @@
+{
+    "author" : "Darktable.info",
+    "name" : "DT-Pro Green",
+    "description" : "DT Pro Theme Pack - with green accents",
+    "license" : "CC-BY-SA-4.0",
+    "type" : "dark",
+    "files" : [ "dt-pro-green.css" ],
+    "screenshots" : [ "screenshot-1.webp" ],
+    "dt-versions" : [ 5.4 ],
+    "contributor" : "darktable-info",
+    "url" : "https://darktable.info/en/system-ui-2/darktable-themes-overview/darktable-themes-overview-2/",
+    "source": [ "https://darktable.info/sdc_download/13401/?key=5mm66ed41kvuaj5dagt5zaprkgvx31" ]
+}

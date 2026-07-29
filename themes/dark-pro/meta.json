@@ -1,0 +1,12 @@
+{
+    "author" : "Martinus",
+    "name" : "Dark Pro",
+    "description" : "This dark theme keeps the focus on the photo, using a muted colour palette to minimise distractions.",
+    "license" : "GPL-3.0",
+    "native": true,
+    "type" : "dark",
+    "files" : [ "dark-pro.css" ],
+    "screenshots" : [ "screenshot-1.jpg" ],
+    "dt-versions" : [ 5.4, 5.6 ],
+    "contributor" : "martinus"
+}

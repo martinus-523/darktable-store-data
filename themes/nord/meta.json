@@ -1,0 +1,12 @@
+{
+  "author": "Martinus",
+  "contributor": "martinus",
+  "name": "Nord",
+  "description": "An arctic, north-bluish theme built on the Nord colour palette: polar-night panels, snow-storm text and frost accents. Nord palette by Sven Greb (MIT).",
+  "license": "GPL-3.0",
+  "native": true,
+  "type": "color",
+  "files": [ "nord.css" ],
+  "screenshots": [ "screenshot-1.webp", "screenshot-2.webp" ],
+  "dt-versions": [ 5.6 ]
+}

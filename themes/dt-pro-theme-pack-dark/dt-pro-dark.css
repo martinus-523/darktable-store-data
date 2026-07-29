@@ -1,0 +1,287 @@
+/*
+    This file is part of darktable,
+    copyright (c) 2019 Aurélien Pierre
+
+    darktable is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    darktable is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with darktable.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+@import url("darktable.css");
+
+/* This has been tested with GTK 3.24 on Gnome */
+
+/* hide selection frame in culling */
+@define-color culling_selected_border_color transparent;
+
+.dt_plugin_ui,
+.dt_bauhaus,
+.dt_bauhaus_popup,
+combobox,
+combobox *,
+togglebutton,
+togglebutton *,
+notebook,
+notebook *,
+notebook tab,
+notebook tab *,
+table,
+table *,
+row,
+row *,
+frame,
+frame *,
+alignment,
+entry,
+entry *,
+dialog,
+dialog *,
+colorswatch,
+colorswatch *,
+stack,
+stack *,
+scrollbar,
+scrollbar *,
+eventbox,
+eventbox *,
+scale,
+scale *,
+button,
+button *,
+treeview,
+treeview *,
+menu,
+menu *,
+separator,
+eventbox,
+eventbox *,
+box,
+box * {
+    font-family:
+        "Roboto Light",
+        "Roboto",
+        /* best case scenario */ "Segoe UI",
+        /* Windows 10 default */ "SF Pro Display Light",
+        "SF Pro Display",
+        /* Mac OS X default */ "Ubuntu Light",
+        "Ubuntu",
+        "IPAPGothic",
+        /* Ubuntu default */ "Cantarell",
+        /* Gnome default */ "Arial Unicode MS",
+        /* Unicode glyphs */ sans-serif; /* default default */
+}
+
+.dt_section_label:not(#blending-box),
+#blending-box .dt_section_label label,
+#blending-box .dt_section_label .dt_bauhaus {
+    font-family:
+        "Roboto Medium", "Roboto", "Segoe UI Semibold", "Segoe UI",
+        "SF Pro Display Medium", "SF Pro Display", "Ubuntu Medium", "Ubuntu",
+        "IPAPGothic", "Cantarell", "Arial Unicode MS", sans-serif;
+}
+
+#iop-panel-label,
+#lib-panel-label {
+    font-family:
+        "Roboto Condensed", "Roboto", "Segoe UI Condensed", "Segoe UI",
+        "SF Pro Display", "SF Pro Display", "Ubuntu Condensed", "Ubuntu",
+        "IPAPGothic", "Cantarell", "Arial Unicode MS", sans-serif;
+}
+
+.active_menu_item *, /* needed for some Pango issues not rendering synthetic bold for all OS */
+notebook tabs,
+tooltip label,
+#blending-tabs,
+#modules-tabs {
+    font-family:
+        "Roboto", "Segoe UI", "SF Pro Text", "Ubuntu", "IPAPGothic",
+        "Cantarell", "Arial Unicode MS", sans-serif;
+}
+
+/* Darktable Theme - darktable.info */
+@define-color theme_color @selected_bg_color;
+@define-color button_bg #525152;
+@define-color button_hover_bg #434343;
+@define-color bg_color #525152;
+@define-color plugin_bg_color #5d5d5d;
+@define-color field_bg #525152;
+@define-color collapsible_bg_color #525152;
+@define-color plugin_label_color #c3c3c3;
+@define-color field_selected_bg #5d5d5d;
+@define-color fg_color #c3c3c3;
+@define-color scroll_bar_bg #525152;
+@define-color scroll_bar_inactive #5d5d5d;
+@define-color scroll_bar_active #505050;
+@define-color bauhaus_bg #525152;
+@define-color bauhaus_fill #505050;
+@define-color border_color #525152;
+@define-color darkroom_bg_color #5d5d5d;
+@define-color field_active_bg #525152;
+@define-color lighttable_bg_color #525152;
+@define-color thumbnail_selected_bg_color #414141;
+@define-color thumbnail_hover_bg_color #3c3c3c;
+@define-color thumbnail_bg_color #525152;
+@define-color thumbnail_star_bg_color #757575;
+@define-color thumbnail_star_hover_color #505050;
+@define-color thumbnail_font_color #9a9a9a;
+
+/* ==========================================================================
+   THUMBNAIL OVERLAYS (LIGHTTABLE)
+   ========================================================================== */
+.dt_overlays_hover_extended #thumb-main:hover #thumb-bottom,
+.dt_overlays_mixed #thumb-main:hover #thumb-bottom,
+.dt_overlays_hover #thumb-main:hover #thumb-bottom {
+    background-image: none;
+    background-color: #757575;
+}
+
+/* ==========================================================================
+   LAYOUT SIDEBARS (LEFT & RIGHT)
+   ========================================================================== */
+#left {
+    padding: 0 8px 0 0;
+}
+
+#left > :not(scrolledwindow) {
+    padding-left: 4px;
+}
+
+#right {
+    padding: 0 0 0 4px;
+}
+
+#right > :not(scrolledwindow) {
+    padding-right: 0px;
+}
+
+/* ==========================================================================
+   MODULE PANELS & PLUGIN STYLING
+   ========================================================================== */
+#plugins_vbox_left > box:not(#basics-box-labels) {
+    background-color: @plugin_bg_color;
+    border-radius: 6px;
+}
+
+#basics-module-hbox,
+#plugins_vbox_left > box:not(#basics-box-labels) {
+    margin: 1px;
+    padding: 0px;
+}
+
+#basics-box-labels widget,
+#basics-module-hbox {
+    background-color: @plugin_bg_color;
+}
+
+#basics-box-labels widget {
+    border: none;
+}
+
+#basics-module-hbox,
+#plugins_vbox_left frame.dt_plugin_ui {
+    border-radius: 0 0 4px 4px;
+}
+
+#basics-module-hbox {
+    padding: 0px;
+}
+
+#basics-box-labels #basics-header-box {
+    padding: 6px 4px 6px 10px;
+}
+
+#basics-module-hbox + widget {
+    border-radius: 6px 6px 0 0;
+}
+
+#plugins_vbox_left #module-header,
+#left > box:nth-child(3) #module-header,
+#right > box:nth-child(3) #module-header {
+    border: none;
+}
+
+/* ==========================================================================
+   TABS & BUTTONS IN MODULES
+   ========================================================================== */
+.dt_plugin_ui #blending-tabs .dt_module_btn,
+#modules-tabs .dt_module_btn {
+    padding: 2px;
+    margin: 6px 2px 2px 2px;
+    border-radius: 8px;
+}
+
+.dt_plugin_ui #blending-tabs {
+    border-radius: 0 0 6px 6px;
+}
+
+#left > box:first-child,
+#modules-tabs {
+    margin-bottom: 4px;
+}
+
+/* ==========================================================================
+   MISCELLANEOUS ELEMENTS
+   ========================================================================== */
+.font {
+    margin: 2px 0;
+}
+
+.dt_plugin_ui #blending-tabs {
+    background-color: shade (@plugin_bg_color, 1.1);
+}
+
+.dt_section_label {
+    border: none;
+    background-color: shade (@plugin_bg_color, 1.1);
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+#module-filtering #collect-rule-widget:last-child {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#module-header {
+    min-height: 6px;
+}
+
+/* ==========================================================================
+   MODULNAME (LABEL) ÜBER DEN BUTTON-STATUS STEUERN
+   ========================================================================== */
+
+/* 1. Standardzustand (Inaktiv) */
+#iop-panel-label {
+    color: shade(@plugin_label_color, 0.8); /* Dunkler/Grauer wenn aus */
+}
+
+#module-header .dt_module_btn:checked ~ * #iop-panel-label {
+    color: shade(@plugin_label_color, 1.1); /* Dunkler/Grauer wenn aus */
+}
+
+/* ==========================================================================
+   MODULE HEADER BUTTONS (ACTIVATION/STATE)
+   ========================================================================== */
+#module-header .dt_module_btn {
+    color: shade(@plugin_label_color, 0.7);
+    background-color: shade(@plugin_bg_color, 0.96);
+}
+
+#module-header .dt_module_btn:checked {
+    color: shade(@button_hover_bg, 3.5);
+    background-color: shade(@plugin_bg_color, 1.15);
+}
+
+#module-header .dt_module_btn:checked ~ .dt_module_btn {
+    color: shade(@plugin_label_color, 1.1);
+    background-color: shade(@plugin_bg_color, 1.15);
+}

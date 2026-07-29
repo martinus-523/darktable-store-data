@@ -1,0 +1,15 @@
+{
+    "author" : "Andy Hutchison",
+    "name" : "Switzer",
+    "description" : "The antidote to darktable's nightmarish design. ",
+    "notes" : "Note: this is an adopted version so that it can be used as a theme. The readme does not reflect this.",
+    "readme" : true,
+    "license" : "CC-BY-SA-4.0",
+    "type" : "color",
+    "files" : [ "switzer_complete.zip", "switzer.css" ],
+    "screenshots" : [ "screenshot-1.webp" ],
+    "dt-versions" : [ 5.6 ],
+    "contributor" : "andyhutchinson",
+    "url" : "https://ahutchinson.substack.com/p/the-default-darktable-themes-are",
+    "source" : [ "https://drive.google.com/uc?export=download&id=1gZEoIsPSaq7ETInaTsfpRiFvUEmiIJna" ]
+}

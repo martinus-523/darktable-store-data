@@ -1,0 +1,14 @@
+{
+    "author" : "Franklin Aguilar Matos",
+    "name" : "Franklin's Dark Theme",
+    "description" : "Personal Dark Theme by Franklin Aguilar Matos",
+    "notes" : "Note: this is an adopted version so that it can be used as a theme",
+    "license" : "CC-BY-NC-SA-4.0",
+    "type" : "dark",
+    "files" : [ "difrkaguilar.css" ],
+    "screenshots" : [ "screenshot-1.webp" ],
+    "dt-versions" : [ 5.4 ],
+    "contributor" : "difrkaguilar",
+    "source": [ "https://discuss.pixls.us/uploads/short-url/4ERnBIOlOwpupN1RkEw2kcFuawF.zip" ],
+    "url" : "https://discuss.pixls.us/t/my-personal-darktable-theme/28942"
+}

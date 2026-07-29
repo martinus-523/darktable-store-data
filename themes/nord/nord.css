@@ -1,0 +1,81 @@
+/*
+    This file is part of darktable,
+    copyright (c) 2026 Martinus
+
+    darktable is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    darktable is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with darktable.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+@import url("darktable.css");
+
+/* Nord - an arctic, north-bluish theme built on the Nord colour palette
+   (https://nordtheme.com, MIT): polar-night panels, snow-storm text and
+   frost accents.
+   Tested with darktable 5.6 / GTK 3.24. */
+
+/* hide selection frame in culling */
+@define-color culling_selected_border_color transparent;
+
+/* ==========================================================================
+   COLOR PALETTE
+   ========================================================================== */
+
+@define-color accent_color #88c0d0;
+@define-color theme_color @selected_bg_color;
+@define-color selected_bg_color #434c5e;
+@define-color bg_color #2e3440;
+@define-color fg_color #d8dee9;
+@define-color border_color #272c36;
+@define-color plugin_bg_color #3b4252;
+@define-color collapsible_bg_color #2e3440;
+@define-color plugin_label_color #9aa5b8;
+@define-color section_label #e5e9f0;
+@define-color button_bg #3b4252;
+@define-color button_fg alpha(@fg_color, 0.80);
+@define-color button_hover_bg #434c5e;
+@define-color button_hover_fg #8fbcbb;
+@define-color field_bg #272c36;
+@define-color field_fg @fg_color;
+@define-color field_active_bg #2e3440;
+@define-color field_selected_bg #434c5e;
+@define-color field_hover_bg #3f4859;
+@define-color scroll_bar_bg #2e3440;
+@define-color scroll_bar_inactive #434c5e;
+@define-color scroll_bar_active #5e81ac;
+@define-color bauhaus_bg #272c36;
+@define-color bauhaus_fill #5e81ac;
+@define-color bauhaus_fg #d8dee9;
+@define-color bauhaus_border #222630;
+@define-color bauhaus_bg_hover #434c5e;
+@define-color bauhaus_fg_hover #8fbcbb;
+@define-color bauhaus_fg_selected #8fbcbb;
+@define-color darkroom_bg_color #2c313c;
+@define-color lighttable_bg_color #272c36;
+@define-color lighttable_bg_font_color #aab4c4;
+@define-color thumbnail_bg_color #3b4252;
+@define-color thumbnail_selected_bg_color #434c5e;
+@define-color thumbnail_hover_bg_color #4c566a;
+@define-color thumbnail_star_bg_color #7b869c;
+@define-color thumbnail_star_hover_color #88c0d0;
+@define-color thumbnail_font_color #aab4c4;
+@define-color thumbnail_fg_color #aab4c4;
+@define-color tooltip_bg_color #242933;
+@define-color tooltip_fg_color #d8dee9;
+@define-color really_dark_bg_color #242933;
+@define-color graph_bg #272c36;
+@define-color graph_exterior #222630;
+@define-color graph_border #1a1d24;
+@define-color graph_fg #81a1c1;
+@define-color graph_fg_active #88c0d0;
+@define-color graph_grid #333a48;
+@define-color inset_histogram alpha(#81a1c1, 0.50);

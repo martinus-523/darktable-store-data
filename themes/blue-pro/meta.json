@@ -1,0 +1,12 @@
+{
+    "author" : "Martinus",
+    "name" : "Blue Pro",
+    "description" : "The blue counterpart of Dark Pro",
+    "license" : "GPL-3.0",
+    "native": true,
+    "type" : "color",
+    "files" : [ "blue-pro.css" ],
+    "screenshots" : [ "screenshot-1.webp", "screenshot-2.webp" ],
+    "dt-versions" : [ 5.4, 5.6 ],
+    "contributor" : "martinus"
+}

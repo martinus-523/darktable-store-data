@@ -1,0 +1,1221 @@
+/* Adopted to make it an actually theme and not just a snipet */
+@import url("darktable.css");
+
+/*
+    This file is part of darktable,
+    Copyright (C) 2026 darktable developers.
+
+    darktable is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    darktable is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with darktable.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+.dt_plugin_ui,
+.dt_bauhaus,
+.dt_bauhaus_popup,
+combobox,
+combobox *,
+togglebutton,
+togglebutton *,
+notebook,
+notebook *,
+notebook tab,
+notebook tab *,
+table,
+table *,
+row,
+row *,
+frame,
+frame *,
+alignment,
+entry,
+entry *,
+dialog,
+dialog *,
+colorswatch,
+colorswatch *,
+stack,
+stack *,
+scrollbar,
+scrollbar *,
+eventbox,
+eventbox *,
+scale,
+scale *,
+button,
+button *,
+treeview,
+treeview *,
+menu,
+menu *,
+separator,
+eventbox,
+eventbox *,
+box,
+box *
+{
+  font-family: "Roboto Light", "Roboto",                  /* best case scenario */
+               "Segoe UI",                                /* Windows 10 default */
+               "SF Pro Display Light", "SF Pro Display",  /* Mac OS X default */
+               "Ubuntu Light", "Ubuntu", "IPAPGothic",    /* Ubuntu default */
+               "Cantarell",                               /* Gnome default */
+               "Arial Unicode MS",                        /* Unicode glyphs */
+                sans-serif;                               /* default default */
+}
+
+.dt_section_label:not(#blending-box),
+#blending-box .dt_section_label label,
+#blending-box .dt_section_label .dt_bauhaus
+{
+  font-family: "Roboto Medium", "Roboto",
+               "Segoe UI Semibold", "Segoe UI",
+               "SF Pro Display Medium", "SF Pro Display",
+               "Ubuntu Medium", "Ubuntu", "IPAPGothic",
+               "Cantarell",
+               "Arial Unicode MS",
+                sans-serif;
+}
+
+#iop-panel-label,
+#lib-panel-label
+{
+  font-family: "Roboto Condensed", "Roboto",
+               "Segoe UI Condensed", "Segoe UI",
+               "SF Pro Display", "SF Pro Display",
+               "Ubuntu Condensed", "Ubuntu", "IPAPGothic",
+               "Cantarell",
+               "Arial Unicode MS",
+                sans-serif;
+}
+
+.active_menu_item *, /* needed for some Pango issues not rendering synthetic bold for all OS */
+notebook tabs,
+tooltip label,
+#blending-tabs,
+#modules-tabs
+{
+  font-family: "Roboto",
+               "Segoe UI",
+               "SF Pro Text",
+               "Ubuntu", "IPAPGothic",
+               "Cantarell",
+               "Arial Unicode MS",
+                sans-serif;
+}
+
+
+
+/* ================= */
+/* MY PERSONAL THEME */
+/* ================= */
+
+@define-color grey_01 #cccccc; /* collections tagging and styles background color in lighttable */
+@define-color grey_02 #000000; /* pure black */
+@define-color grey_05 #3c3c3c; /* tooltips background and history color in lighttable */
+@define-color grey_10 #141414; /* comboboxes border */
+@define-color grey_15 #232323; /* general background */
+@define-color grey_18 #303030; /* modules blending background */
+@define-color grey_20 #333333; /* modules parameters background */
+@define-color grey_25 #3c3c3c; /* background buttons */
+@define-color grey_30 #363636; /* scopes guide lines */
+@define-color grey_35 #4c4c4c; /* secondary buttons and hamburger menus */
+@define-color grey_40 #5e5e5e; /* selection box in lighttable, scroll bars and selections icons */
+@define-color grey_45 #121212; /* lighttable background */
+@define-color grey_50 #7f7f7f; /* colorpicker middle grey */
+@define-color grey_52 #292929; /* unselected boxes in lighttable and filmstrip */
+@define-color grey_55 #505050; /* text boxes in lighttable and filmstrip */
+@define-color grey_60 #a1a1a1; /* text color modules in lighttable and darkroom modules text color */
+@define-color grey_65 #9e9e9e; /* tooltips text color in lighttable */
+@define-color grey_70 #a2a2a2; /* text color buttons in lighttable and darkroom and content */
+@define-color grey_75 #9b9b9b; /* text color in module options and background in comboboxes */
+@define-color grey_80 #7f7f7f; /* middle grey background in darkroom and selecion boxes in lighttable */
+@define-color grey_90 #d4d4d4; /* text color parameters in modules in lighttable and darkroom */
+@define-color grey_95 #f1f1f1; /* icons color in modules */
+@define-color grey_100 #ffffff; /* pure white is forbidden for visual assessment */
+@define-color orange #ff8b00; /* accent color orange */
+@define-color warning #EF5C31; /* warning messages */
+
+/* Variables de color adicionales */
+@define-color dt_blue #0e0e0e;
+@define-color dt_blue_light #4da9f5;
+@define-color dt_blue_dark #1e7cc4;
+
+/*--------------------------------------
+  - Define default colors and settings -
+  --------------------------------------*/
+
+/* disabled controls */
+@define-color disabled_fg_color @grey_35;
+
+/* Scroll bars (sliders) */
+@define-color scroll_bar_inactive @grey_25;
+@define-color scroll_bar_active @grey_40;
+@define-color scroll_bar_bg @grey_15;
+
+/* Modules box (plugins) */
+@define-color plugin_bg_color @grey_20;
+@define-color plugin_fg_color @grey_50;
+@define-color section_label shade(@grey_90, 0.80);
+@define-color plugin_label_color @warning;
+
+/* active icons in historial */
+@define-color plugin_label_color @grey_50;
+
+/* Modules controls (sliders and comboboxes) */
+@define-color bauhaus_bg alpha(@grey_10, 0.5);
+@define-color bauhaus_fg @grey_100;
+@define-color bauhaus_border shade(@orange, 0.5);
+@define-color bauhaus_fill alpha(@grey_100, 0.2);
+@define-color bauhaus_bg_hover @grey_95;
+@define-color bauhaus_fg_hover alpha(@orange, 0.5);
+@define-color bauhaus_fg_selected @orange;
+@define-color bauhaus_fg_insensitive alpha(@grey_50, 0.6);
+
+/* hide selection frame in culling */
+@define-color culling_selected_border_color @orange;
+
+/* GTK Buttons and tabs */
+@define-color button_border @grey_18;
+@define-color button_fg @grey_40;
+@define-color button_fg alpha(@grey_60, 0.8);
+@define-color button_checked_bg @grey_40;
+@define-color button_checked_fg @orange;
+@define-color button_hover_bg alpha(@orange, 0.8);
+
+/* text fields */
+@define-color field_bg @grey_15;
+@define-color field_fg @grey_75;
+@define-color field_selected_bg @grey_45;
+@define-color field_selected_fg @orange;
+@define-color field_hover_bg @grey_95;
+@define-color field_hover_fg @grey_95;
+@define-color field_active_bg @grey_15;
+@define-color field_active_fg @orange;
+
+/* Tooltips and contextual helpers */
+@define-color tooltip_bg_color @grey_05;
+
+/* Views */
+/* this need to be middle grey to correctly work on images. And for all themes */
+@define-color darkroom_bg_color @grey_50;
+@define-color darkroom_preview_bg_color @grey_50;
+@define-color lighttable_bg_color @grey_45;
+@define-color lighttable_preview_bg_color @grey_50;
+@define-color print_bg_color @grey_50;
+
+/* Lighttable and film-strip */
+@define-color thumbnail_font_color @grey_55;
+@define-color thumbnail_bg_color @grey_52;
+@define-color thumbnail_star_bg_color @grey_90;
+@define-color thumbnail_star_hover_color @grey_90;
+@define-color thumbnail_fg_color @orange;
+@define-color thumbnail_selected_bg_color @grey_40;
+@define-color thumbnail_hover_bg_color @grey_50;
+@define-color thumbnail_hover_fg_color @orange;
+@define-color thumbnail_localcopy_color @orange;
+@define-color filmstrip_bg_color @grey_45;
+
+/* Graphs : histogram, navigation thumbnail and some items on tone curve */
+@define-color graph_bg @grey_02;
+/* grid, graph and active selection in tone curve */
+@define-color graph_border @grey_80;
+@define-color graph_fg @grey_90;
+@define-color graph_fg_active @orange;
+/* hozontal lines in histogram */
+@define-color graph_grid @grey_25;
+/* overlay selection in histogram */
+@define-color graph_overlay alpha(@grey_15, 0.5);
+/* histogram scale in tone curve */
+@define-color inset_histogram alpha(@grey_65, 0.5);
+
+/* colors for histograms -- will be rendered in Rec.2020 linear */
+ /* constraints:
+    * graph_red, graph_green, graph_blue should be perceived as these primary colors
+    * the sum of pairs of colors should be pereceived as secondary colors
+    * the sum of all three colors should not have any channels exceed 100% and should appear white
+ */
+@define-color graph_red rgba(255,0,0 ,1);
+@define-color graph_green rgba(0, 255, 0 ,1);
+@define-color graph_blue rgba(0, 0, 255 ,1);
+
+@define-color colorlabel_red rgba(254,62,61,1);
+@define-color colorlabel_green rgba(25,199,11,1);
+@define-color colorlabel_blue rgba(104,141,254,1);
+@define-color colorlabel_yellow rgba(175,160,10,1);
+@define-color colorlabel_purple rgba(255,4,223,1);
+
+/*----------------------
+  - General properties -
+  ----------------------*/
+
+/* Sets outer borders that could be hide or shown in darktable with 'b' shortcut.
+  remember, in gui/gtk.c, outer borders (active areas used to collapse panels)
+  are defined to 5 px × DPI. We cheat by setting inner borders/spacing here to 5 px as well. */
+#outer-border
+{
+  background-color: @border_color;
+  min-width: 0px;
+}
+
+#resize-border
+{
+  background-color: #9b9b9b;
+}
+
+/* Sets outer borders that could be hide or shown in darktable with 'b' shortcut */
+#outer-border
+{
+  background-color: @grey_15;
+  min-width: 1.4em;
+}
+
+/* Default gtk buttons */
+button,
+#add-color-button
+{
+  font-weight: normal;
+  font-family: Inter;
+  color: @grey_95;
+  border: 0.07em solid @grey_05;
+}
+
+button,
+#add-color-button,
+combobox,
+combobox button,
+combobox *,
+#iop-plugin-ui-main #control-button,
+#lib-plugin-ui-main #control-button,
+#header-toolbar #control-button
+{
+  min-height: 1em;
+  min-width: 1em;
+}
+
+/* Default text fields and text boxes */
+entry,
+textview
+{
+  color: @field_fg;
+  background-color: @field_bg;
+  border: 0.035em solid @border_color;
+  margin: 0.14em 0;
+  font-weight: normal;
+  font-family: Inter;
+}
+
+entry selection
+{
+  background-color: @field_selected_bg;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) inset;
+}
+
+/* Buttons in modules header, path-bar on filechooser dialog window and all text-button and related */
+.dt_module_btn,
+.path-bar button,
+header button,
+.image-button,
+.text-button,
+.text-button radio, /* this line and following one are needed to set good margin inside some buttons, especially in header buttons in about dialog window and on radio button and label inside star icon overlay menu */
+.text-button label
+{
+  min-height: 1.2em;
+  min-width: 1.2em;
+  margin: 0.02em;
+}
+
+/* Checkbox */
+checkbutton check
+{
+  background-color: @grey_15;
+  color: @bauhaus_fg;
+}
+
+/* Progress bar on bottom left side when exporting, importing, etc... */
+
+#background_job_eventbox /* background of export progress bar */
+progressbar progress
+{
+  background-color: @orange;
+  border-radius: 4px;
+}
+
+/* Set top margin on active image in filmstrip */
+#thumbtable_filmstrip #thumb_main:active #thumb_back
+{
+  border-top: 0.3em solid @orange;
+  transition: border-top 0.2s ease-in, border-radius 0.2s ease-in;
+}
+
+/* Set stars icon when active */
+.dt_overlays_hover #thumb-main:hover #thumb-star:active,
+.dt_overlays_hover_extended #thumb-main:hover #thumb-star:active,
+.dt_overlays_always #thumb-star:active,
+.dt_overlays_always_extended #thumb-star:active,
+.dt_overlays_mixed #thumb-star:active,
+.dt_overlays_hover_block #thumb-image:hover #thumb-star:active
+{
+  color: @grey_80;
+  background-color: @grey_90;
+  min-height: 1em;
+}
+
+/* Rating stars on left footer toolbar on lighttable view */
+#lib-rating-stars
+{
+  min-height: 1.2em;
+}
+
+/* Set modules name header */
+#module-header
+{
+  padding: 0.4em;
+  font-size: 1em;
+}
+
+/*---------------------------
+  - Side panels and modules -
+  ---------------------------*/
+
+/* Gradient sliders */
+.dt_gslider,
+.dt_gslider_multivalue
+{
+  min-height: 30px;
+  padding: 0.56em;
+}
+
+/* Labels in modules */
+#iop-panel-label,
+#lib-panel-label
+{
+  background-color: transparent;
+  color: @grey_50;
+  padding: 0 0.14em 0.14em 0.45em;
+  font-weight: normal;
+  font-family: Inter;
+  font-size: 1.2em;
+}
+
+/*-------------------
+  - Scope/Histogram -
+  -------------------*/
+
+/* set background color and color of scope/histogram buttons */
+#main-histogram .dt_module_btn:not(.rgb_toggle)
+{
+  color: alpha(@orange, 0.5);
+  background-color: alpha(darker(@button_bg),0.8);
+  border: 0.07em solid alpha(@button_bg, 0.33);
+}
+
+/*------------------------------------------------
+  - Context menu, bauhaus, tooltips & comboboxes -
+  ----------------------------------------------*/
+
+/*** so nearly everything that pop out */
+.popup,
+context-menu,
+menu,
+menuitem > arrow,
+tooltip,
+popover,
+combobox window,
+dialog combobox window,
+#bauhaus-combobox *,
+bauhaus-slider *
+{
+  border-radius: 0.5em;
+  border: 0em solid @button_border;
+}
+combobox,
+combobox button
+{
+  border-radius: 0.14em;
+  color: @bauhaus_fg;
+}
+
+.popup,
+popover
+{
+  padding: 0.42em;
+  border-radius: 15px;
+}
+
+/* Adjust check menuitems */
+menuitem check,
+menuitem check:selected
+{
+  min-width: 0.7em;
+  min-height: 0.7em;
+  margin: 0 0.35em;
+}
+
+/* then spacing around bauhaus widgets */
+.dt_bauhaus
+{
+  margin: 0.14em 0;
+}
+
+/* and set menuitem related to sort of combobox like metadata presets in import module */
+menuitem label,
+#view-dropdown button,
+#view-dropdown menuitem,
+#view-label
+{
+  padding: 0.07em 0.42em;
+  margin: 0;
+  border-radius: 15px;
+}
+
+tooltip,
+#range-current
+{
+  border: 0.07em solid shade(@tooltip_bg_color, 1.5);
+  border-radius: 0;
+}
+
+tooltip label,
+#range-current label
+{
+  color: @tooltip_fg_color;
+}
+
+tooltip separator
+{
+  margin: 0.6em 2em;
+  padding-bottom: 0.07em;
+  background-color: @selected_bg_color;
+}
+
+combobox label
+{
+  margin: 0 0.35em 0 0;
+}
+
+menu separator,
+popover separator
+{
+  margin: 0.6em 2em;
+  padding-bottom: 0.07em;
+  background-color: @selected_bg_color;
+}
+
+combobox separator
+{
+  min-height: 0.07em;
+}
+
+/*----------------------
+  - GTK Notebooks tabs -
+  ----------------------*/
+notebook tabs,
+#blending-tabs,
+#guides-line,
+#modules-tabs
+{
+  font-family: Inter;
+  font-weight: 600;
+}
+
+#blending-tabs,
+#guides-line,
+#modules-tabs
+{
+  background-color: @field_active_bg;
+}
+
+/* set sizes of "buttons" in modules and blending tabs ; and guides lines too */
+#modules-tabs .toggle
+{
+  min-height: 2em;
+}
+
+.dt_plugin_ui #blending-tabs .dt_module_btn,
+#guides-line .toggle
+{
+  min-height: 1.3em;
+}
+
+.dt_plugin_ui #blending-tabs .dt_module_btn,
+#guides-line .dt_module_btn,
+#modules-tabs .dt_module_btn   /* This is needed separately to set a minimal width if panel is really narrow */
+{
+  border-radius: 0;
+  min-width: 1.5em;
+  margin: 0;
+}
+
+/* reduce and align now hamburger menu of modules and blending tabs */
+.dt_plugin_ui #blending-tabs .dt_module_btn,
+#modules-tabs .dt_module_btn
+{
+  padding: 0.3em;
+}
+
+/* Set notebook tabs */
+notebook tab label
+{
+  border-bottom: 0.1em solid transparent;
+  color: shade(@field_selected_fg, 0.75);
+  padding: 0.28em 0.07em;
+}
+
+notebook tab:hover label
+{
+  border-bottom-color: shade(@field_selected_fg, 0.7);
+  color: shade(@field_selected_fg, 0.9);
+}
+
+notebook tab:checked label
+{
+  border-bottom-color: @field_selected_fg;
+  color: @field_selected_fg;
+}
+
+notebook header /* add space between notebook tabs and options below */
+{
+  margin-bottom: 0.42em;
+}
+
+/*--------------------------
+  - GTK sliders and scales -
+  --------------------------*/
+
+/*** WARNING : sliders IN modules are bauhaus (from a custom lib in darktable), not standard GTK sliders (see below) ***/
+
+#lib-plugin-ui scrollbar slider,
+#iop-plugin-ui scrollbar slider,
+scrollbar slider,
+dialog scrollbar slider
+{
+  min-width: 6px;
+  min-height: 24px;
+}
+
+/*---------------
+  - Other stuff -
+  ---------------*/
+
+/*** Some tags below inherit from properties above ; so avoid moving that part ***/
+
+/* About window: set different background for credits view */
+#about-dialog scrolledwindow
+{
+  background-color: @grey_15;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) inset;
+}
+
+/* Progress bar on bottom left side when exporting, importing, etc... */
+#background_job_eventbox /* background of export progress bar */
+{
+  background-color: @grey_15;
+}
+
+progressbar *
+{
+  background-color: @grey_15;
+  border-radius: 0;
+}
+
+/* Color picker visibility for levels and rgb levels modules.
+   be careful to not change that unless you really now what you do */
+
+#picker-grey
+{
+  color: @grey_50;
+  min-height: 1.3em;
+  border: 0;
+}
+
+#navigation-module
+{
+  background-color: @graph_bg;
+  border-radius: 12px;
+}
+
+#nav-zoom
+{
+  background-color: alpha(@darkroom_bg_color, 0.25);
+  color: @graph_fg_active;
+  border-top-left-radius: 0.21em;
+  border-radius: 8px;
+  margin: 6px;
+}
+
+#nav-zoom:hover
+{
+  background-color: alpha(@darkroom_bg_color, 0.5);
+}
+
+/*--------------------------------------
+  - Thumbtable Main Settings Lighttable -
+  --------------------------------------*/
+
+/* Background */
+.dt_thumbtable,
+.dt_fullview
+{
+  background-color: @dt_blue;
+  border-radius: 6px;
+}
+
+#thumb-back
+{
+  background-color: @thumbnail_bg_color;
+  border: 2px solid @lighttable_bg_color;
+  padding: 2px;
+  transition: all 0.2s ease-in;
+  border-radius: 6px;
+}
+
+/* set selected image and/or focus one */
+.thumb-active-selected
+{
+  background-color: shade(@thumbnail_selected_bg_color, 1.05);
+  border-color: shade(@grey_90, 0.8);
+}
+
+/*-----------------
+  - Image options -
+  -----------------*/
+
+/* Set same settings on all those items */
+button,
+#add-color-button,
+#dt-icon,
+entry,
+textview
+{
+  min-height: 1em;
+  border-radius: 6px;
+}
+
+/* Set top cursor and bottom-label */
+#thumbtable-filmstrip #thumb-main:active #thumb-cursor
+{
+  color: @grey_15;
+}
+
+/* Set border color around thumbnails */
+.dt_group_left #thumb_back,
+#thumb_main.dt_group_left:selected #thumb_back
+{
+  border-left: 0.07em solid @grey_90;
+}
+.dt_group_top #thumb_back,
+#thumb_main.dt_group_top:selected #thumb_back
+{
+  border-top: 0.07em solid @grey_90;
+}
+.dt_group_right #thumb_back,
+#thumb_main.dt_group_right:selected #thumb_back
+{
+  border-right: 0.07em solid @grey_90;
+}
+.dt_group_bottom #thumb_back,
+#thumb_main.dt_group_bottom:selected #thumb_back
+{
+  border-bottom: 0.07em solid @grey_90;
+}
+.dt_thumbtable_reorder #thumb_main:hover #thumb_back
+{
+  border-left : 0.4px solid rgb(224, 130, 23);
+}
+/* Set buttons and search field on presets and shortcuts control buttons */
+#shortcut-controls .search,
+#preferences-box #shortcut-controls check
+{
+  margin-right: 0.28em;
+  background-color: @grey_15;
+  border-color: @grey_10;
+}
+
+/*---------------------------------------------------------------
+  - Set sidebars settings on preferences window and filechooser -
+  ---------------------------------------------------------------*/
+
+/* Set default sidebars settings */
+filechooser .sidebar,
+#preferences_box .sidebar scrolledwindow
+{
+  padding: 0px; /* needed to have an hover and selected effect on all width of categories in sidebar */
+  font-size: 1.1em;
+  background-color: @bg_color;
+}
+
+#preferences_box .sidebar row
+{
+  margin: 4px 12px;
+  padding: 6px 4px;
+  border-left: none;
+  transition: all 0.05s ease-in;
+  min-width: 180px;
+}
+
+/* Set lines states */
+filechooser .sidebar-icon,
+filechooser .sidebar-label
+{
+  padding: 4px 6px 4px 10px;
+  color: @orange;
+}
+
+#filechooser .sidebar-button
+{
+  margin-right: 4px;
+}
+
+filechooser row
+{
+  margin-top: -4px; /* be sure to not have empty space on top of row for hover and selected effects */
+}
+
+filechooser .sidebar row:selected,
+filechooser .sidebar row:selected:hover .sidebar-label,
+#preferences_box .sidebar row:selected,
+#preferences_box .sidebar row:selected:hover label
+{
+  color: @fg_color;
+  background-color: @plugin_bg_color;
+}
+
+#preferences_box .sidebar row,
+#preferences_box .sidebar row:selected
+{
+  border-left: 4px solid @plugin_bg_color; /* be sure border is set but not visible if category on sidebar not selected but keep same size and type for selected category ; color needs to be same as sidebar scrolledwindow background-color few lines above */
+}
+
+filechooser row:selected .sidebar-icon, /* set icon instead of border for filechooser dialog window */
+filechooser row:hover .sidebar-icon
+{
+  color: @button_hover_fg;
+  background-color: @field_hover_bg;
+}
+
+#preferences_box .sidebar row:selected
+{
+  border-left-color: @orange; /* make the border left visible with choosed color if category on sidebar is selected */
+}
+
+filechooser row:hover,
+#preferences_box .sidebar :hover /* be sure border is set but same color as background-color hover effect and for same reason as just above */
+{
+  border-left-color: @button_hover_bg;
+  background-color: @button_hover_bg;
+}
+
+#preferences_box .sidebar label
+{
+  padding: 2px 12px;
+}
+
+#preferences_box separator /* reset border size to avoid having space between row in sidebar */
+{
+  border: 0px;
+}
+
+/*--------------------
+  - Quick access tab -
+  --------------------*/
+  
+#basics-header-box, #quick-presets,
+#basics-module-hbox > box
+{
+  transition: 0.2s all ease-in;  
+}
+
+/*--------------------------------------------------
+  - Collect module and quick filters on header bar -
+--------------------------------------------------*/
+
+#module-filtering #collect-rule-widget /* set filter widget box */
+{
+  background-color: @grey_20;
+  margin: 0.1em 0;
+  padding: 0.2em 0em;
+  border-bottom: 1px solid @grey_40;
+  border-radius: 0em;
+}
+
+#dt-range-date-popup .text-button,
+#dt-range-date-popup entry,
+#dt-range-date-popup treeview
+{
+  background-color: alpha(@fg_color, 0.14);
+  border-color: alpha(@fg_color, 0.09);
+}
+
+/* set range parts and quick filter box in header toolbar */
+.search,
+#dt-range-band,
+#header-toolbar #bauhaus-combobox:not(.dt_transparent_background)
+{
+  border-radius: 15px;
+  background-color: alpha(@grey_05, 0.5);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) inset;
+  min-width: 1em;
+  min-height: 2em;
+  margin-top: 0em;
+  margin-bottom: 0.2em;
+  margin-left: 0.65em;
+  margin-right: 0.81em;
+}
+
+/* and adjust label and color buttons, especially in header bar */
+.dt_quick_filter,
+#filter-sort-box label,
+#header-rule-box label,
+#header-sort-box label,
+#header-toolbar .dt_module_btn
+{
+  margin-right: 0.56em;
+}
+
+#header-toolbar .dt_module_btn
+{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#filter-colors-box .dt_module_btn
+{
+  padding: 2px 0;
+  margin: 0;
+}
+
+#range-current
+{
+  padding: 0.2em;
+}
+
+#collect-header-box button
+{
+  margin-right: 0;
+}
+
+#dt-range-band-graph
+{
+  color: @orange;
+}
+
+#dt-range-band-selection
+{
+  color: alpha(@orange, 0.2);
+  border-radius: 15px;
+  background-color: alpha(@grey_05, 0.5);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) inset;
+  min-width: 1em;
+  min-height: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0.65em;
+  margin-right: 0.81em;
+}
+
+#dt-range-band-icons
+{
+  color: @grey_40;
+  margin: 0;
+}
+
+#dt-range-band-icons:active
+{
+  color: @grey_90;
+}
+
+/*---------------------------------------
+  - Context menu, tooltips & comboboxes -
+  ---------------------------------------*/
+
+context-menu,
+menu,
+menuitem > arrow,
+tooltip,
+popover,
+combobox window,
+dialog combobox window,
+#bauhaus-combobox *,
+#bauhaus-slider *
+{
+  border-radius: 5px;
+  border: 0em solid @button_border;
+}
+
+/* Set red reject icon when visible */
+.dt_overlays_hover_block #thumb-image:hover #thumb-reject:hover
+{
+  color: @orange;
+}
+
+/* Set rejected images */
+.dt_thumbnail_rating_6 #thumb_image
+{
+  color: rgba(0,0,0,0.25); /* only the transparency is used to fade the image drawing */
+}
+
+.dt_thumbnail_rating_6 #thumb-back
+{
+  background-color: shade(@thumbnail_bg_color,0.65); /* also fade the thumb background */
+  border: 1px solid shade(@lighttable_bg_color, 0.75); /* this is needed to have appropriate border colors and avoid visible differences in border regardless of not rejected images */
+}
+
+/* Set messages shown on bottom middle of the UI. For example "loading image..." or "working on..." */
+.dt_messages
+{
+  color: @orange;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: @grey_10;
+  padding: 0.56em 1.4em;
+  border-radius: 0.56em;
+}
+
+/* search boxes (background color is set on collect module part above ; to be the same as other filters in quick filter bar) */
+#right .search  /* set only search box margin in modules panel */
+{
+  border-radius: 15px;
+  background-color: alpha(@grey_05, 0.5);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) inset;
+  min-width: 1em;
+  min-height: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0.65em;
+  margin-right: 0.81em;
+}
+
+.search label
+{
+  margin-right: 1em;
+}
+
+ /* then set infos shown on top of the image on darkroom, like for example opacity in drawn masks */
+.top .dt_messages
+{
+  color: @orange;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: @grey_15;
+  padding: 0.14em 1em 0.28em 1em;
+  border-radius: 0 0 0.56em 0.56em;
+}
+
+.dt_thumbnail_rating_6 #thumb_back
+{
+  background-color: shade(@thumbnail_bg_color,0.65); /* also fade the thumb background */
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in, border 0.2s ease-in;
+}
+
+/* Set where overlays block infos start on the image */
+.dt_overlays_hover_block #thumb_bottom
+{
+  margin-top: 30px; /* not real pixels. This is used as a per thousand of the image size and couldn't be scalable */
+  margin-left: 0; /* not real pixels. This is used as a per thousand of the image size and couldn't be scalable */
+  border-radius: 0 0.56em 0.56em 0;
+}
+
+/* Set background color of overlays block infos */
+.dt_overlays_hover_block #thumb_image:hover #thumb_zoom_label
+{
+  color: @bauhaus_fg_hover;
+  background-color: rgba(255,20, 20, 0.5);
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* Set sliders height */
+#lib-plugin-ui scrollbar slider,
+#iop-plugin-ui scrollbar slider,
+scrollbar slider,
+dialog scrollbar slider
+{
+  background-color: @scroll_bar_inactive;
+  border: 0.14em solid transparent;
+  min-width: 0.4em;
+  min-height: 0.025em;
+}
+scale contents trough
+{
+  background-color: @scroll_bar_bg;
+  border-radius: 0.14em;
+  min-width: 0.4em;
+  min-height: 0.025em;
+}
+
+/* Collapsible sections on lib & iop modules */
+/* borde del bloque colapsible redondeado */
+#collapse-block
+{
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 0.5em 0;
+}
+/* borde exterior del colapsible-block menu */
+#collapsible,
+#collapse-block #section_label
+{
+  border-top: none;
+  padding: 0.7em;
+  border-radius: 0 0 10px 10px;
+}
+/* relleno del colapsible-block menu */
+#collapsible,
+#collapsible #bauhaus-slider
+{
+  border-top: 0em solid transparent;
+  background-color: @grey_25;
+}
+
+/* for the import parameters to be more aligned with the imports buttons */
+
+#lib-plugin-ui #collapse-block
+{
+  border: 0.2em solid @grey_05;
+  margin: 0.42em 0.07em;
+}
+
+#collapse-block #section_label,
+collapse-block .section-expander
+{
+  margin: 0.1em;
+  background-color: shade(@collapsible_bg_color, 0.95);
+  border-radius: 10px 10px 10px 10px;
+}
+
+@define-color range_sel_color @grey_45;
+@define-color range_icon_color @orange;
+
+
+/*-------------------------------------------------
+  - Culling and preview modes (dt_fullview class) -
+  -----------------------------------------------*/
+/* Hide not wanted things on these modes: ext name and thumb_main border */
+.dt_fullview #thumb-back,
+.dt_fullview #thumb-main:selected #thumb-back,
+.dt_fullview #thumb-main:hover #thumb-back,
+.dt_fullview #thumb-main:active #thumb-back
+{
+  background-color: @grey_50;
+  border: 0;
+}
+
+/* Set image borders */
+.dt_fullview #thumb-main:selected #thumb-image
+{
+  border: 0.1em solid transparent;
+}
+
+ .dt_fullview #thumb-main:hover #thumb-image
+{
+  border: 0.1em solid @orange;
+}
+
+label, title {
+  color: @grey_60; /* grey text in configuration window */
+  font-size: 1em;
+  font-weight: 600;
+}
+
+/*-------------------------
+  - LUA on and off states -
+  -----------------------*/
+button#pb_off ~ label#pb_label
+{ 
+  color: @grey_50;
+}
+button#pb_on ~ label#pb_label 
+{
+  color: alpha(@orange, 0.7);
+}
+
+/* splash screen */
+#splashscreen
+{
+    background-color: @grey_20;
+    border: 0px solid transparent;
+    border-radius: 25px;
+}
+#splashscreen-header
+{
+    padding: 0;
+    margin: 0;
+}
+/* make the (nonexistent) title text very small to avoid an obvious bar at top */
+#splashscreen-header label
+{
+    font-size: 1%;
+    padding: 0;
+    margin: 0;
+}
+/* style the darktable logo */
+#splashscreen-logo
+{
+}
+/* position the darktable version number next to the logo */
+#splashscreen-version
+{
+    margin-top: -35pt;
+    margin-right: -110pt;
+    font-size: 15pt;
+}
+/* style the darktable program name */
+#splashscreen-program
+{
+    font-size: 48pt;
+    font-family: Inter, sans-serif;
+    margin: 2pt;
+}
+/* style the darktable program description "Photography workflow..." */
+#splashscreen-description
+{
+    color: @grey_60;
+    font-size: 14pt;
+    font-family: Inter, sans-serif;
+    padding: 1em;
+    margin: 1em;
+}
+/* style the "get ready..." message */
+#splashscreen-prepare
+{
+    font-size: 12pt;
+    font-family: Inter, sans-serif;
+    margin-top: -5pt;
+    margin-left: -150pt;
+}
+/* style the separating bar - without a style, it won't appear or take space! */
+#splashscreen-separator
+{
+    border: 0px;
+    margin-top: 1pt;
+    margin-bottom: 3pt;
+}
+/* style the progress message */
+#splashscreen-progress
+{
+    border-radius: 15px;
+    background-color: alpha(@grey_10, 0.8);
+    min-width: 1em;
+    min-height: 4em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+/* style the time remaining */
+#splashscreen-remaining
+{
+    color: yellow;
+    font-size: 150%;
+}

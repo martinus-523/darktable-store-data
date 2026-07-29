@@ -1,0 +1,349 @@
+/*
+    This file is part of darktable,
+    copyright (c) 2019 Aurélien Pierre
+
+    darktable is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    darktable is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with darktable.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+@import url("darktable.css");
+
+/* Light Pro - the light counterpart of Dark Pro.
+   A calm, neutral light interface with a muted blue accent.
+   Tested with darktable 5.6 / GTK 3.24. */
+
+/* hide selection frame in culling */
+@define-color culling_selected_border_color transparent;
+
+.dt_plugin_ui,
+.dt_bauhaus,
+.dt_bauhaus_popup,
+combobox,
+combobox *,
+togglebutton,
+togglebutton *,
+notebook,
+notebook *,
+notebook tab,
+notebook tab *,
+table,
+table *,
+row,
+row *,
+frame,
+frame *,
+alignment,
+entry,
+entry *,
+dialog,
+dialog *,
+colorswatch,
+colorswatch *,
+stack,
+stack *,
+scrollbar,
+scrollbar *,
+eventbox,
+eventbox *,
+scale,
+scale *,
+button,
+button *,
+treeview,
+treeview *,
+menu,
+menu *,
+separator,
+eventbox,
+eventbox *,
+box,
+box * {
+    font-family:
+        "Roboto Light",
+        "Roboto",
+        /* best case scenario */ "Segoe UI",
+        /* Windows 10 default */ "SF Pro Display Light",
+        "SF Pro Display",
+        /* Mac OS X default */ "Ubuntu Light",
+        "Ubuntu",
+        "IPAPGothic",
+        /* Ubuntu default */ "Cantarell",
+        /* Gnome default */ "Arial Unicode MS",
+        /* Unicode glyphs */ sans-serif; /* default default */
+}
+
+.dt_section_label:not(#blending-box),
+#blending-box .dt_section_label label,
+#blending-box .dt_section_label .dt_bauhaus {
+    font-family:
+        "Roboto Medium", "Roboto", "Segoe UI Semibold", "Segoe UI",
+        "SF Pro Display Medium", "SF Pro Display", "Ubuntu Medium", "Ubuntu",
+        "IPAPGothic", "Cantarell", "Arial Unicode MS", sans-serif;
+}
+
+#iop-panel-label,
+#lib-panel-label {
+    font-family:
+        "Roboto Condensed", "Roboto", "Segoe UI Condensed", "Segoe UI",
+        "SF Pro Display", "SF Pro Display", "Ubuntu Condensed", "Ubuntu",
+        "IPAPGothic", "Cantarell", "Arial Unicode MS", sans-serif;
+}
+
+.active_menu_item *, /* needed for some Pango issues not rendering synthetic bold for all OS */
+notebook tabs,
+tooltip label,
+#blending-tabs,
+#modules-tabs {
+    font-family:
+        "Roboto", "Segoe UI", "SF Pro Text", "Ubuntu", "IPAPGothic",
+        "Cantarell", "Arial Unicode MS", sans-serif;
+}
+
+/* ==========================================================================
+   COLOR PALETTE
+   ========================================================================== */
+@define-color accent_color #2d5c94;
+@define-color accent_bg #c6d5e6;
+@define-color accent_bg_soft #dbe6f2;
+
+@define-color theme_color @selected_bg_color;
+@define-color selected_bg_color #d6d6d6;
+@define-color border_color #d8d8d8;
+@define-color bg_color #ececec;
+@define-color fg_color #3c3c3c;
+@define-color placeholder_text_color #9a9a9a;
+@define-color disabled_fg_color #a6a6a6;
+
+@define-color scroll_bar_bg #ececec;
+@define-color scroll_bar_inactive #cccccc;
+@define-color scroll_bar_active @accent_color;
+
+@define-color plugin_bg_color #f7f7f7;
+@define-color section_label #4a4a4a;
+@define-color plugin_label_color #6a6a6a;
+@define-color collapsible_bg_color #ececec;
+
+@define-color bauhaus_bg #e2e2e2;
+@define-color bauhaus_fill #5c82ad;
+@define-color bauhaus_fg #3c3c3c;
+@define-color bauhaus_border #c0c0c0;
+@define-color bauhaus_indicator_border #f7f7f7;
+@define-color bauhaus_bg_hover @accent_bg;
+@define-color bauhaus_fg_hover #111111;
+@define-color bauhaus_fg_selected #1f1f1f;
+@define-color bauhaus_fg_insensitive alpha(#3c3c3c, 0.4);
+
+@define-color button_bg #e6e6e6;
+@define-color button_fg alpha(@fg_color, 0.75);
+@define-color button_border shade(@button_bg, 0.92);
+@define-color button_hover_bg @accent_bg_soft;
+@define-color button_hover_fg #1a1a1a;
+
+@define-color field_bg #ffffff;
+@define-color field_fg @fg_color;
+@define-color field_active_bg #f2f6fb;
+@define-color field_active_fg #222222;
+@define-color field_selected_bg @accent_bg;
+@define-color field_selected_fg #1a1a1a;
+@define-color field_hover_bg #e4ecf5;
+@define-color field_hover_fg #111111;
+
+@define-color tooltip_bg_color #ffffff;
+@define-color tooltip_fg_color #444444;
+@define-color really_dark_bg_color #dcdcdc;
+
+/* darkroom canvas stays middle grey on purpose: a light surround
+   would skew the perception of tones and colors in the image */
+@define-color darkroom_bg_color #777777;
+@define-color lighttable_bg_color #c9c9c9;
+@define-color lighttable_bg_font_color #4a4a4a;
+
+@define-color thumbnail_font_color #565656;
+@define-color thumbnail_bg_color #e6e6e6;
+@define-color thumbnail_star_bg_color #9e9e9e;
+@define-color thumbnail_star_hover_color @accent_color;
+@define-color thumbnail_localcopy #ffffff;
+@define-color thumbnail_fg_color #6a6a6a;
+@define-color thumbnail_bg50_color #ffffff;
+@define-color thumbnail_selected_bg_color @accent_bg;
+@define-color thumbnail_hover_bg_color @accent_bg_soft;
+@define-color thumbnail_hover_fg_color #1f1f1f;
+
+/* scopes and module graphs stay dark: the histogram/waveform channels are
+   drawn with additive blending, which washes out to white on a light
+   background. A dark scope on a light UI is also the pro-app convention. */
+@define-color graph_bg #262626;
+@define-color graph_exterior #202020;
+@define-color graph_border #111111;
+@define-color graph_fg #b9b9b9;
+@define-color graph_fg_active #f1f1f1;
+@define-color graph_grid #3a3a3a;
+@define-color graph_overlay #777777;
+@define-color inset_histogram alpha(#9e9e9e, 0.50);
+
+/* the scope area is dark, so its hover buttons need light glyphs on a dark
+   chip instead of the theme's regular (dark-on-light) button colors */
+#main-histogram .dt_module_btn:not(.rgb_toggle) {
+    color: alpha(#e2e2e2, 0.7);
+    background-color: alpha(#111111, 0.6);
+    border: 0.07em solid alpha(#4a4a4a, 0.5);
+}
+
+#main-histogram .dt_module_btn:hover:not(.rgb_toggle) {
+    color: #f1f1f1;
+}
+
+/* ==========================================================================
+   THUMBNAIL OVERLAYS (LIGHTTABLE)
+   ========================================================================== */
+.dt_overlays_hover_extended #thumb-main:hover #thumb-bottom,
+.dt_overlays_mixed #thumb-main:hover #thumb-bottom,
+.dt_overlays_hover #thumb-main:hover #thumb-bottom {
+    background-image: none;
+    background-color: #dcdcdc;
+}
+
+/* ==========================================================================
+   LAYOUT SIDEBARS (LEFT & RIGHT)
+   ========================================================================== */
+#left {
+    padding: 0 8px 0 0;
+}
+
+#left > :not(scrolledwindow) {
+    padding-left: 4px;
+}
+
+#right {
+    padding: 0 0 0 4px;
+}
+
+#right > :not(scrolledwindow) {
+    padding-right: 0px;
+}
+
+/* ==========================================================================
+   MODULE PANELS & PLUGIN STYLING
+   ========================================================================== */
+#plugins_vbox_left > box:not(#basics-box-labels) {
+    background-color: @plugin_bg_color;
+    border-radius: 6px;
+}
+
+#basics-module-hbox,
+#plugins_vbox_left > box:not(#basics-box-labels) {
+    margin: 1px;
+    padding: 0px;
+}
+
+#basics-box-labels widget,
+#basics-module-hbox {
+    background-color: @plugin_bg_color;
+}
+
+#basics-box-labels widget {
+    border: none;
+}
+
+#basics-module-hbox,
+#plugins_vbox_left frame.dt_plugin_ui {
+    border-radius: 0 0 4px 4px;
+}
+
+#basics-module-hbox {
+    padding: 0px;
+}
+
+#basics-box-labels #basics-header-box {
+    padding: 6px 4px 6px 10px;
+}
+
+#basics-module-hbox + widget {
+    border-radius: 6px 6px 0 0;
+}
+
+#plugins_vbox_left #module-header,
+#left > box:nth-child(3) #module-header,
+#right > box:nth-child(3) #module-header {
+    border: none;
+}
+
+/* ==========================================================================
+   TABS & BUTTONS IN MODULES
+   ========================================================================== */
+.dt_plugin_ui #blending-tabs .dt_module_btn,
+#modules-tabs .dt_module_btn {
+    padding: 2px;
+    margin: 6px 2px 2px 2px;
+    border-radius: 8px;
+}
+
+.dt_plugin_ui #blending-tabs {
+    border-radius: 0 0 6px 6px;
+}
+
+#left > box:first-child,
+#modules-tabs {
+    margin-bottom: 4px;
+}
+
+/* ==========================================================================
+   MISCELLANEOUS ELEMENTS
+   ========================================================================== */
+.font {
+    margin: 2px 0;
+}
+
+.dt_plugin_ui #blending-tabs {
+    background-color: shade(@plugin_bg_color, 0.94);
+}
+
+.dt_section_label {
+    border: none;
+    background-color: shade(@plugin_bg_color, 0.94);
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+#module-filtering #collect-rule-widget:last-child {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#module-header {
+    min-height: 6px;
+}
+
+/* ==========================================================================
+   MODULE HEADER BUTTONS (ACTIVATION/STATE)
+   ========================================================================== */
+#module-header .dt_module_btn {
+    color: shade(@plugin_label_color, 1.4);
+    background-color: shade(@plugin_bg_color, 0.97);
+}
+
+#module-header .dt_module_btn:checked {
+    color: @accent_color;
+    background-color: @plugin_bg_color;
+}
+
+#module-header .dt_module_btn:checked ~ .dt_module_btn {
+    color: shade(@plugin_label_color, 1.1);
+    background-color: shade(@plugin_bg_color, 0.97);
+}
+
+* { font-family: "Inter", "Avenir Next", "Noto Sans", sans-serif; }
+
+window, dialog, headerbar, button, entry, label, textview, combobox, treeview {
+  font-family: "Inter", "Avenir Next", "Noto Sans", sans-serif;
+}

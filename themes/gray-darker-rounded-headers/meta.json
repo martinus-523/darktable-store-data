@@ -1,0 +1,13 @@
+{
+    "author" : "Masterpiga",
+    "name" : "Gray Darker - Rounded Headers With Accents",
+    "description" : "Variant of elegant-gray that adds darker and rounded module headers for better module separation, and pastel-green accents to module indicators to emphasize active modules.",
+    "license" : "MIT",
+    "type" : "grey",
+    "files" : [ "gray-darker-rounded-headers.css" ],
+    "screenshots" : [ "screenshot-1.webp", "screenshot-2.webp" ],
+    "dt-versions" : [ 5.4 ],
+    "contributor" : "masterpiga",
+    "url" : "https://darktable-css.danielepighin.net/themes/view/1",
+    "source" : [ "https://darktable-css.danielepighin.net/themes/download/1" ]
+}

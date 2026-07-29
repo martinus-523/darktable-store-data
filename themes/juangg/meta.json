@@ -1,0 +1,13 @@
+{
+    "author" : "Juangg",
+    "name" : "Juangg's Mod",
+    "description" : "Based on Andy Hutchinson’s darktable theme, with a few tweaked colours and other personal adjustments.",
+    "license" : "GPL-3.0",
+    "type" : "color",
+    "files" : [ "juangg.css" ],
+    "screenshots" : [ "screenshot-1.webp", "screenshot-2.webp" ],
+    "dt-versions" : [ 5.4, 5.6 ],
+    "contributor" : "juangg",
+    "source": [ "https://discuss.pixls.us/uploads/short-url/j47OOmZlESICuGOKs7pRzABHuq2.zip" ],
+    "url" : "https://discuss.pixls.us/t/my-customized-darktable-theme-fixed/59273/5"
+}

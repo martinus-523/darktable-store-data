@@ -1,0 +1,478 @@
+/*
+    Custom darktable theme: Modern Graphite Separated
+    Applied via user.css so it layers on top of the selected built-in theme.
+*/
+
+/* hide selection frame in culling */
+@define-color culling_selected_border_color transparent;
+
+.dt_plugin_ui,
+.dt_bauhaus,
+.dt_bauhaus_popup,
+combobox,
+combobox *,
+togglebutton,
+togglebutton *,
+notebook,
+notebook *,
+notebook tab,
+notebook tab *,
+table,
+table *,
+row,
+row *,
+frame,
+frame *,
+alignment,
+entry,
+entry *,
+dialog,
+dialog *,
+colorswatch,
+colorswatch *,
+stack,
+stack *,
+scrollbar,
+scrollbar *,
+eventbox,
+eventbox *,
+scale,
+scale *,
+button,
+button *,
+treeview,
+treeview *,
+menu,
+menu *,
+separator,
+box,
+box * {
+    font-family:
+        "Switzer",
+        "Avenir Next",
+        "Avenir",
+        "Helvetica Neue",
+        "Segoe UI",
+        "Roboto",
+        "Ubuntu",
+        "Cantarell",
+        "Arial Unicode MS",
+        sans-serif;
+}
+
+.dt_section_label:not(#blending-box),
+#blending-box .dt_section_label label,
+#blending-box .dt_section_label .dt_bauhaus {
+    font-family:
+        "Switzer Semibold",
+        "Switzer",
+        "Avenir Next Demi Bold",
+        "Avenir Next",
+        "Avenir",
+        "Helvetica Neue",
+        "Segoe UI Semibold",
+        "Roboto Medium",
+        "Ubuntu Medium",
+        "Cantarell",
+        "Arial Unicode MS",
+        sans-serif;
+}
+
+#iop-panel-label,
+#lib-panel-label {
+    font-family:
+        "Switzer Semibold",
+        "Switzer",
+        "Avenir Next Demi Bold",
+        "Avenir Next",
+        "Avenir",
+        "Helvetica Neue",
+        "Segoe UI",
+        "Roboto Condensed",
+        "Ubuntu",
+        "Cantarell",
+        "Arial Unicode MS",
+        sans-serif;
+}
+
+.active_menu_item *,
+notebook tabs,
+tooltip label,
+#blending-tabs,
+#modules-tabs {
+    font-family:
+        "Switzer",
+        "Avenir Next",
+        "Avenir",
+        "Helvetica Neue",
+        "Segoe UI",
+        "Roboto",
+        "Ubuntu",
+        "Cantarell",
+        "Arial Unicode MS",
+        sans-serif;
+}
+
+/* Core palette */
+@define-color theme_color #7fb6ff;
+@define-color selected_bg_color #355f91;
+@define-color bg_color #101419;
+@define-color border_color #0b0f13;
+@define-color fg_color #dce5ed;
+@define-color plugin_bg_color #171c22;
+@define-color plugin_label_color #b7c2cd;
+@define-color collapsible_bg_color #11161c;
+
+/* Accent colors */
+@define-color accent_cyan #7fb6ff;
+@define-color accent_teal #67c7d9;
+@define-color accent_amber #d98c3f;
+@define-color accent_header #4d6175;
+@define-color accent_header_active #305478;
+@define-color accent_header_border #6d96c4;
+@define-color accent_header_text #edf4fb;
+@define-color accent_subsection_bg #7a5373;
+@define-color accent_subsection_border #b896b2;
+@define-color accent_subsection_text #fff8ff;
+@define-color accent_subsection_body_bg #251b24;
+@define-color accent_subsection_body_border #8d6a87;
+@define-color accent_subsection_body_top #b08aa9;
+@define-color accent_blending_panel_bg #1d3447;
+@define-color accent_blending_panel_border #4aa6df;
+@define-color section_label @accent_subsection_text;
+
+/* Buttons and inputs */
+@define-color button_bg #1a2027;
+@define-color button_fg #cbd6e0;
+@define-color button_border #2a333d;
+@define-color button_hover_bg #2a3b4c;
+@define-color button_hover_fg #f0f7fc;
+@define-color field_bg #131920;
+@define-color field_fg #dce5ed;
+@define-color field_active_bg #1b232b;
+@define-color field_active_fg #f2f8fd;
+@define-color field_selected_bg #29577f;
+@define-color field_selected_fg #f7fbfe;
+@define-color field_hover_bg #202a33;
+@define-color field_hover_fg #eef5fb;
+@define-color placeholder_text_color #738191;
+@define-color disabled_fg_color #697480;
+
+/* Sliders and scrollbars */
+@define-color bauhaus_bg #1b2128;
+@define-color bauhaus_fg #dce5ed;
+@define-color bauhaus_border #2a343f;
+@define-color bauhaus_indicator_border #0b0f13;
+@define-color bauhaus_fill #53c7b4;
+@define-color bauhaus_bg_hover #2b5878;
+@define-color bauhaus_fg_hover #f6fbfe;
+@define-color bauhaus_fg_selected #eef6fc;
+@define-color bauhaus_fg_insensitive alpha(@fg_color, 0.4);
+@define-color scroll_bar_bg #0e1318;
+@define-color scroll_bar_inactive #27313a;
+@define-color scroll_bar_active #78c8ff;
+
+/* Tooltips and graphs */
+@define-color tooltip_bg_color #0f1419;
+@define-color tooltip_fg_color #ccd6df;
+@define-color really_dark_bg_color #080b0f;
+@define-color log_fg_color #e5edf4;
+@define-color graph_bg #131920;
+@define-color graph_exterior #0f1419;
+@define-color graph_border #0b0f14;
+@define-color graph_fg #c8d2dc;
+@define-color graph_fg_active #f3f8fc;
+@define-color graph_grid #1d2630;
+@define-color graph_overlay #83909d;
+@define-color inset_histogram alpha(#bcc8d4, 0.45);
+
+/* Views */
+@define-color darkroom_bg_color #565d66;
+@define-color darkroom_preview_bg_color @darkroom_bg_color;
+@define-color lighttable_bg_color #101419;
+@define-color lighttable_preview_bg_color @darkroom_bg_color;
+@define-color lighttable_bg_font_color #bec9d3;
+@define-color print_bg_color @lighttable_bg_color;
+
+/* Thumbnails and filmstrip */
+@define-color thumbnail_font_color #a3afba;
+@define-color thumbnail_bg_color #171c22;
+@define-color thumbnail_star_bg_color #1f2630;
+@define-color thumbnail_star_hover_color #e0a84f;
+@define-color thumbnail_localcopy #eef4fa;
+@define-color thumbnail_fg_color #c3ced8;
+@define-color thumbnail_bg50_color #dfe7ef;
+@define-color thumbnail_selected_bg_color #23496a;
+@define-color thumbnail_hover_bg_color #222d37;
+@define-color thumbnail_hover_fg_color #edf5fc;
+@define-color filmstrip_bg_color #121820;
+@define-color timeline_bg_color #0f1419;
+@define-color timeline_fg_color #d8e1ea;
+@define-color timeline_text_bg_color alpha(black, 0.75);
+@define-color timeline_text_fg_color alpha(white, 0.92);
+@define-color range_graph_color alpha(@timeline_fg_color, 0.75);
+@define-color range_bg_color alpha(@fg_color, 0.14);
+@define-color range_cursor_color alpha(@accent_cyan, 0.95);
+@define-color range_sel_color alpha(@bauhaus_fill, 0.65);
+@define-color range_icon_color alpha(@thumbnail_hover_fg_color, 0.35);
+
+.dt_overlays_hover_extended #thumb-main:hover #thumb-bottom,
+.dt_overlays_mixed #thumb-main:hover #thumb-bottom,
+.dt_overlays_hover #thumb-main:hover #thumb-bottom {
+    background-image: none;
+    background-color: alpha(#101419, 0.94);
+}
+
+/* Treat the whole blending/mask area as a nested panel */
+#blending-box,
+.dt_plugin_ui #blending-box {
+    background-color: alpha(@accent_blending_panel_bg, 0.92);
+    border: 1px solid @accent_blending_panel_border;
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+
+/* Sidebar spacing */
+#left {
+    padding: 0 12px 0 0;
+}
+
+#left > :not(scrolledwindow) {
+    padding-left: 7px;
+}
+
+#right {
+    padding: 0 0 0 7px;
+}
+
+#right > :not(scrolledwindow) {
+    padding-right: 3px;
+}
+
+/* Stronger card separation */
+#plugins_vbox_left > box:not(#basics-box-labels),
+#plugins_vbox_right > box,
+#basics-box-labels widget,
+#basics-module-hbox {
+    background-color: @plugin_bg_color;
+    border-radius: 0 0 12px 12px;
+    border: none;
+}
+
+#plugins_vbox_left frame.dt_plugin_ui,
+#plugins_vbox_right frame.dt_plugin_ui {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.dt_plugin_ui_main {
+    border-left: 2px solid #4d6175;
+    border-right: 2px solid #4d6175;
+    border-bottom: 2px solid #4d6175;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#plugins_vbox_left > box:not(#basics-box-labels),
+#plugins_vbox_right > box {
+    margin: 3px 0;
+}
+
+#basics-module-hbox,
+#plugins_vbox_left > box:not(#basics-box-labels) {
+    padding: 0;
+}
+
+#basics-box-labels #basics-header-box {
+    padding: 10px 8px 10px 14px;
+}
+
+#basics-box-labels widget {
+    border-color: #35536d;
+}
+
+#plugins_vbox_left #module-header,
+#plugins_vbox_right #module-header,
+#left > box:nth-child(3) #module-header,
+#right > box:nth-child(3) #module-header {
+    border: none;
+    border-bottom: none;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: @accent_header;
+    padding: 6px 8px;
+}
+
+#basics-module-hbox + widget {
+    border-radius: 12px 12px 0 0;
+}
+
+/* Tabs and button rows */
+.dt_plugin_ui #blending-tabs .dt_module_btn,
+#modules-tabs .dt_module_btn {
+    padding: 4px;
+    margin: 6px 3px 4px 3px;
+    border-radius: 9px;
+}
+
+.dt_plugin_ui #blending-tabs {
+    border-radius: 0 0 12px 12px;
+    background-color: shade(@plugin_bg_color, 1.08);
+    border-top: none;
+}
+
+#left > box:first-child,
+#modules-tabs {
+    margin-bottom: 8px;
+}
+
+/* Section labels inside modules become clear dividers */
+.dt_section_label {
+    border: 1px solid #3a6c91;
+    background-color: #244257;
+    color: #f0f6fb;
+    border-radius: 7px;
+    margin: 10px 0 6px 0;
+    padding: 7px 12px;
+}
+
+.dt_section_label label,
+.dt_section_label .dt_bauhaus,
+#blending-box .dt_section_label label,
+#blending-box .dt_section_label .dt_bauhaus {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/* Nested sections inside blending/mask UI get a distinct shade */
+#blending-box .dt_section_label,
+.dt_plugin_ui #blending-box .dt_section_label {
+    border: 2px solid @accent_subsection_border;
+    border-bottom: 2px solid @accent_subsection_border;
+    background-color: @accent_subsection_bg;
+    color: @accent_subsection_text;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin: 24px 0 14px 0;
+}
+
+#blending-box .dt_section_label label,
+#blending-box .dt_section_label .dt_bauhaus,
+.dt_plugin_ui #blending-box .dt_section_label label,
+.dt_plugin_ui #blending-box .dt_section_label .dt_bauhaus {
+    color: @accent_subsection_text;
+    background-color: transparent;
+    font-weight: 700;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* Fake stronger separation between subsection groups inside blending panels */
+#blending-box #collapsible + .dt_section_label,
+#blending-box #collapse-block + .dt_section_label,
+.dt_plugin_ui #blending-box #collapsible + .dt_section_label,
+.dt_plugin_ui #blending-box #collapse-block + .dt_section_label {
+    margin-top: 18px;
+}
+
+/* Subsection body shading inside blending/mask panels */
+#blending-box #collapse-block,
+.dt_plugin_ui #blending-box #collapse-block {
+    margin: 6px 0 12px 0;
+}
+
+#blending-box #collapsible,
+#blending-box #collapsible #bauhaus-slider,
+.dt_plugin_ui #blending-box #collapsible,
+.dt_plugin_ui #blending-box #collapsible #bauhaus-slider {
+    background-color: @accent_subsection_body_bg;
+}
+
+#blending-box #collapsible,
+.dt_plugin_ui #blending-box #collapsible {
+    border: 2px solid @accent_subsection_body_border;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: inset 0 4px 0 0 alpha(@accent_subsection_body_top, 0.65);
+    padding: 10px;
+}
+
+#module-filtering #collect-rule-widget:last-child {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#module-header {
+    min-height: 10px;
+}
+
+/* Module names and state buttons are more obvious */
+#iop-panel-label,
+#lib-panel-label {
+    color: @accent_header_text;
+    font-size: 1.05em;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+}
+
+#module-header .dt_module_btn {
+    color: #d7e5f1;
+    background-color: #1c2d3a;
+    border: 1px solid @accent_header_border;
+    border-radius: 8px;
+}
+
+#module-header .dt_module_btn:hover {
+    color: #f3f9fd;
+    background-color: #2c475d;
+    border-color: @accent_cyan;
+}
+
+#module-header .dt_module_btn:checked {
+    color: #f8fbfe;
+    background-color: @accent_header_active;
+    border-color: @accent_cyan;
+}
+
+#module-header .dt_module_btn:checked:hover {
+    background-color: shade(@accent_header_active, 1.08);
+}
+
+#module-header .dt_module_btn:checked ~ .dt_module_btn {
+    color: shade(@plugin_label_color, 1.08);
+    background-color: #22313d;
+}
+
+#module-header .dt_module_btn:checked ~ * #iop-panel-label,
+#module-header .dt_module_btn:checked ~ * #lib-panel-label {
+    color: #ffffff;
+}
+
+/* Inputs and controls get clearer edges */
+entry,
+entry selection,
+combobox,
+button,
+menu {
+    border-radius: 7px;
+    border: 1px solid #32404d;
+}
+
+button:hover,
+combobox:hover,
+entry:hover {
+    border-color: @accent_teal;
+}
+
+tooltip {
+    border-radius: 6px;
+    border: 1px solid #2f3f4e;
+}
+
+/* Add a subtle warm highlight for thumbnail states */
+#thumb-main:hover,
+#thumb-main:selected {
+    border-color: @accent_amber;
+}

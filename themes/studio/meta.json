@@ -1,0 +1,12 @@
+{
+  "author": "Martinus",
+  "contributor": "martinus",
+  "name": "Studio",
+  "description": "A cool, flat studio theme: graphite grey-blue panels with a muted orange accent, inspired by the look of Capture One.",
+  "license": "GPL-3.0",
+  "native": true,
+  "type": "dark",
+  "files": [ "studio.css" ],
+  "screenshots": [ "screenshot-1.jpg", "screenshot-2.jpg" ],
+  "dt-versions": [ 5.6 ]
+}

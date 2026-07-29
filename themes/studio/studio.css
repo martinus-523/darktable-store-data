@@ -1,0 +1,80 @@
+/*
+    This file is part of darktable,
+    copyright (c) 2026 Martinus
+
+    darktable is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    darktable is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with darktable.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+@import url("darktable.css");
+
+/* Studio - a cool, flat studio theme. Graphite grey-blue panels with a muted
+   orange accent, inspired by professional studio and tethering raw editors.
+   Tested with darktable 5.6 / GTK 3.24. */
+
+/* hide selection frame in culling */
+@define-color culling_selected_border_color transparent;
+
+/* ==========================================================================
+   COLOR PALETTE
+   ========================================================================== */
+
+@define-color accent_color #e08133;
+@define-color theme_color @selected_bg_color;
+@define-color selected_bg_color #41464e;
+@define-color bg_color #2d3036;
+@define-color fg_color #b6bac1;
+@define-color border_color #24262b;
+@define-color plugin_bg_color #34383f;
+@define-color collapsible_bg_color #2d3036;
+@define-color plugin_label_color #8b9099;
+@define-color section_label #c6cad1;
+@define-color button_bg #383c43;
+@define-color button_fg alpha(@fg_color, 0.80);
+@define-color button_hover_bg #454a52;
+@define-color button_hover_fg #e08133;
+@define-color field_bg #24262b;
+@define-color field_fg @fg_color;
+@define-color field_active_bg #2a2d32;
+@define-color field_selected_bg #41464e;
+@define-color field_hover_bg #3a3e45;
+@define-color scroll_bar_bg #2d3036;
+@define-color scroll_bar_inactive #41464e;
+@define-color scroll_bar_active #b35f1f;
+@define-color bauhaus_bg #24262b;
+@define-color bauhaus_fill #b35f1f;
+@define-color bauhaus_fg #b6bac1;
+@define-color bauhaus_border #1d1f23;
+@define-color bauhaus_bg_hover #41464e;
+@define-color bauhaus_fg_hover #e08133;
+@define-color bauhaus_fg_selected #e08133;
+@define-color darkroom_bg_color #2e2f31;
+@define-color lighttable_bg_color #292b2f;
+@define-color lighttable_bg_font_color #9aa0a8;
+@define-color thumbnail_bg_color #34383f;
+@define-color thumbnail_selected_bg_color #453a2c;
+@define-color thumbnail_hover_bg_color #3d4148;
+@define-color thumbnail_star_bg_color #7d838c;
+@define-color thumbnail_star_hover_color #e08133;
+@define-color thumbnail_font_color #9aa0a8;
+@define-color thumbnail_fg_color #9aa0a8;
+@define-color tooltip_bg_color #1d1f23;
+@define-color tooltip_fg_color #c6cad1;
+@define-color really_dark_bg_color #1a1c1f;
+@define-color graph_bg #232529;
+@define-color graph_exterior #1e2023;
+@define-color graph_border #141518;
+@define-color graph_fg #9aa0a8;
+@define-color graph_fg_active #e0e3e8;
+@define-color graph_grid #33363c;
+@define-color inset_histogram alpha(#9aa0a8, 0.50);
