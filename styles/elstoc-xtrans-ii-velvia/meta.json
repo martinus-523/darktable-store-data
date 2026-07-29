@@ -1,0 +1,12 @@
+{
+  "author": "Chris E",
+  "name": "XTrans II Velvia v2",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "film-emulation" ],
+  "contributor": "elstoc",
+  "description": "A Fujifilm Velvia film simulation for X-Trans II cameras built from a color look up table and tone curve; a repaired version of a style that failed to import in darktable.",
+  "url": "https://discuss.pixls.us/t/dt-import-a-style-how-hard-can-it-be/28387/16",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/tkTacGGvrzfVpglu8UK23xq827R.dtstyle" ],
+  "files": [ "XTrans II Velvia v2.dtstyle" ],
+  "dt-versions": [ 3.8 ]
+}

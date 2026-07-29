@@ -1,0 +1,12 @@
+{
+  "author": "Peter",
+  "name": "Filmic v5",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "peter",
+  "description": "A filmic v5 base style with three local contrast instances, contrast equalizer sharpening, color balance and hot pixel removal.",
+  "url": "https://discuss.pixls.us/t/modules-left-opened-after-applying-a-style/26736/1",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/r69sexCWjsAjOFrGUW9s06CewIJ.zip" ],
+  "files": [ "Filmic v5.dtstyle" ],
+  "dt-versions": [ 3.6 ]
+}

@@ -1,0 +1,12 @@
+{
+  "author": "Anna",
+  "name": "Sharpen strong",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "betazoid",
+  "description": "A strong sharpening style built from two contrast equalizer instances, meant to be combined with denoising.",
+  "url": "https://discuss.pixls.us/t/raindrops-on-a-white-flower-some-pointers-would-be-nice/18606/16",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/4zHwIrGd4Sjblky4CnDAQI8PGUD.dtstyle" ],
+  "files": [ "sharpen strong.dtstyle" ],
+  "dt-versions": [ 3.0 ]
+}

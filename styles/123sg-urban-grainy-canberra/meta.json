@@ -1,0 +1,12 @@
+{
+  "author": "Steven",
+  "name": "Urban Grainy Canberra.",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "film-emulation", "creative" ],
+  "contributor": "123sg",
+  "description": "Urban Grainy Canberra, based in a Haldclut file from the big RawTherapee collection here: Film Simulation - RawPedia near the top of the page. It just applies with the 3D LUT module. Fuji Superia 800 4 ++",
+  "url": "https://discuss.pixls.us/t/complementary-colors-a-naked-child-holds-a-book-for-a-bishop/35353/20",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/3SVlfg2Ps5zT34Q5tf2wFBxNOEM.dtstyle" ],
+  "files": [ "urban-grainy-canberra.dtstyle" ],
+  "dt-versions": [ 4.2 ]
+}

@@ -1,0 +1,37 @@
+{
+  "author": "Bastian Bechtold",
+  "name": "Fujifilm Auto Settings",
+  "license": "GPL",
+  "category": [ "film-emulation", "technical" ],
+  "contributor": "bastibe",
+  "description": "The styles from Bastian Bechtold's Fujifilm Auto Settings project: fifteen film simulation styles (Provia, Velvia, Astia, Classic Chrome, Eterna, Sepia, and Acros/Mono with green, red and yellow filter variants) that apply his Fujifilm HaldCLUTs through the lut3d module, two tone equalizer styles compensating the DR200 and DR400 dynamic range modes, and four crop styles (square and 16:9 in both orientations). The film simulation styles reference the project's LUT files, which must be installed separately — they are the same LUTs as in the bastibe-fujifilm-simulations collection of this store. The repository also provides a Lua script that applies the matching style automatically on import based on the raw file's metadata; the author places the project under the GPL in its readme.",
+  "url": "https://github.com/bastibe/Fujifilm-Auto-Settings-for-Darktable",
+  "source": [
+    "https://github.com/bastibe/Fujifilm-Auto-Settings-for-Darktable/archive/refs/heads/main.zip"
+  ],
+  "files": [
+    "DR200.dtstyle",
+    "DR400.dtstyle",
+    "acros.dtstyle",
+    "acros_green.dtstyle",
+    "acros_red.dtstyle",
+    "acros_yellow.dtstyle",
+    "astia.dtstyle",
+    "classic_chrome.dtstyle",
+    "eterna.dtstyle",
+    "mono.dtstyle",
+    "mono_green.dtstyle",
+    "mono_red.dtstyle",
+    "mono_yellow.dtstyle",
+    "pro_neg_high.dtstyle",
+    "pro_neg_standard.dtstyle",
+    "provia.dtstyle",
+    "sepia.dtstyle",
+    "sixteen_by_nine_crop_landscape.dtstyle",
+    "sixteen_by_nine_crop_portrait.dtstyle",
+    "square_crop_landscape.dtstyle",
+    "square_crop_portrait.dtstyle",
+    "velvia.dtstyle"
+  ],
+  "dt-versions": [ 4, 5 ]
+}

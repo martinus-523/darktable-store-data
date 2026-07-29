@@ -1,0 +1,12 @@
+{
+  "author": "Phil Smith",
+  "name": "B&W filter blue",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "creative", "technical" ],
+  "contributor": "phil-smith",
+  "description": "A black-and-white conversion style emulating a blue color filter through the color calibration module, one of a set of per-filter styles the author applies via shortcuts.",
+  "url": "https://discuss.pixls.us/t/applying-a-style-via-a-shortcut-loses-the-history-on-undo/28279/10",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/w8onvDoirCWjcTSkhHyh14yVQsq.dtstyle" ],
+  "files": [ "B&W filter blue.dtstyle" ],
+  "dt-versions": [ 3.8 ]
+}

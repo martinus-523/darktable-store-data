@@ -1,0 +1,12 @@
+{
+  "author": "Andreas Schneider",
+  "name": "Sony Alpha 7 III camera profile",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "camera-profile" ],
+  "contributor": "asn",
+  "description": "A camera profile style for the Sony Alpha 7 III (ILCE-7M3), fitted at ISO 100 against the out-of-camera JPEG using the color look up table and tone curve modules. For a filmic workflow, apply the style, disable the tone curve and then use filmic.",
+  "url": "https://discuss.pixls.us/t/sony-alpha-7-iii-camera-profile-for-darktable/14373/1",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/wESb4kYkvxJ7xHRIBB3FLxRFYXY.dtstyle" ],
+  "files": [ "camera profile_ILCE-7M3 ISO100 JPG for dt 3.0.dtstyle" ],
+  "dt-versions": [ 3.0 ]
+}

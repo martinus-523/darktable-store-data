@@ -1,0 +1,24 @@
+{
+    "author": "Stefano Ferro",
+    "name": "Dark Tones",
+    "license": "CC0-1.0",
+    "category": [ "creative" ],
+    "contributor": "ramu",
+    "description" : "Gives that nice dark tone/moody look to photos. Works especially well for street and city photography.",
+    "url": "https://dtstyles.ramu.io/styles",
+    "source": [
+        "https://dtstyles.ramu.io/styles/4d739546-af2e-480a-aad0-e4fd43ac8665",
+        "https://dtstyles.ramu.io/styles/f0b15056-2e65-4957-9bbd-a9d1eb4abff5",
+        "https://dtstyles.ramu.io/styles/8ffc92d7-c2e0-4e17-89ae-735d99a7aa12",
+        "https://dtstyles.ramu.io/styles/59ad5b54-a209-4c03-afa3-307dcc27ecf4",
+        "https://dtstyles.ramu.io/styles/04b47a3b-33a3-41ad-bca5-665e378d4830"
+    ],
+    "files": [
+        "Dark Tones_60s mood.dtstyle",
+        "Dark Tones_Moody Dark Blue.dtstyle",
+        "Dark Tones_Moody Orangish.dtstyle",
+        "Dark Tones_Desat with blueish.dtstyle",
+        "Dark Tones_Moody Green.dtstyle"
+    ],
+    "dt-versions" : [ 3.0 ]
+}

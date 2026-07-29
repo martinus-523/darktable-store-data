@@ -1,0 +1,28 @@
+{
+    "author": "Mark G Adams",
+    "name": "A Selection of Darktable Styles",
+    "license": "All my recipes and colour presets are for Nikon, Fuji, Darktable and anything else that I share I designed by myself, and shared as public domain for anyone to use as they want. All I ask for in return in acknowledgment if they are being used.",
+    "category": [ "creative" ],
+    "contributor": "markgadams",
+    "description" : "Darktable has its own presets that are known as Styles. They’re a powerful and useful part of editing in Darktable, and they can be great starting points to give your images a consistent look and feel. ",
+    "url": "https://onecameraonelens.com/2022/10/13/a-selection-of-darktable-styles/",
+    "source": [ "https://drive.google.com/drive/folders/1WS4bSYuf8sz3avTebABojPjfI1YqeBLf" ],
+    "files": [
+        "autumnal.dtstyle",
+        "magenta-skies.dtstyle",
+        "basicadjustments-no-colour-zones.dtstyle",
+        "chrome-it.dtstyle",
+        "mono-chrome.dtstyle",
+        "crimson-boost.dtstyle",
+        "mono-infraredish.dtstyle",
+        "desaturate.dtstyle",
+        "pastel.dtstyle",
+        "futureist.dtstyle",
+        "preety.dtstyle",
+        "grey-skies-to-blue.dtstyle",
+        "sunset-bliss.dtstyle",
+        "magenta-film-add-to-look.dtstyle",
+        "velviatic.dtstyle"
+    ],
+    "dt-versions" : [ 5.2 ]
+}

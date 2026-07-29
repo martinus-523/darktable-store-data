@@ -1,0 +1,12 @@
+{
+  "author": "Nor_man",
+  "name": "Oly PM Natural",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "camera-profile" ],
+  "contributor": "nor-man",
+  "description": "A display-referred style matching the Olympus Natural picture mode, created with darktable-chart from an IT8 target using the color look up table and tone curve modules; the input color profile should be set to linear Rec709.",
+  "url": "https://discuss.pixls.us/t/out-of-the-box-raw-rendering-not-up-to-jpegs/6669/25",
+  "source": [ "https://pixls-discuss.s3.amazonaws.com/original/2X/f/f3e07cf3f16c4a0f43a37ed070e6e43e8008e4cb.dtstyle" ],
+  "files": [ "Oly_PM_Natural.dtstyle" ],
+  "dt-versions": [ 2.4 ]
+}

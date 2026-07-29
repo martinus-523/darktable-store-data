@@ -1,0 +1,30 @@
+{
+    "author": "Stefano Ferro",
+    "name": "Stef Styles - Vintage Package",
+    "license": "CC0-1.0",
+    "category": [ "creative" ],
+    "contributor": "ramu",
+    "description" : "Re-create that nice vintage style in 8 possible ways that do work for landscape, city photography and portraits as well",
+    "url": "https://dtstyles.ramu.io/styles",
+    "source": [
+        "https://dtstyles.ramu.io/styles/be0d7846-a52a-47d1-9b01-66c70d2132de",
+        "https://dtstyles.ramu.io/styles/be962922-45a5-402f-8c4e-2ce8ab287c5a",
+        "https://dtstyles.ramu.io/styles/2f672c45-993a-4ad3-90d5-093a20270414",
+        "https://dtstyles.ramu.io/styles/c844782c-01a4-474e-9af0-b39afe217fdb",
+        "https://dtstyles.ramu.io/styles/9a834592-6a11-47cb-b911-fa93cf5279cf",
+        "https://dtstyles.ramu.io/styles/014b04a5-2bb1-413d-839e-957da0581411",
+        "https://dtstyles.ramu.io/styles/f2ca6158-f7fa-4345-a29c-bf4fa9e159a5",
+        "https://dtstyles.ramu.io/styles/e7fa5fd0-b7ce-4425-bfa6-aa81f3c37c26"
+    ],
+    "files": [
+        "Stef Styles_Vintage_60s desat with WB+.dtstyle",
+        "Stef Styles_Vintage_68s desat&vibr with WB+.dtstyle",
+        "Stef Styles_Vintage_Cuba Street - ORA SD+.dtstyle",
+        "Stef Styles_Vintage_Cuba Street - ORA SD.dtstyle",
+        "Stef Styles_Vintage_Cuba Street - Teal SD.dtstyle",
+        "Stef Styles_Vintage_Portrait I.dtstyle",
+        "Stef Styles_Vintage_Portrait II.dtstyle",
+        "Stef Styles_Vintage_Portrait III.dtstyle"
+    ],
+    "dt-versions" : [ 3.0 ]
+}

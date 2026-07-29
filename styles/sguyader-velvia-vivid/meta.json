@@ -1,0 +1,12 @@
+{
+  "author": "Sébastien Guyader",
+  "name": "Velvia Vivid",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "film-emulation" ],
+  "contributor": "sguyader",
+  "description": "A style matching the out-of-camera Velvia film simulation of the Fujifilm X-T2, generated with darktable-chart as a color look up table with fitted tone curve.",
+  "url": "https://discuss.pixls.us/t/classic-chrome-haldclut-like-the-x-t2-for-rt/1797/45",
+  "source": [ "https://pixls-discuss.s3.amazonaws.com/original/2X/7/73e2ed25f9bd1077c9fbcc1757d788cfffcac4a2.dtstyle" ],
+  "files": [ "DSCF4442-Velvia_Vivid_DT.dtstyle" ],
+  "dt-versions": [ 2.4 ]
+}

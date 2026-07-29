@@ -1,0 +1,12 @@
+{
+    "author": "dtsyle",
+    "name": "Dexter",
+    "license": "CC0-1.0",
+    "category": [ "creative" ],
+    "contributor": "ramu",
+    "description" : "Gives a dark, desaturated mood to photos",
+    "url": "https://dtstyles.ramu.io/styles",
+    "source": [ "https://dtstyles.ramu.io/styles/1464ce41-addb-449a-882e-fd1cb16d13ae" ],
+    "files": [ "Dexter.dtstyle" ],
+    "dt-versions" : [ 3.0 ]
+}

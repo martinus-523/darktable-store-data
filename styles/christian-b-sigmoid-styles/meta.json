@@ -1,0 +1,20 @@
+{
+  "author": "Christian Bouhon",
+  "name": "Sigmoid styles",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "christian-b",
+  "description": "Three styles for the sigmoid tone mapper: two variants that recover clarity, local contrast and texture through diffuse or sharpen and local contrast instances, and an out-of-camera landscape base style built around sigmoid.",
+  "url": "https://discuss.pixls.us/t/evaluate-the-new-sigmoid-tone-mapper-just-merged-into-master/33367/118",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/wmCuh1AEnYn539ZJz6CTf2Id8zG.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/yUd05cgT0RxV0hEzFPcahZ3zNW.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/sdwugJukgWgSp6dHgME4M50tU7D.dtstyle"
+  ],
+  "files": [
+    "Clarity & texture for Sigmoid.dtstyle",
+    "Local contrast & texture for Sigmoid.dtstyle",
+    "OOC Sigmoid Landscape.dtstyle"
+  ],
+  "dt-versions": [ 4.2 ]
+}

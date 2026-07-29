@@ -1,0 +1,37 @@
+{
+  "author": "herbert-50",
+  "name": "Fuji-like chart styles (F24/F49)",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "film-emulation", "technical" ],
+  "contributor": "herbert-50",
+  "description": "Twenty Fuji-like styles by herbert-50, created with darktable-chart from color target shots  Two sets, built from a 24-patch (F24) and a 49-patch (F49) chart, each contain a _BASE style that sets up the scene-referred workflow (exposure, input color profile, filmic rgb, tone curve and color look up table) plus nine film simulation looks to apply on top: Provia, Velvia, Astia, Classic Chrome, Eterna, Acros, Pro Neg Std, Pro Neg Hi and Sepia. The look styles also enable a watermark module that references the bundled right-red-text.svg; place it in darktable's watermarks folder or disable that module after applying.",
+  "url": "https://discuss.pixls.us/t/do-you-want-a-straight-out-of-camera-jpeg-style-in-darktable-here-we-help-each-other/25366/85",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/fBR7JNEfdvApcNDLbr2KrBArFK9.zip",
+    "https://discuss.pixls.us/uploads/short-url/ex1WTE28IWW2vUnyC7Zbam9Nlwn.zip"
+  ],
+  "files": [
+    "Fuji F24_Acros-like.dtstyle",
+    "Fuji F24_Astia-like.dtstyle",
+    "Fuji F24_ClassicChrome-like.dtstyle",
+    "Fuji F24_Eterna-like.dtstyle",
+    "Fuji F24_ProNegHi-like.dtstyle",
+    "Fuji F24_ProNegStd-like.dtstyle",
+    "Fuji F24_Provia-like.dtstyle",
+    "Fuji F24_Sepia-like.dtstyle",
+    "Fuji F24_Velvia-like.dtstyle",
+    "Fuji F24__BASE.dtstyle",
+    "Fuji F49_Acros-like.dtstyle",
+    "Fuji F49_Astia-like.dtstyle",
+    "Fuji F49_ClassicChrome-like.dtstyle",
+    "Fuji F49_Eterna-like.dtstyle",
+    "Fuji F49_ProNegHi-like.dtstyle",
+    "Fuji F49_ProNegStd-like.dtstyle",
+    "Fuji F49_Provia-like.dtstyle",
+    "Fuji F49_Sepia-like.dtstyle",
+    "Fuji F49_Velvia-like.dtstyle",
+    "Fuji F49__BASE.dtstyle",
+    "right-red-text.svg"
+  ],
+  "dt-versions": [ 3.8 ]
+}

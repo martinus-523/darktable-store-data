@@ -1,0 +1,12 @@
+{
+  "author": "akgt94",
+  "name": "Andrew Default Sigmoid",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "akgt94",
+  "description": "A base workflow style for daytime outdoor photos exposed for the highlights, using sigmoid instead of filmic together with color calibration, color balance RGB, two diffuse or sharpen instances, denoise (profiled) and lens correction.",
+  "url": "https://discuss.pixls.us/t/contrast-and-detail-in-highlights-exposing-for-the-highlights-and-keeping-enhancing-detail/45255/1",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/mbKWd5v2AW2f5UCgAYC9jX0mZrp.dtstyle" ],
+  "files": [ "Andrew Default Sigmoid.dtstyle" ],
+  "dt-versions": [ 4.8 ]
+}

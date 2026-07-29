@@ -1,0 +1,28 @@
+{
+  "author": "Wocket",
+  "name": "Fuji XTrans III film simulation styles",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "film-emulation" ],
+  "contributor": "wocket",
+  "description": "Fifteen styles reproducing arangast's Fujifilm X-Trans III film simulations with the color look up table module and fitted tone curves: Provia, Velvia, Astia, Classic Chrome, Pro Neg Std and Hi, Sepia, and Mono and Acros each with green, red and yellow filter variants.",
+  "url": "https://discuss.pixls.us/t/dt-styles-for-arangasts-new-fujifilm-xtrans-film-simulations/6343/1",
+  "source": [ "https://pixls-discuss.s3.amazonaws.com/original/2X/f/fb87164d98656627bd4745643e923f0bb0b957a6.zip" ],
+  "files": [
+    "Fuji XTrans III - Acros+G.dtstyle",
+    "Fuji XTrans III - Acros+R.dtstyle",
+    "Fuji XTrans III - Acros+Ye.dtstyle",
+    "Fuji XTrans III - Acros.dtstyle",
+    "Fuji XTrans III - Astia.dtstyle",
+    "Fuji XTrans III - Classic Chrome.dtstyle",
+    "Fuji XTrans III - Mono+G.dtstyle",
+    "Fuji XTrans III - Mono+R.dtstyle",
+    "Fuji XTrans III - Mono+Ye.dtstyle",
+    "Fuji XTrans III - Mono.dtstyle",
+    "Fuji XTrans III - Pro Neg Hi.dtstyle",
+    "Fuji XTrans III - Pro Neg Std.dtstyle",
+    "Fuji XTrans III - Provia.dtstyle",
+    "Fuji XTrans III - Sepia.dtstyle",
+    "Fuji XTrans III - Velvia.dtstyle"
+  ],
+  "dt-versions": [ 2.4 ]
+}

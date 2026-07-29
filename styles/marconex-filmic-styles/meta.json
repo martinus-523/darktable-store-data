@@ -1,0 +1,28 @@
+{
+  "author": "MarcoNex",
+  "name": "Filmic starting-point styles",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "marconex",
+  "description": "Seven filmic rgb starting-point styles by MarcoNex for the darktable 3.0 scene-referred workflow. Each is tuned to the lighting situation in its name: normal light (plain, brighter, or without local contrast), moderate backlight, strong backlight (plain or contrasty) and extreme backlight. These are his second-generation set, which renamed and extended the four styles he shared earlier in the same thread.",
+  "url": "https://discuss.pixls.us/t/filmic-when-to-use/13250/97",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/8lPi9q2t4sIb6cRazGbZUZSRmeY.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/ePs2y9hr7DnbdtPxXfgbpua7psO.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/1BgVdcOZqtgb2afnf4f8uEp8Fxf.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/grbRTvxmy3Bes5mTzGBdDFoDgSL.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/fG2sIoX2KXNvUTIozpXaWcFlGJF.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/5lUWNHVrSEdnt1ZvPKQLOsO29dM.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/zTh3SROXyX01fMAHAojnbdchcFX.dtstyle"
+  ],
+  "files": [
+    "Filmic Styles_Extreme backlight.dtstyle",
+    "Filmic Styles_Moderate backlight.dtstyle",
+    "Filmic Styles_Normal light, brighter.dtstyle",
+    "Filmic Styles_Normal light, no local contrast.dtstyle",
+    "Filmic Styles_Normal light.dtstyle",
+    "Filmic Styles_Strong backlight, contrasty.dtstyle",
+    "Filmic Styles_Strong backlight.dtstyle"
+  ],
+  "dt-versions": [ 3.0 ]
+}

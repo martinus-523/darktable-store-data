@@ -1,0 +1,33 @@
+{
+  "author": "fujifan5000",
+  "name": "fujifan5000's vintage styles",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "film-emulation" ],
+  "contributor": "fujifan5000",
+  "description": "A pack of 18 vintage styles split into 4 categories: Kodak film, Fujicolor film, X-Trans film simulations, and Cinestill film. All styles use the same modules alongside the regular scene-referred ones: tone curve, RGB curve, color zones, color calibration and color balance RGB.",
+  "url": "https://discuss.pixls.us/t/my-darktable-styles-pack/31634/1",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/2WiBULZ2X2XN8PObu1JnAbgSAA1.zip" ],
+  "files": [
+    "Cinestill 400D.dtstyle",
+    "Fujifilm Astia X-Trans.dtstyle",
+    "Kodak Portra 400 nc.dtstyle",
+    "Cinestill 800T.dtstyle",
+    "Fujifilm Classic Chrome X-Trans.dtstyle",
+    "Kodak Portra 400.dtstyle",
+    "Fujicolor 100.dtstyle",
+    "Fujifilm Classic Neg. (hard) X-Trans.dtstyle",
+    "Kodak Portra 800 vc.dtstyle",
+    "Fujicolor Pro 400H nc.dtstyle",
+    "Fujifilm Classic Neg. X-Trans.dtstyle",
+    "Kodak Ultramax 400 vc.dtstyle",
+    "Fujicolor Pro 400H.dtstyle",
+    "Fujifilm Velvia X-Trans.dtstyle",
+    "Fujicolor Superia 200.dtstyle",
+    "Kodak Kodachrome 64.dtstyle",
+    "Fujicolor Superia X-Tra 400.dtstyle",
+    "Kodak Portra 160.dtstyle"
+  ],
+  "dt-versions": [
+    3.8
+  ]
+}

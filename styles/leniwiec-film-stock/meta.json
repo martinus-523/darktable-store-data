@@ -1,0 +1,12 @@
+{
+  "author": "Michał (Leniwiec)",
+  "name": "Leniwiec Film Stock",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "film-emulation" ],
+  "contributor": "leniwiec",
+  "description": "'Leniwiec Film Stock', a style by Michał (Leniwiec) that approximates the look of analog film using the tone equalizer, grain, filmic rgb, four color balance rgb instances and a channel mixer.",
+  "url": "https://discuss.pixls.us/t/a-style-of-presets-to-share/30053",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/prl4vmd9t4wI9UKyPZNfjGnkeZk.dtstyle" ],
+  "files": [ "Leniwiec Film Stock.dtstyle" ],
+  "dt-versions": [ 3.8 ]
+}

@@ -1,0 +1,12 @@
+{
+  "author": "Eirik Enger",
+  "name": "Bright Mountain Landscape",
+  "license": "GPL-3.0",
+  "category": [ "creative" ],
+  "contributor": "engeir",
+  "description": "A landscape style by Eirik Enger (engeir) for bright mountain scenery, combining haze removal, shadows and highlights, contrast/brightness/saturation, a tone curve and filmic RGB. ",
+  "url": "https://github.com/engeir/darktable-styles",
+  "source": [ "https://github.com/engeir/darktable-styles/archive/refs/heads/main.zip" ],
+  "files": [ "Bright Mountain Landscape.dtstyle" ],
+  "dt-versions": [ 4.8 ]
+}

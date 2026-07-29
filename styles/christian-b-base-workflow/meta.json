@@ -1,0 +1,22 @@
+{
+  "author": "Christian Bouhon",
+  "name": "Base workflow and filmic variants",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "christian-b",
+  "description": "Christian Bouhon's base workflow style and three filmic variants, 'Défaut' applies his complete starting workflow — exposure, denoising, lens correction, color calibration, local contrast, sharpening, filmic and color balance rgb — while 'Filmique Luminance', 'Filmique MaxRVB' and 'Filmique Préserver Chrominance Non' switch filmic's chrominance preservation between luminance Y, max RGB and none on top of it.",
+  "url": "https://discuss.pixls.us/t/sell-these-tomatoes/32091/14",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/a1YpaSicGHJeOID7cIh5VXodD4y.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/yoAwOgNp8O0aTTeagLuVyzLHuFb.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/1jMBOhRSroXpEy9AmzDU7OW6yN3.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/ypw4pywh5VFkKxDW5elrWySKBee.dtstyle"
+  ],
+  "files": [
+    "Défaut.dtstyle",
+    "Filmique Luminance.dtstyle",
+    "Filmique MaxRVB.dtstyle",
+    "Filmique Préserver Chrominance Non.dtstyle"
+  ],
+  "dt-versions": [ 4.0 ]
+}

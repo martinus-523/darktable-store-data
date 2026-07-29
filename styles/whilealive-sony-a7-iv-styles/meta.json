@@ -1,0 +1,17 @@
+{
+  "author": "whilealive",
+  "name": "Sony A7 IV workflow styles",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "whilealive",
+  "description": "Four styles from whilealive's darktable-styles-n-presets repository for a Sony A7 IV workflow: a sigmoid base style combining exposure, lens correction, denoise (profiled) and color balance RGB, plus separate sharpening, clarity and combined sharpening-with-clarity styles built on diffuse or sharpen.",
+  "url": "https://github.com/whilealive/darktable-styles-n-presets",
+  "source": [ "https://github.com/whilealive/darktable-styles-n-presets/archive/refs/heads/main.zip" ],
+  "files": [
+    "01_sony_a7_iv_sigmoid.dtstyle",
+    "02_sony_a7_iv_sharpening.dtstyle",
+    "03_sony_a7_iv_clarity.dtstyle",
+    "04_sony_a7_iv_sharpening_with_clarity.dtstyle"
+  ],
+  "dt-versions": [ 4.2, 4.4 ]
+}

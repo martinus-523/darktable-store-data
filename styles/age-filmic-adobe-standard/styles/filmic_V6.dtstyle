@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<darktable_style version="1.0"><info><name>filmic_V6</name><description></description></info><style><plugin><num>10</num><module>4</module><operation>filmicrgb</operation><op_params>gz02eJyrFpFyXKDgczD+2GQHBgYHKD7hBMEQMGvmZEeu64ttQGKigusduK4r2+Q+v22/YGalA0j+7BkfOxDNiAUjg8fsDAwAMIkWXA==</op_params><enabled>1</enabled><blendop_params>gz13eJxjYGBgYAZiCQYYOOHEgAYY0QVwggZ7CB6pfNoAAE4AGQc=</blendop_params><blendop_version>10</blendop_version><multi_priority>0</multi_priority><multi_name></multi_name></plugin></style></darktable_style>

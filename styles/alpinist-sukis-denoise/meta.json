@@ -1,0 +1,12 @@
+{
+  "author": "alpinist",
+  "name": "suki's denoise",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "alpinist",
+  "description": "Style created by alpinist to reuse suki's denoise technique",
+  "url": "https://discuss.pixls.us/t/denoising-high-iso-images-a-sourdough-bread/23736/34",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/bhPWWf4LVCVYyUN0t3x3UAUH3Zi.dtstyle" ],
+  "files": [ "suki’s denoise.dtstyle" ],
+  "dt-versions": [ 3.4 ]
+}

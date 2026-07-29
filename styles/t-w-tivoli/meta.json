@@ -1,0 +1,12 @@
+{
+  "author": "T W",
+  "name": "Tivoli",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "creative" ],
+  "contributor": "t-w",
+  "description": "A landscape edit style built around the agx tone mapper, with color calibration, local contrast, haze removal, tone equalizer and a vignette.",
+  "url": "https://discuss.pixls.us/t/not-many-pixels-in-southern-tyrol/51841/14",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/g6nsHTiprkk7tcsDCCoRmR6BFrg.dtstyle" ],
+  "files": [ "tivoli.dtstyle" ],
+  "dt-versions": [ 5.2 ]
+}

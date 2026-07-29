@@ -1,0 +1,12 @@
+{
+  "author": "Thomas (frost242)",
+  "name": "Acros Green",
+  "license": "GPL-3.0",
+  "category": [ "film-emulation" ],
+  "contributor": "frost242",
+  "description": "A black-and-white style by Thomas (frost242) emulating Fujifilm Acros film shot through a green filter, built on the monochrome module together with contrast/brightness/saturation and a base curve. An older display-referred style from the darktable 2.4 era that still applies in current versions.",
+  "url": "https://github.com/frost242/thomas_dt_styles",
+  "source": [ "https://github.com/frost242/thomas_dt_styles/archive/refs/heads/master.zip" ],
+  "files": [ "acros_green.dtstyle" ],
+  "dt-versions": [ 2.4 ]
+}

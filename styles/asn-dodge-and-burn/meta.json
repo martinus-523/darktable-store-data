@@ -1,0 +1,12 @@
+{
+  "author": "Andreas Schneider",
+  "name": "Magic box dodge & burn",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "asn",
+  "description": "A dodge & burn helper style consisting of two disabled exposure instances: draw the areas with the brush mask, then use the exposure slider to dodge or burn them.",
+  "url": "https://discuss.pixls.us/t/lgm-workshop-pictures-with-ewa/12855/16",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/fUSdkYIAiqlVZOin6RG4n4u2lnf.dtstyle" ],
+  "files": [ "magic box_dodge & burn.dtstyle" ],
+  "dt-versions": [ 2.6 ]
+}

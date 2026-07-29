@@ -1,0 +1,12 @@
+{
+  "author": "fujifan5000",
+  "name": "Urban Mood",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "creative" ],
+  "contributor": "fujifan5000",
+  "description": "A moody urban look built on tone curve, color zones, local contrast, tone equalizer, filmic RGB, color calibration and color balance RGB.",
+  "url": "https://discuss.pixls.us/t/darktable-style-responding-to-reddit-comment/31631/1",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/sXBQ5kXqZKZiRLElfSuvzqgKiru.dtstyle" ],
+  "files": [ "Urban Mood.dtstyle" ],
+  "dt-versions": [ 4.0 ]
+}

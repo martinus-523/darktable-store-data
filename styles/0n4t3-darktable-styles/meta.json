@@ -1,0 +1,22 @@
+{
+  "author": "Nate (0n4t3)",
+  "name": "darktable styles",
+  "license": "MIT",
+  "category": [ "creative" ],
+  "contributor": "0n4t3",
+  "description": "'By Nate' styles: B&W and partial-desaturation moody looks.",
+  "url": "https://github.com/0n4t3/Darktable-Styles",
+  "source": [ "https://github.com/0n4t3/Darktable-Styles/archive/refs/heads/main.zip" ],
+  "files": [
+    "By Nate _ B&W 1.0 _ Moderate Contrast.dtstyle",
+    "By Nate _ B&W 1.0 _ No Changes to Contrast.dtstyle",
+    "By Nate _ Partial Desat _ Blueish Moody 2.dtstyle",
+    "By Nate _ Partial Desat _ Blueish Moody.dtstyle",
+    "By Nate _ Partial Desat _ Bright Blueish.dtstyle",
+    "By Nate _ Partial Desat _ Snowy Dark Yellow Light.dtstyle",
+    "By Nate _ Partial Desat _ Soft Bluish Desat.dtstyle",
+    "By Nate _ Partial Desat _ Yellow Light on overexposed Blue Snow.dtstyle",
+    "By Nate _ Partial Desat _ Yellow and Green.dtstyle"
+  ],
+  "dt-versions": [ 5.2 ]
+}

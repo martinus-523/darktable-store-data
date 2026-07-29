@@ -1,0 +1,30 @@
+{
+  "author": "Kevin Ajili",
+  "name": "Kevin Ajili's darktable styles",
+  "license": "MIT",
+  "category": [ "creative", "technical" ],
+  "contributor": "kajili",
+  "description": "Seventeen styles from Kevin Ajili's darktable-styles repository, popularized through his YouTube channel: eight creative looks (atlantic, chromium, lucid, noir, pacific film, pastel, standard and warm film) built around sigmoid, color balance RGB, color equalizer, rgb primaries and diffuse or sharpen, plus nine tool styles covering auto exposure in four strengths, denoise, grain, a 4:5 frame, light simulation and highlight reduction.",
+  "url": "https://github.com/kajili/darktable-styles",
+  "source": [ "https://github.com/kajili/darktable-styles/archive/refs/heads/main.zip" ],
+  "files": [
+    "creative_atlantic.dtstyle",
+    "creative_chromium.dtstyle",
+    "creative_lucid.dtstyle",
+    "creative_noir.dtstyle",
+    "creative_pacific film.dtstyle",
+    "creative_pastel.dtstyle",
+    "creative_standard.dtstyle",
+    "creative_warm film.dtstyle",
+    "tools_4_5 frame.dtstyle",
+    "tools_auto exposure - extra low.dtstyle",
+    "tools_auto exposure - high.dtstyle",
+    "tools_auto exposure - low.dtstyle",
+    "tools_auto exposure - medium.dtstyle",
+    "tools_denoise.dtstyle",
+    "tools_grain.dtstyle",
+    "tools_light simulation.dtstyle",
+    "tools_reduce highlights.dtstyle"
+  ],
+  "dt-versions": [ 5.0, 5.2 ]
+}

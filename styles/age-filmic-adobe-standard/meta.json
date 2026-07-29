@@ -1,0 +1,18 @@
+{
+  "author": "age",
+  "name": "Filmic Adobe Standard tone curve",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "age",
+  "description": "Two filmic RGB presets that approximate the Adobe Standard tone curve, a fast and pleasant starting point that still allows highlight recovery through filmic. filmic_adobestandard_V3alt is the original version and filmic_V6 a later update with more contrast.",
+  "url": "https://discuss.pixls.us/t/new-filmic-preset-adobe-standard-tone-curve/20653/1",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/dfttAKsgKcJpjDanTtj8GAzDQ8A.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/zFI8EodQH5gZ3bhrI90QtEVj7Q8.dtstyle"
+  ],
+  "files": [
+    "filmic_V6.dtstyle",
+    "filmic_adobestandard_V3alt.dtstyle"
+  ],
+  "dt-versions": [ 3.2, 3.4 ]
+}

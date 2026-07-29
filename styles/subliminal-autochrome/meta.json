@@ -1,0 +1,12 @@
+{
+  "author": "subliminal",
+  "name": "Autochrome CLUT",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "film-emulation" ],
+  "contributor": "subliminal",
+  "description": "An emulation of Autochrome Lumière, the early color photography process with century-old, painterly colors (see https://blog.scienceandmediamuseum.org.uk/christina-mervyn-o-gorman-1913-photograph-girl-in-red/, https://www.youtube.com/watch?v=n7eBDh5V-og, https://allthatsinteresting.com/autochrome-old-color-photos#10 and https://visualhistory.livejournal.com/tag/autochrome for examples), implemented through the color look up table module.",
+  "url": "https://discuss.pixls.us/t/autochrome-lumiere-emulation/21323/1",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/qgloAkPB05f8eNcviYNqRARhEAz.dtstyle" ],
+  "files": [ "Subliminal - Autochrome CLUT.dtstyle" ],
+  "dt-versions": [ 3.2 ]
+}

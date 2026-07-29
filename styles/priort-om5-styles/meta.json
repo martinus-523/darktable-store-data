@@ -1,0 +1,22 @@
+{
+  "author": "Todd Prior",
+  "name": "OM5 styles",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "camera-profile" ],
+  "contributor": "priort",
+  "description": "Four color-chart-generated styles for an Olympus camera pairing the color look up table module with a fitted tone curve to approximate the out-of-camera JPEG rendering: chart-based and JPG-based variants, each with a corrected revision.",
+  "url": "https://discuss.pixls.us/t/help-with-default-exposure-in-scene-referred-configuration/20877/29",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/jo46esI6TTMNPZ4pgfpMxa6xrPd.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/wafwibS7U9URpa9hNOHswfnV3Ju.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/2LKimIf69qDh4fFQ4V17yXW7wE2.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/sZ5ihhJaPAYHfAK8GXHSDQ5N3Wn.dtstyle"
+  ],
+  "files": [
+    "Correct_OM5_JPG.dtstyle",
+    "Correct_OM5_chart.dtstyle",
+    "OM5_chart.dtstyle",
+    "OM5_jpg.dtstyle"
+  ],
+  "dt-versions": [ 3.2 ]
+}

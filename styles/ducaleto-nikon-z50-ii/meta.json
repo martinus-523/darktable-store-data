@@ -1,0 +1,18 @@
+{
+  "author": "DucaLeto",
+  "name": "Nikon Z50 II Preset",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "camera-profile" ],
+  "contributor": "ducaleto",
+  "description": "Two versions of a base style that brings Nikon Z50 II raw files close to the out-of-camera JPEGs, using filmic RGB, rgb primaries, color calibration and color balance RGB; the later version adds lens correction, haze removal and sharpening.",
+  "url": "https://discuss.pixls.us/t/raw-editing-with-darktable-an-nikon-z50-ii/51441/14",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/iqYrY9FqZg44QJu6mCX5mZTalgS.dtstyle",
+    "https://discuss.pixls.us/uploads/short-url/circYU08GNY0MNJgi6ynjoCX3Dc.dtstyle"
+  ],
+  "files": [
+    "Nikon Z50 II - Preset.dtstyle",
+    "Nikon_Z50_II-_Preset.dtstyle"
+  ],
+  "dt-versions": [ 5.2 ]
+}

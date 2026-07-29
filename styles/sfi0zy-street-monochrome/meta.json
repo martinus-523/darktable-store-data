@@ -1,0 +1,25 @@
+{
+  "author": "Ivan Bogachev",
+  "name": "street monochrome",
+  "license": "CC-BY-4.0",
+  "category": [ "creative" ],
+  "contributor": "sfi0zy",
+  "description": "Black-and-white darktable styles for street photographers + LUTs; tested with darktable v4/v5, display-referred workflow. — Street Monochrome Black and white darktable styles for street photographers. Usage These styles were tested in darktable v4 and v5. Although they include all sorts of modules, they are designed to be applied in the display referred workflow after default workflow modules (after a base curve). Because of that, most of the styles can be used with JPG files as well as RAW files. Tip: You can change the default workflow …",
+  "url": "https://github.com/sfi0zy/street-monochrome",
+  "source": [ "https://github.com/sfi0zy/street-monochrome/archive/refs/heads/main.zip" ],
+  "files": [
+    "Street Monochrome _ M1 standard.dtstyle",
+    "Street Monochrome _ M2 landscape.dtstyle",
+    "Street Monochrome _ M3 flat.dtstyle",
+    "Street Monochrome _ M4 eerie.dtstyle",
+    "Street Monochrome _ O1 + dodge and burn.dtstyle",
+    "Street Monochrome _ O2 + gradient ND2 bottom.dtstyle",
+    "Street Monochrome _ O3 + cyanotype 5%.dtstyle",
+    "Street Monochrome _ O4 + sepia 3%.dtstyle",
+    "Street Monochrome _ RAW modern.dtstyle",
+    "Street Monochrome _ RAW muddy.dtstyle",
+    "Street Monochrome _ RAW vintage.dtstyle",
+    "modulegroups_street_monochrome.dtpreset"
+  ],
+  "dt-versions": [ 4, 5 ]
+}

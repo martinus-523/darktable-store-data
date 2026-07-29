@@ -1,0 +1,12 @@
+{
+  "author": "Boris Hajdukovic",
+  "name": "Kodachrome",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "film-emulation" ],
+  "contributor": "s7habo",
+  "description": "New episode: kodachrome with color balance rgb :kodachrome style from the video: Kodachrome.",
+  "url": "https://discuss.pixls.us/t/editing-moments-with-darktable/11770/233",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/yypNiuF8OjRr2r56Hv6GlioD6Z9.dtstyle" ],
+  "files": [ "Kodachrome.dtstyle" ],
+  "dt-versions": [ 3.6 ]
+}

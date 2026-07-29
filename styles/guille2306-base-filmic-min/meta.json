@@ -1,0 +1,12 @@
+{
+  "author": "Guillermo Rozas",
+  "name": "Base Filmic min",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "guille2306",
+  "description": "A minimal scene-referred starting point to replace the default base curve: exposure in automatic mode to shift the average to middle gray, plus filmic RGB with the 7EV dynamic range preset.",
+  "url": "https://discuss.pixls.us/t/filmic-rgb-defaults/16954/5",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/3RqujLhtJTr9ubrO2DgbckVGMN7.dtstyle" ],
+  "files": [ "Base_Filmic min.dtstyle" ],
+  "dt-versions": [ 3.0 ]
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<darktable_style version="1.0"><info><name>filmic_adobestandard_V3alt</name><description></description></info><style><plugin><num>8</num><module>3</module><operation>filmicrgb</operation><op_params>gz02eJw7e0bCsdDW6ODDqjUODAwOUHzCCYIhYNbMyY5c1xfbgMS+cncC5Rkc09Ke2TMwKDiC5M+eOWMLohnRMBMDAgAAo6wUxA==</op_params><enabled>1</enabled><blendop_params>gz11eJxjYGBgkGAAgRNODGiAEV0AJ2iwh+CRyscOAAdeGQQ=</blendop_params><blendop_version>9</blendop_version><multi_priority>0</multi_priority><multi_name></multi_name></plugin></style></darktable_style>

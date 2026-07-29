@@ -1,0 +1,12 @@
+{
+  "author": "Umberto",
+  "name": "UFP Black Orange",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "creative" ],
+  "contributor": "ufederico",
+  "description": "A style recreating a Lightroom 'black orange' preset, built from color equalizer, tone equalizer, color balance RGB, split-toning, haze removal, shadows and highlights and a vignette.",
+  "url": "https://discuss.pixls.us/t/recreating-lr-presets-in-darktable/44963/49",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/hEuJhchYDK24uGpi06DwI0w6RyQ.dtstyle" ],
+  "files": [ "UFP _ BLACK ORANGE.dtstyle" ],
+  "dt-versions": [ 4.8 ]
+}

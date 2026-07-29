@@ -1,0 +1,12 @@
+{
+  "author": "age",
+  "name": "Softlight",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "age",
+  "description": "A single RGB curve style that mimics the soft light tool from RawTherapee/ART, applying an S-curve that works in any working colorspace. ",
+  "url": "https://discuss.pixls.us/t/is-there-a-tool-that-mimics-rawtherapees-soft-light-tool/54828/7",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/fflTP34064o1TdHCccv8eLcrOPE.dtstyle" ],
+  "files": [ "softlight.dtstyle" ],
+  "dt-versions": [ 5.2 ]
+}

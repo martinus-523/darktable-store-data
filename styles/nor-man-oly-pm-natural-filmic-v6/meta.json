@@ -1,0 +1,12 @@
+{
+  "author": "Nor_man",
+  "name": "Filmic V6 Oly PM Natural",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "camera-profile" ],
+  "contributor": "nor-man",
+  "description": "A style matching the out-of-camera JPEGs of the Olympus E-M5 Mark II in Natural picture mode, built by hand-tuning the color look up table module against a photographed color chart and combined with filmic v6, exposure and color balance RGB.",
+  "url": "https://discuss.pixls.us/t/color-chart-dtstyle-generation/31733/20",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/nyoqp2Ddn463MqYUKlngfMJGYHM.dtstyle" ],
+  "files": [ "Filmic V6 Oly PM Natural.dtstyle" ],
+  "dt-versions": [ 4.0 ]
+}

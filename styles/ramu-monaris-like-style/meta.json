@@ -1,0 +1,12 @@
+{
+    "author": "dtsyle",
+    "name": "Monaris-like style",
+    "license": "CC0-1.0",
+    "category": [ "creative" ],
+    "contributor": "ramu",
+    "description" : "A dtstyle trying to minic the Monaris style",
+    "url": "https://dtstyles.ramu.io/styles",
+    "source": [ "https://dtstyles.ramu.io/styles/8a2de595-13b5-4164-814b-7330f65bac10" ],
+    "files": [ "Monaris-like style attempt.dtstyle" ],
+    "dt-versions" : [ 4.0 ]
+}

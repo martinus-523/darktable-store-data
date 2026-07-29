@@ -1,0 +1,12 @@
+{
+  "author": "Christian Bouhon",
+  "name": "AgX base style",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "christian-b",
+  "description": "A starting-point style for the agx tone mapper, adding contrast equalizer and local contrast instances to compensate agx's lack of clarity and texture, diffuse or sharpen to recover highlight detail, and rgb primaries for more natural red tones.",
+  "url": "https://discuss.pixls.us/t/blender-agx-in-darktable-proof-of-concept/48697/281",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/lCLU7coB5WRj1lDfsYvX6lgZMna.dtstyle" ],
+  "files": [ "Agx.dtstyle" ],
+  "dt-versions": [ 5.2 ]
+}

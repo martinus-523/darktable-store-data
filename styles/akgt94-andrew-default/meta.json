@@ -1,0 +1,12 @@
+{
+  "author": "akgt94",
+  "name": "Andrew Default",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "technical" ],
+  "contributor": "akgt94",
+  "description": "A base style for bulk-developing photos before culling, inspired by s7habo's editing videos: filmic RGB with color calibration, color balance RGB, three diffuse or sharpen instances, denoise (profiled) and lens correction.",
+  "url": "https://discuss.pixls.us/t/handling-styles-created-in-older-versions/43160/1",
+  "source": [ "https://discuss.pixls.us/uploads/short-url/A2nNLqWbNzvMdTknjyCFwIsDJcV.dtstyle" ],
+  "files": [ "Andrew Default.dtstyle" ],
+  "dt-versions": [ 4.6 ]
+}

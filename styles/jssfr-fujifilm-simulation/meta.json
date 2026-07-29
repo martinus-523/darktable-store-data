@@ -1,0 +1,31 @@
+{
+    "author": "Jonas Schäfer",
+    "name": "FujiFilm simulations",
+    "license": "CC0-1.0",
+    "category": [ "film-emulation" ],
+    "contributor": "jssfr",
+    "description" : "Darktable styles which look quite close to what Fujifilm does with its Film Simulations on X-series interchangable (and non-interchangable) lens cameras.",
+    "url": "https://jssfr.de/dtsolve/#fujifilm",
+    "source": [ "https://jssfr.de/downloads/dtsolve/fujifilm/fujifilm-v1.1.zip" ],
+    "files": [
+        "acros-green-filter.dtstyle",
+        "monochrome-green-filter.dtstyle",
+        "acros-red-filter.dtstyle",
+        "monochrome-red-filter.dtstyle",
+        "acros-yellow-filter.dtstyle",
+        "monochrome-yellow-filter.dtstyle",
+        "acros.dtstyle",
+        "monochrome.dtstyle",
+        "astia.dtstyle",
+        "pro-neg-hi.dtstyle",
+        "classic-chrome.dtstyle",
+        "pro-neg-std.dtstyle",
+        "classic-neg..dtstyle",
+        "provia.dtstyle",
+        "eterna-bleach-bypass.dtstyle",
+        "reala-ace.dtstyle",
+        "eterna.dtstyle",
+        "velvia.dtstyle"
+    ],
+    "dt-versions" : [ 5.4 ]
+}

@@ -1,0 +1,22 @@
+{
+  "author": "Bastian Bechtold",
+  "name": "Fuji Styles (color lookup table)",
+  "license": "CC-BY-NC-SA-4.0",
+  "category": [ "film-emulation" ],
+  "contributor": "bastibe",
+  "description": "Seven self-contained Fujifilm film simulation styles (Provia, Velvia, Astia, Classic Chrome, Eterna, Pro Neg Std and Pro Neg High)",
+  "url": "https://discuss.pixls.us/t/replicating-fujifilm-jpg-colors-from-raw-files/34458/44",
+  "source": [
+    "https://discuss.pixls.us/uploads/short-url/168OgEtKMzA4WBTH6mAr4apSx2g.zip"
+  ],
+  "files": [
+    "Astia.dtstyle",
+    "Classic Chrome.dtstyle",
+    "Eterna.dtstyle",
+    "Pro Neg High.dtstyle",
+    "Pro Neg Std.dtstyle",
+    "Provia.dtstyle",
+    "Velvia.dtstyle"
+  ],
+  "dt-versions": [ 4.2 ]
+}
