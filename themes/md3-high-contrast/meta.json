@@ -1,0 +1,16 @@
+{
+  "author": "CritLoren, modified by fourdogslong",
+  "contributor": "fourdogslong",
+  "name": "MD3 High Contrast",
+  "description": "The high-contrast variant of the Material Design 3 inspired theme, pairing a near-black interface with bright text for maximum legibility.",
+  "notes": "Ships as a zip instead of a single css file: extract it into the themes folder so md3-high-contrast.css and its md3 folder sit side by side. The theme also imports darktable's stock darktable.css, so copy that file from your darktable installation into the same themes folder.",
+  "license": "CC-BY-NC-4.0",
+  "source": [
+    "https://discuss.pixls.us/t/i-gave-up-on-darktable-in-fact-i-gave-up-on-linux-too/59526/36",
+    "https://github.com/CritLoren/Darktable-MD3"
+  ],
+  "type": "dark",
+  "files": [ "md3-high-contrast.zip" ],
+  "screenshots": [ "screenshot-1.webp", "screenshot-2.webp" ],
+  "dt-versions": [ 5.6 ]
+}
