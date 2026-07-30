@@ -3,9 +3,18 @@
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
+
+def nfc(name: str) -> str:
+    """Unicode NFC form, so meta.json names and on-disk names compare equal
+    regardless of how each was normalized (macOS often stores NFD, Linux NFC)."""
+    return unicodedata.normalize("NFC", name)
+
+
 REQUIRED = {
+    "creation-date": str,
     "author": str,
     "name": str,
     "contributor": str,
@@ -18,6 +27,7 @@ REQUIRED = {
     "modules": list,
 }
 SLUG = re.compile(r"^[a-z0-9-]+$")
+DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
 def validate(folder: Path) -> list[str]:
@@ -41,6 +51,10 @@ def validate(folder: Path) -> list[str]:
             errors.append(f"field '{field}' must be of type {ftype.__name__}")
         elif ftype in (list, dict) and not value:
             errors.append(f"field '{field}' must not be empty")
+
+    cdate = meta.get("creation-date")
+    if isinstance(cdate, str) and not DATE.match(cdate):
+        errors.append("field 'creation-date' must be an ISO date (YYYY-MM-DD)")
 
     if "url" in meta and not isinstance(meta["url"], str):
         errors.append("field 'url' must be of type str")
@@ -75,11 +89,12 @@ def validate(folder: Path) -> list[str]:
             if not lang_dir.is_dir():
                 errors.append(f"language folder 'presets/{lang}' does not exist")
                 continue
+            on_disk = {nfc(f.name) for f in lang_dir.iterdir() if f.suffix == ".dtpreset"}
+            listed = {nfc(name) for name in names if isinstance(name, str)}
             for name in names:
-                if isinstance(name, str) and not (lang_dir / name).is_file():
+                if isinstance(name, str) and nfc(name) not in on_disk:
                     errors.append(f"referenced file 'presets/{lang}/{name}' does not exist")
-            on_disk = {f.name for f in lang_dir.iterdir() if f.suffix == ".dtpreset"}
-            for name in sorted(on_disk - set(names)):
+            for name in sorted(on_disk - listed):
                 errors.append(f"file 'presets/{lang}/{name}' is not listed in meta.json")
         if len(set(counts.values())) > 1:
             errors.append(f"languages have different numbers of presets: {counts}")

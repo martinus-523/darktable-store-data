@@ -3,9 +3,18 @@
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
+
+def nfc(name: str) -> str:
+    """Unicode NFC form, so meta.json names and on-disk names compare equal
+    regardless of how each was normalized (macOS often stores NFD, Linux NFC)."""
+    return unicodedata.normalize("NFC", name)
+
+
 REQUIRED = {
+    "creation-date": str,
     "author": str,
     "name": str,
     "contributor" : str,
@@ -17,6 +26,7 @@ REQUIRED = {
     "dt-versions": list,
 }
 SLUG = re.compile(r"^[a-z0-9-]+$")
+DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 THEME_TYPES = {"color", "dark", "grey", "light"}
 
 
@@ -42,6 +52,10 @@ def validate(folder: Path) -> list[str]:
         elif ftype is list and not value:
             errors.append(f"field '{field}' must not be empty")
 
+    cdate = meta.get("creation-date")
+    if isinstance(cdate, str) and not DATE.match(cdate):
+        errors.append("field 'creation-date' must be an ISO date (YYYY-MM-DD)")
+
     if isinstance(meta.get("type"), str) and meta["type"] not in THEME_TYPES:
         errors.append(f"field 'type' must be one of: {', '.join(sorted(THEME_TYPES))}")
 
@@ -61,8 +75,9 @@ def validate(folder: Path) -> list[str]:
     elif not isinstance(source, list) or not source or not all(isinstance(u, str) and u.startswith("http") for u in source):
         errors.append("field 'source' must be a non-empty list of http(s) URLs")
 
+    on_disk = {nfc(p.name) for p in folder.iterdir()} if folder.is_dir() else set()
     for name in list(meta.get("files") or []) + list(meta.get("screenshots") or []):
-        if isinstance(name, str) and not (folder / name).is_file():
+        if isinstance(name, str) and nfc(name) not in on_disk:
             errors.append(f"referenced file '{name}' does not exist")
 
     return errors

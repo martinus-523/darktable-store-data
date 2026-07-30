@@ -14,18 +14,19 @@ A slug is always lowercase and may contain letters, numbers, and hyphens.
 While each content category defines its own fields, the following fields
 are required for every content item:
 
-| Field       | Required | Description                                                                       |
-| ----------- | -------- | --------------------------------------------------------------------------------- |
-| author      | Yes      | The author(s) of the content                                                      |
-| name        | Yes      | The name of the content                                                           |
-| description | Yes      | A short explanation of what the content is about                                  |
-| license     | Yes      | The license of the content                                                        |
-| contributor | Yes      | An unqiue slug identifying the contributor                                        |
-| url         | No       | A url to more information about the content                                       |
-| notes       | No       | An optional note field.                                                           |
-| readme      | No       | Boolean indicating whether the folder contains a readme.md with more information  |
-| native      | No       | Indicates if this item is imported from another or native to this repository      |
-| source      | No       | A link to the source material for this item                                       |
+| Field         | Required | Description                                                                         |
+| ------------- | -------- | ----------------------------------------------------------------------------------- |
+| author        | Yes      | The author(s) of the content                                                        |
+| name          | Yes      | The name of the content                                                             |
+| description   | Yes      | A short explanation of what the content is about                                    |
+| license       | Yes      | The license of the content                                                          |
+| contributor   | Yes      | An unqiue slug identifying the contributor                                          |
+| creation-date | Yes      | ISO date (YYYY-MM-DD) the item was added to the repository, taken from git history  |
+| url           | No       | A url to more information about the content                                         |
+| notes         | No       | An optional note field.                                                             |
+| readme        | No       | Boolean indicating whether the folder contains a readme.md with more information    |
+| native        | No       | Indicates if this item is imported from another or native to this repository        |
+| source        | No       | A link to the source material for this item                                         |
 
 ### Themes
 A theme is a CSS file that customises the look of darktable's

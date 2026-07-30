@@ -9,12 +9,21 @@ as produced by assets/generate-style-jpgs.py.
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
+
+
+def nfc(name: str) -> str:
+    """Unicode NFC form, so meta.json names and on-disk names compare equal
+    regardless of how each was normalized (macOS often stores NFD, Linux NFC)."""
+    return unicodedata.normalize("NFC", name)
+
 
 RAW_DIR = Path(__file__).resolve().parent.parent / "assets" / "raw-files"
 RAW_EXTS = {".arw", ".cr2", ".cr3", ".nef", ".dng", ".raf", ".orf", ".rw2", ".pef", ".srw"}
 
 REQUIRED = {
+    "creation-date": str,
     "author": str,
     "name": str,
     "contributor" : str,
@@ -25,6 +34,7 @@ REQUIRED = {
     "dt-versions": list,
 }
 SLUG = re.compile(r"^[a-z0-9-]+$")
+DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 CATEGORIES = {"camera-profile", "film-emulation", "technical", "creative"}
 
 
@@ -52,7 +62,7 @@ def validate_images(folder: Path, raw_slugs: list[str]) -> list[str]:
     images_dir = folder / "images"
     if not images_dir.is_dir():
         return ["'images' subfolder is missing"] if expected else []
-    actual = {p.name for p in images_dir.iterdir() if not p.name.startswith(".")}
+    actual = {nfc(p.name) for p in images_dir.iterdir() if not p.name.startswith(".")}
     errors = [f"image 'images/{name}' is missing" for name in sorted(expected - actual)]
     errors += [f"unexpected file 'images/{name}'" for name in sorted(actual - expected)]
     return errors
@@ -80,6 +90,10 @@ def validate(folder: Path, raw_slugs: list[str]) -> list[str]:
         elif ftype is list and not value:
             errors.append(f"field '{field}' must not be empty")
 
+    cdate = meta.get("creation-date")
+    if isinstance(cdate, str) and not DATE.match(cdate):
+        errors.append("field 'creation-date' must be an ISO date (YYYY-MM-DD)")
+
     if "url" in meta and not isinstance(meta["url"], str):
         errors.append("field 'url' must be of type str")
 
@@ -103,8 +117,9 @@ def validate(folder: Path, raw_slugs: list[str]) -> list[str]:
     styles_subdir = folder / "styles"
     if not styles_subdir.is_dir():
         errors.append("'styles' subfolder is missing")
+    on_disk = {nfc(p.name) for p in styles_subdir.iterdir()} if styles_subdir.is_dir() else set()
     for name in list(meta.get("files") or []):
-        if isinstance(name, str) and not (styles_subdir / name).is_file():
+        if isinstance(name, str) and nfc(name) not in on_disk:
             errors.append(f"referenced file 'styles/{name}' does not exist")
 
     errors += validate_images(folder, raw_slugs)

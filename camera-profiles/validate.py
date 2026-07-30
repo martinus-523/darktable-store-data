@@ -10,9 +10,18 @@ generated from the shared raw set.
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
+
+def nfc(name: str) -> str:
+    """Unicode NFC form, so meta.json names and on-disk names compare equal
+    regardless of how each was normalized (macOS often stores NFD, Linux NFC)."""
+    return unicodedata.normalize("NFC", name)
+
+
 REQUIRED = {
+    "creation-date": str,
     "author": str,
     "name": str,
     "contributor": str,
@@ -23,6 +32,7 @@ REQUIRED = {
     "dt-versions": list,
 }
 SLUG = re.compile(r"^[a-z0-9-]+$")
+DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 PROFILE_EXTS = {".icc", ".icm"}
 
 
@@ -48,6 +58,10 @@ def validate(folder: Path) -> list[str]:
         elif ftype is list and not value:
             errors.append(f"field '{field}' must not be empty")
 
+    cdate = meta.get("creation-date")
+    if isinstance(cdate, str) and not DATE.match(cdate):
+        errors.append("field 'creation-date' must be an ISO date (YYYY-MM-DD)")
+
     if "url" in meta and not isinstance(meta["url"], str):
         errors.append("field 'url' must be of type str")
 
@@ -71,12 +85,13 @@ def validate(folder: Path) -> list[str]:
     profiles_subdir = folder / "profiles"
     if not profiles_subdir.is_dir():
         errors.append("'profiles' subfolder is missing")
+    on_disk = {nfc(p.name) for p in profiles_subdir.iterdir()} if profiles_subdir.is_dir() else set()
     for name in list(meta.get("files") or []):
         if not isinstance(name, str):
             continue
         if Path(name).suffix.lower() not in PROFILE_EXTS:
             errors.append(f"file '{name}' is not an ICC profile (.icc/.icm)")
-        if not (profiles_subdir / name).is_file():
+        if nfc(name) not in on_disk:
             errors.append(f"referenced file 'profiles/{name}' does not exist")
 
     notes = meta.get("notes")
