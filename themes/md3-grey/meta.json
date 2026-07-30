@@ -1,8 +1,8 @@
 {
-  "author": "CritLoren, modified by fourdogslong",
+  "author": "fourdogslong",
   "contributor": "fourdogslong",
   "name": "MD3 Grey",
-  "description": "The mid-grey variant of the Material Design 3 inspired theme, built on a perceptually uniform grey gradient for colour-neutral editing.",
+  "description": "The mid-grey variant of the Material Design 3 inspired theme, built on a perceptually uniform grey gradient for colour-neutral editing. Originaly from CritLoren, modified by fourdogslong.",
   "notes": "Ships as a zip instead of a single css file: extract it into the themes folder so md3-grey.css and its md3 folder sit side by side. The theme also imports darktable's stock darktable.css, so copy that file from your darktable installation into the same themes folder.",
   "license": "CC-BY-NC-4.0",
   "source": [
