@@ -1,0 +1,21 @@
+{
+    "author": "MarcoNex ",
+    "name": "Filmic starting-point styles",
+    "license": "MIT",
+    "category": [ "technical" ],
+    "contributor": "shetyeshail",
+    "description": "Seven filmic rgb starting-point styles for the darktable 3.0 scene-referred workflow, tuned per lighting situation (normal light, moderate/strong/extreme backlight). Preserved in Jade_NL's dt.styles collection; split out from the shetyeshail mirror because they are the collection's only scene-referred styles.",
+    "url": "https://github.com/shetyeshail/dt.styles",
+    "source": [ "https://github.com/shetyeshail/dt.styles/archive/refs/heads/master.zip" ],
+    "files": [
+        "filmic.styles.extreme.backlight.dtstyle",
+        "filmic.styles.moderate.backlight.dtstyle",
+        "filmic.styles.normal.light.brighter.dtstyle",
+        "filmic.styles.normal.light.dtstyle",
+        "filmic.styles.normal.light.no.local.contrast.dtstyle",
+        "filmic.styles.strong.backlight.contrasty.dtstyle",
+        "filmic.styles.strong.backlight.dtstyle"
+    ],
+    "dt-versions": [ 3.0 ],
+    "creation-date": "2026-07-26"
+}

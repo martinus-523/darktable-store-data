@@ -1,0 +1,21 @@
+{
+    "author": "Aurélien Pierre",
+    "name": "Utility styles (Denoise, Pseudo-deconvolution)",
+    "license": "GPL-3.0",
+    "category": [ "technical" ],
+    "contributor": "dtstyle.net",
+    "description": "Workflow-agnostic utility styles by Aurélien Pierre: a conservative profiled-denoise base style and three pseudo-deconvolution sharpening styles (5/7/9 px) simulating basic Richardson-Lucy deblurring. Recovered from dtstyle.net via Common Crawl.",
+    "url": "https://photo.aurelienpierre.com/en/ressources-contrib/",
+    "source": [
+        "http://dtstyle.net/download.php/373/Pseudo-deconvolution%20_%205%20px.dtstyle",
+        "http://dtstyle.net/download.php/374/Pseudo-deconvolution%20_%207%20px.dtstyle",
+        "http://dtstyle.net/download.php/375/Pseudo-deconvolution%20_%209%20px.dtstyle"
+    ],
+    "files": [
+        "373 - Pseudo-deconvolution _ 5 px.dtstyle",
+        "374 - Pseudo-deconvolution _ 7 px.dtstyle",
+        "375 - Pseudo-deconvolution _ 9 px.dtstyle"
+    ],
+    "dt-versions": [ 2.4 ],
+    "creation-date": "2026-07-30"
+}

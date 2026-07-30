@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<darktable_style version="1.0">
+  <info>
+    <name>Computational Film - Fujifilm 200-like</name>
+    <description>Enable Computational Film with Fujifilm 200-like and Frontier-like defaults, while disabling other display tone mappers.</description>
+  </info>
+  <style>
+    <plugin>
+      <num>0</num>
+      <module>1</module>
+      <operation>physicalfilm</operation>
+      <op_params>0000000000000000000000000000000000e0ab4500000000000000000000803f0000803f01000000c80000000000403f</op_params>
+      <enabled>1</enabled>
+      <blendop_params>gz08eJxjYGBgYAFiCQYYOOHEgAZY0QWAgBGLGANDgz0Ej1Q+dlAx68oBEMbFxwX+AwGIBgCbGCeh</blendop_params>
+      <blendop_version>13</blendop_version>
+      <multi_priority>0</multi_priority>
+      <multi_name>Fujifilm 200-like</multi_name>
+      <multi_name_hand_edited>1</multi_name_hand_edited>
+    </plugin>
+    <plugin>
+      <num>1</num>
+      <module>7</module>
+      <operation>agx</operation>
+      <op_params>000000000000803f0000803f0000803f00000000000020c10000d040cdcccc3dca261b3fec51383e9a99194000000000000000000000c03f0000c03fcdcc0c4000000000000000000000803f02000000000000000000000000000000000000000000000000000000000000000000803f0000803f00000000000000000000000000000000000000000000000000000000</op_params>
+      <enabled>0</enabled>
+      <blendop_params>gz08eJxjYGBgYAFiCQYYOOHEgAZY0QWAgBGLGANDgz0Ej1Q+dlAx68oBEMbFxwX+AwGIBgCbGCeh</blendop_params>
+      <blendop_version>13</blendop_version>
+      <multi_priority>0</multi_priority>
+      <multi_name></multi_name>
+      <multi_name_hand_edited>0</multi_name_hand_edited>
+    </plugin>
+    <plugin>
+      <num>2</num>
+      <module>6</module>
+      <operation>filmicrgb</operation>
+      <op_params>gz02eJybNXOyIwPDggP//9c7MICBA5A+4QTBEDALqEZ/WYUNSEyWzcKB67qyTWraMvv//98fBMmfPeNjxwykWYCYEaqHEYkNA0xQGgD20Ra7</op_params>
+      <enabled>0</enabled>
+      <blendop_params>gz08eJxjYGBgYAFiCQYYOOHEgAZY0QWAgBGLGANDgz0Ej1Q+dlAx68oBEMbFxwX+AwGIBgCbGCeh</blendop_params>
+      <blendop_version>13</blendop_version>
+      <multi_priority>0</multi_priority>
+      <multi_name></multi_name>
+      <multi_name_hand_edited>0</multi_name_hand_edited>
+    </plugin>
+    <plugin>
+      <num>3</num>
+      <module>3</module>
+      <operation>sigmoid</operation>
+      <op_params>0000c03f000000000000c8426c09793c000000000000c8420000000000000000000000000000000000000000000000000000000000000000</op_params>
+      <enabled>0</enabled>
+      <blendop_params>gz08eJxjYGBgYAFiCQYYOOHEgAZY0QWAgBGLGANDgz0Ej1Q+dlAx68oBEMbFxwX+AwGIBgCbGCeh</blendop_params>
+      <blendop_version>13</blendop_version>
+      <multi_priority>0</multi_priority>
+      <multi_name></multi_name>
+      <multi_name_hand_edited>0</multi_name_hand_edited>
+    </plugin>
+  </style>
+</darktable_style>

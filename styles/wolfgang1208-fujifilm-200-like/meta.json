@@ -1,0 +1,13 @@
+{
+    "author": "Wolfgang1208",
+    "name": "Computational Film - Fujifilm 200-like",
+    "license": "GPL-3.0",
+    "category": [ "film-emulation"],
+    "contributor": "Wolfgang1208",
+    "description": "Style accompanying a physically inspired computational film module prototype for darktable 5.4.1.",
+    "url": "https://github.com/Wolfgang1208/darktable-computational-film",
+    "source": [ "https://github.com/Wolfgang1208/darktable-computational-film/archive/refs/heads/main.zip" ],
+    "files": [ "Computational Film - Fujifilm 200-like.dtstyle" ],
+    "dt-versions": [ 5.4 ],
+    "creation-date": "2026-07-30"
+}

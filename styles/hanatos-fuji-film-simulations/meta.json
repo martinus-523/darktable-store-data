@@ -1,0 +1,35 @@
+{
+    "author": "Johannes Hanika",
+    "name": "darktable Fuji film-simulation styles",
+    "license": "CC-BY-NC-SA-3.0",
+    "category": [
+        "film-emulation"
+    ],
+    "contributor": "hanatos",
+    "description": "Fuji film-simulation styles (Astia, Provia, Velvia, Classic Chrome, Monochrome, Reference; lo/hi variants) by darktable's original author, built from 49-patch colorchecker fits. The tar also ships the source colorchecker CSVs and Makefile used to generate the styles. Note: 2016 colorchecker+tonecurve fits from the pre-scene-referred era — kept as a valued-author exception.",
+    "url": "https://www.darktable.org/2016/05/colour-manipulation-with-the-colour-checker-lut-module/",
+    "source": [
+        "https://jo.dreggn.org/blog/darktable-fuji-styles.tar.xz"
+    ],
+    "files": [
+        "astia-hi.dtstyle",
+        "astia-lo.dtstyle",
+        "classic-chrome-hi.dtstyle",
+        "classic-chrome-lo.dtstyle",
+        "monochrome-hi.dtstyle",
+        "monochrome-lo.dtstyle",
+        "provia-hi.dtstyle",
+        "provia-lo.dtstyle",
+        "reference-hi.dtstyle",
+        "reference-lo.dtstyle",
+        "velvia-hi.dtstyle",
+        "velvia-lo.dtstyle"
+    ],
+    "dt-versions": [
+        2.2
+    ],
+    "files-note": "non-.dtstyle files (colorchecker CSVs, Makefile) kept from the original archive; the archive is a plain tar despite its .tar.xz name",
+    "dt-versions-note": "inferred: styles use the colour checker lut module introduced in darktable 2.2",
+    "license-note": "Maintainer determination (2026-07-30): CC-BY-NC-SA-3.0, inherited from darktable.org's site-wide content license. Basis: the tar is the official download of the darktable.org blog post 'colour manipulation with the colour checker lut module' (2016, authored by Johannes Hanika), and that site's footer states 'Unless otherwise stated, this website and images are licensed Creative Commons BY-NC-SA 3.0'; nothing is otherwise stated — no license exists in the archive, on jo.dreggn.org ('(c) hanatos' only), or anywhere else (deep hunt 2026-07-30). Caveats: the tar is hosted off-site on the author's personal jo.dreggn.org, so footer coverage is an inference; the article's pixls.us republication would suggest CC-BY-SA-4.0 instead. The styles were never in darktable git, so no GPL path. hanatos is reachable via darktable dev channels for a confirmation. Attribution: Johannes Hanika / darktable.org.",
+    "creation-date": "2026-07-30"
+}
