@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson",
+  "name": "recent_bookmarks",
+  "description": "Adds images edited and directories exported from darktable to the Linux system's recently-used files list.",
+  "description-extensive": "This Linux-only add-on makes the photos you edit and the folders you export to show up in your desktop's recently used files shortcuts. That means you can quickly reopen or reach them from your file manager and other applications without hunting through folders. It relies on the standard Linux file utility to detect file types.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "integration", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/recent_bookmarks.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

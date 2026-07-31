@@ -1,0 +1,22 @@
+{
+  "author": "mino",
+  "name": "exposure_vignette",
+  "description": "A keyboard shortcut (Ctrl+E) that creates a new exposure module instance, applies a 'vignette' exposure preset and adds an ellipse mask, for quick scene-referred vignetting. Requires a matching exposure preset named 'vignette' (the included exposure_vignette.dtpreset).",
+  "description-extensive": "A one-key shortcut (Ctrl+E) for quickly adding a natural-looking vignette (darkened edges) to a photo. Pressing it creates a new exposure adjustment, applies a saved \"vignette\" preset, and adds an oval mask so the effect fades toward the center. It requires you to have a matching exposure preset named \"vignette\" installed (the included exposure_vignette.dtpreset file provides one). This one is somewhat experimental and may not work perfectly on every darktable version.",
+  "license": "CC-BY-NC-SA-4.0",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "image-processing", "workflow" ],
+  "contributor": "mino",
+  "url": "https://discuss.pixls.us/t/scene-referred-vignetting-lua/57746",
+  "source": [
+    "https://discuss.pixls.us/t/scene-referred-vignetting-lua/57746",
+    "https://discuss.pixls.us/uploads/short-url/lF81lONaUd3MUp1DevU3YNvlYfw.dtpreset"
+  ],
+  "commit": null,
+  "commit-date": null,
+  "files": [ "exposure_vignette.lua", "exposure_vignette.dtpreset" ],
+  "lua-api": null,
+  "dt-versions": [ 5.4 ],
+  "creation-date": "2026-07-31"
+}

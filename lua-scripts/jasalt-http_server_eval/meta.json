@@ -1,0 +1,19 @@
+{
+  "author": "Jarkko Saltiola",
+  "name": "http_server_eval",
+  "description": "Runs a local web page that lets you execute commands inside darktable from the browser.",
+  "description-extensive": "Runs a web page that lets you type and run commands inside darktable from a browser — a powerful developer tool. It needs the lua-http library via Luarocks and must never be exposed to untrusted networks.",
+  "license": "MIT",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "integration", "utility" ],
+  "contributor": "jasalt",
+  "url": "https://codeberg.org/jasalt/darktable-lua-scripts",
+  "source": [ "https://codeberg.org/jasalt/darktable-lua-scripts/archive/a227a1cd0bd46834e6e7eeb139827bc019deb9b6.zip" ],
+  "commit": "a227a1cd0bd46834e6e7eeb139827bc019deb9b6",
+  "commit-date": "2025-12-28T00:34:19+02:00",
+  "files": [ "http_server_eval.lua", "license", "readme.md" ],
+  "lua-api": "2.0.0",
+  "dt-versions": [ 5.4 ],
+  "creation-date": "2026-07-31"
+}

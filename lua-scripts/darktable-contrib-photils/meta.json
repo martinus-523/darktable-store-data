@@ -1,0 +1,19 @@
+{
+  "author": "Tobias Scheck",
+  "name": "photils",
+  "description": "Suggests keyword tags for the selected image by classifying it through a neural network using the photils-cli tool.",
+  "description-extensive": "This add-on looks at your photo and suggests descriptive keywords for it automatically, using artificial intelligence that runs entirely on your own computer with no data sent over the internet. You simply pick the suggestions you like and attach them to the image. It requires the free photils-cli program, which is available for Linux and macOS.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "metadata", "integration" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/photils.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

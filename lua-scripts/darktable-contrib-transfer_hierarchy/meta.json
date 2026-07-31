@@ -1,0 +1,19 @@
+{
+  "author": "August Schwerdfeger",
+  "name": "transfer_hierarchy",
+  "description": "Moves or copies selected images from one directory tree to another while preserving the original folder structure.",
+  "description-extensive": "Normally moving or copying a batch of photos in darktable dumps them all into a single destination folder. This tool lets you transfer whole folder trees at once while keeping their original subfolder layout intact, which is ideal for shifting images from a working folder to long-term storage such as a NAS. No extra software is needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "utility", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/transfer_hierarchy.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Kevin Ertel",
+  "name": "AutoGrouper",
+  "description": "Adds a lighttable module that automatically groups images based on a configurable time gap between their EXIF timestamps.",
+  "description-extensive": "This add-on helps you tidy up your photo library by automatically bundling shots that were taken close together in time into groups. You set a time gap in seconds, and any pictures taken further apart than that are placed in separate groups. You can apply it to just the photos you've selected or to your whole current collection with a single click.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "workflow", "ui" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/AutoGrouper.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

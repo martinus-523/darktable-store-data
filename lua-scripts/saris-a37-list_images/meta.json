@@ -1,0 +1,19 @@
+{
+  "author": "saris-a37",
+  "name": "list_images",
+  "description": "list_images.lua exports a plain-text list of the images in a collection/selection.",
+  "description-extensive": "Adds a small panel to darktable's lighttable that exports a plain text list of the photos in your current collection. You can choose to list just file names or full paths, list all images or only the ones you've selected, pick how each entry is separated (one per line or a custom separator), and choose where to save the text file. Handy for making inventories, shot lists, or sharing which images are in a group. No extra software is needed.",
+  "license": "GPL-2.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "export", "utility" ],
+  "contributor": "saris-a37",
+  "url": "https://github.com/saris-a37/list-images",
+  "source": [ "https://github.com/saris-a37/list-images/archive/b52276850fab257bd1e1d1d9f8da6426915de96a.zip" ],
+  "commit": "b52276850fab257bd1e1d1d9f8da6426915de96a",
+  "commit-date": "2025-08-19T17:32:07+07:00",
+  "files": [ "list_images.lua", "license", "readme.md" ],
+  "lua-api": null,
+  "dt-versions": [ 5.2 ],
+  "creation-date": "2026-07-31"
+}

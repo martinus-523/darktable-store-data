@@ -1,0 +1,19 @@
+{
+  "author": "Kåre Hampf, Christian Sültrop",
+  "name": "passport_guide_germany",
+  "description": "Adds a cropping guide overlay for German passport and ID card photos based on the official German ministry template.",
+  "description-extensive": "This provides an on-screen guide for cropping portraits to meet the official German passport and ID card (Personalausweis) photo requirements. When cropping, you select the Passport Photo Germany guide and it shows exactly where the face and head should sit within the frame. You can also add a matching 35x45mm aspect ratio. No extra software is needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "ui" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/passport_guide_germany.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "2.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

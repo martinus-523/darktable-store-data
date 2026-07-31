@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson",
+  "name": "use_paired_jpg_as_mipmap",
+  "description": "Copies the JPEG from a RAW+JPEG pair into the mipmap cache as the full-resolution preview during import, optionally deleting the JPEG afterward.",
+  "description-extensive": "For photographers who shoot RAW+JPEG, this tool uses the camera's ready-made JPEG as the preview image so your thumbnails and previews look exactly as the camera rendered them. It handles this automatically as images are imported, and you can choose whether to keep the JPEG files or delete them once they've been used. No extra software is required.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "import", "utility" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/use_paired_jpg_as_mipmap.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

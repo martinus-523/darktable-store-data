@@ -1,0 +1,24 @@
+{
+  "author": "Benoit Brummer",
+  "name": "dtMediaWiki",
+  "description": "Export/upload storage that publishes selected images directly to Wikimedia Commons from darktable, filling in the wiki page template and categories.",
+  "description-extensive": "This lets you upload your photos straight from darktable to Wikimedia Commons, the free media library behind Wikipedia. You sign in with your Wikimedia account in darktable's settings, fill in each photo's title, description, license, and tags, and the plugin sends them up with the right categories, templates, author credit, and location automatically. It relies on a few extra Lua support libraries (lua-sec, lua-luajson, and lua-multipart-post) being installed to handle the secure connection and upload.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "export" ],
+  "contributor": "trougnouf",
+  "url": "https://github.com/trougnouf/dtMediaWiki",
+  "source": [ "https://github.com/trougnouf/dtMediaWiki/archive/ab46fa07de40f0995220089400b1188d01d20f03.zip" ],
+  "commit": "ab46fa07de40f0995220089400b1188d01d20f03",
+  "commit-date": "2026-07-26T21:00:11+02:00",
+  "files": [
+    "dtMediaWiki.lua",
+    "lib/mediawikiapi.lua",
+    "license",
+    "readme.md"
+  ],
+  "lua-api": null,
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

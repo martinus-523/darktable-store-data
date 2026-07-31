@@ -1,0 +1,19 @@
+{
+  "author": "Pascal Obry",
+  "name": "pdf_slideshow",
+  "description": "Adds an exporter that generates a PDF slideshow with one selected image per slide and configurable titles and transition delays.",
+  "description-extensive": "This tool turns your selected photos into a PDF slideshow, placing one picture per page with an optional caption showing the title and photographer. You can set a slideshow title and a delay between slides for automatic playback. It requires the pdflatex program (part of LaTeX) to build the PDF and a PDF viewer to display it.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "export" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/pdf_slideshow.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

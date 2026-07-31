@@ -1,0 +1,19 @@
+{
+  "author": "Wolfgang Goetz, Christian Kanzian, Tobias Jakobs",
+  "name": "hugin",
+  "description": "Adds an export storage option that sends selected images to Hugin to be stitched into a panorama and reimports the result.",
+  "description-extensive": "If you shoot overlapping frames to make a panorama, this add-on hands your selected photos off to the Hugin panorama stitcher with a single click. Once Hugin builds the combined image, it can be pulled straight back into your darktable library. You need the free Hugin panorama software installed for this to work.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "export", "integration" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/hugin.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

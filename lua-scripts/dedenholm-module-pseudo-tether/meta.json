@@ -1,0 +1,19 @@
+{
+  "author": "dedenholm",
+  "name": "modulePseudoTether",
+  "description": "modulePseudoTether.lua adds a watched-folder / pseudo-tethering module that auto-imports new files as they appear in a folder.",
+  "description-extensive": "Turns a folder on your computer into a \"watched\" folder so photos are pulled into darktable automatically the moment they land there. This gives you a tethered-shooting-like experience without a direct camera connection: point it at the folder your camera or card reader drops files into, and new JPEG, NEF, CR2, DNG, TIFF (or a custom file type) images are imported as they arrive. You can optionally have imported files moved into an organized, dated \"capture session\" folder with an automatic session counter. Note: the folder-watching relies on Linux's file-change notification system, so this is aimed at Linux users, and the code has the feel of a rough, in-progress project.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "import", "workflow" ],
+  "contributor": "dedenholm",
+  "url": "https://github.com/dedenholm/Pseudo-Tether",
+  "source": [ "https://github.com/dedenholm/Pseudo-Tether/archive/a35303651bb516311260d1e630465ed5dbd0c3d4.zip" ],
+  "commit": "a35303651bb516311260d1e630465ed5dbd0c3d4",
+  "commit-date": "2024-12-17T03:24:15+01:00",
+  "files": [ "modulePseudoTether.lua", "license", "readme.md" ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

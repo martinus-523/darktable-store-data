@@ -1,0 +1,19 @@
+{
+  "author": "Vineeth Kartha",
+  "name": "vin_stackwithShineStacker",
+  "description": "Sends two or more selected photos to the Shine Stacker focus-stacking tool (via Python) and returns a combined image.",
+  "description-extensive": "Sends at least two selected photos to the Shine Stacker focus-stacking program and returns one combined, fully-sharp image. It requires Python and the Shine Stacker script to be set up, and the author notes it may need adjusting to work on your system.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "image-processing", "integration" ],
+  "contributor": "vineethkartha",
+  "url": "https://github.com/vineethkartha/darktableluascripts",
+  "source": [ "https://github.com/vineethkartha/darktableluascripts/archive/4ee164c7b53cc148b3e29eff7f455c5c6677a218.zip" ],
+  "commit": "4ee164c7b53cc148b3e29eff7f455c5c6677a218",
+  "commit-date": "2026-07-11T05:05:16+05:30",
+  "files": [ "vin_stackwithShineStacker.lua", "license", "readme.md" ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

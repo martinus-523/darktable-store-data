@@ -1,0 +1,19 @@
+{
+  "author": "Till Theato",
+  "name": "cr2hdr",
+  "description": "Runs the cr2hdr tool on selected images to process Magic Lantern Dual ISO captures and imports the results as group leaders.",
+  "description-extensive": "If you shoot with Magic Lantern's Dual ISO feature on Canon cameras, this script automates the conversion of those special files into usable high-dynamic-range images. You trigger it with a keyboard shortcut on selected photos, and the converted versions are automatically imported and shown in place of the originals. It requires the cr2hdr conversion tool from the Magic Lantern project.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "image-processing", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/cr2hdr.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson",
+  "name": "jpg_group_leader",
+  "description": "Makes the JPG the group leader in RAW-JPG image groups after import, with shortcuts to apply this to existing collections.",
+  "description-extensive": "When you shoot RAW plus JPG, this add-on automatically makes the JPG the visible cover of each RAW-JPG pair as photos are imported. That way the camera's ready-to-view JPG is what you see in your grid instead of the plain RAW. You can turn it off in preferences and there are keyboard shortcuts to apply it to photos you've already imported.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "import", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/jpg_group_leader.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

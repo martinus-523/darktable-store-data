@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson",
+  "name": "cycle_group_leader",
+  "description": "Reassigns the group leader of an image group to the next image in the group, wrapping around to the first when the end is reached.",
+  "description-extensive": "When you have photos stacked together in a group (for example a RAW and its JPEG, or a burst of shots), only one image represents the whole group in the thumbnails. This tool lets you quickly switch which photo is shown as the group's cover image by stepping to the next one with a keyboard shortcut. No extra software is needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "ui", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/cycle_group_leader.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

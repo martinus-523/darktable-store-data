@@ -1,0 +1,19 @@
+{
+  "author": "Krzysztof Kotowicz",
+  "name": "ultrahdr",
+  "description": "Generates UltraHDR JPEG images by merging SDR, HDR, and gain-map source files using external command-line tools.",
+  "description-extensive": "This add-on creates UltraHDR JPEGs, a modern format that shows brighter, more vivid highlights on HDR-capable screens, by combining your standard and high-dynamic-range versions of a photo. It requires three external programs to do the work: the ultrahdr_app tool from Google's libultrahdr, plus exiftool and ffmpeg. It's aimed at photographers who want their images to pop on newer phones and displays.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "export", "image-processing" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/ultrahdr.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "9.3.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

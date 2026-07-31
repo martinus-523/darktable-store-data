@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson",
+  "name": "script_manager",
+  "description": "Provides a lighttable interface to scan, start, stop, install, and update darktable's Lua scripts organized by folder.",
+  "description-extensive": "This is the control panel for all of darktable's add-on scripts. It scans your scripts folders and gives you simple on/off buttons to turn each script on or off, and it can also download extra script collections and keep everything up to date. If you ever want to switch a script off, you just click its button instead of editing configuration files by hand.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "tools",
+  "category": [ "ui", "utility" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/tools/script_manager.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "9.3.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

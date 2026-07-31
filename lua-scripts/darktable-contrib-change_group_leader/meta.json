@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson, Angel Angelov",
+  "name": "change_group_leader",
+  "description": "Automatically sets the group leader of raw+jpg paired image groups to either the jpg or the raw file for selected images.",
+  "description-extensive": "When you shoot in raw plus jpg, darktable groups the two files together and picks one as the representative thumbnail. This tool lets you select many such groups at once and instantly choose whether the jpg or the raw becomes the one shown, saving you from changing each pair by hand. No extra software is needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "workflow", "utility" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/change_group_leader.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "3.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

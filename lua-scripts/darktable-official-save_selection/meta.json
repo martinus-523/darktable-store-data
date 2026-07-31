@@ -1,0 +1,19 @@
+{
+  "author": "Jérémy Rosen",
+  "name": "save_selection",
+  "description": "Provides keyboard shortcuts to save the current image selection into and restore it from several temporary buffers, plus a quick-swap buffer.",
+  "description-extensive": "This tool lets you stash your current set of selected photos into memory slots and bring them back later with a keyboard shortcut. You get several buffers plus a quick-swap option, which is useful when juggling different groups of images while sorting or editing. No extra software is required.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "workflow", "utility" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/save_selection.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

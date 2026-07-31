@@ -1,0 +1,19 @@
+{
+  "author": "Vladimir Tyrtov",
+  "name": "set_lens_model",
+  "description": "set_lens_model.lua corrects lens metadata: a dropdown for manual/vintage lenses, EXIF-to-lensfun name substitution, crop-factor fixes, capture-time override, and camera/film-stock tagging.",
+  "description-extensive": "A tool for photographers who use vintage or manual lenses, or cameras that record incorrect lens or crop-factor information. It adds a \"correct lens\" panel where you pick the real lens you used (with a built-in list of classic lenses like Helios, Jupiter, and Zeiss models), and it writes the correct lens name, focal length, and aperture so darktable's automatic lens corrections work properly. It can also fix wrong crop-factor readings on certain full-frame cameras, optionally reset the capture date, and add tags for film cameras and film stocks. Basic corrections happen automatically as photos are imported; the manual lens-writing feature requires the external exiftool program to be installed.",
+  "license": "MIT",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "metadata" ],
+  "contributor": "vtyrtov",
+  "url": "https://github.com/vtyrtov/darktable-lens-corrector",
+  "source": [ "https://github.com/vtyrtov/darktable-lens-corrector/archive/0a5e330d5da476cdeef572c622b82c2182fb3850.zip" ],
+  "commit": "0a5e330d5da476cdeef572c622b82c2182fb3850",
+  "commit-date": "2025-12-18T08:13:02+03:00",
+  "files": [ "set_lens_model.lua", "license", "readme.md" ],
+  "lua-api": null,
+  "dt-versions": [ 5.2 ],
+  "creation-date": "2026-07-31"
+}

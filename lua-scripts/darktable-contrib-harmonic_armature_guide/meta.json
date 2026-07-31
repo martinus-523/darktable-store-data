@@ -1,0 +1,19 @@
+{
+  "author": "Hubert Kowalski",
+  "name": "harmonic_armature_guide",
+  "description": "Adds a 'harmonic armature' (14-line) composition overlay to the list of available cropping and framing guides.",
+  "description-extensive": "This adds a classic compositional overlay, known as the harmonic armature or 14-line armature, to the guides you can display while composing or cropping. It helps you line up the important elements of your photo along proven diagonal lines for a more balanced result. Simply pick harmonic armature from the guide options when you want it. No extra software is needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "ui" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/harmonic_armature_guide.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "2.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

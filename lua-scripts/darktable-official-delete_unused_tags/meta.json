@@ -1,0 +1,19 @@
+{
+  "author": "Tobias Ellinghaus",
+  "name": "delete_unused_tags",
+  "description": "Automatically deletes all tags that are not attached to any images each time darktable restarts.",
+  "description-extensive": "This simple add-on cleans up your keyword list by removing any tags that aren't attached to a single photo. It runs automatically every time you start darktable, so unused labels never pile up. It's a set-and-forget way to keep your tag list clutter-free.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "metadata", "utility" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/delete_unused_tags.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "5.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

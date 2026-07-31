@@ -1,0 +1,19 @@
+{
+  "author": "Dom H",
+  "name": "rate_group",
+  "description": "Provides keyboard shortcuts to apply a star rating or rejection to every image in a group at once.",
+  "description-extensive": "This tool lets you rate or reject an entire group of photos with a single keyboard shortcut instead of doing each one individually. It is especially useful for people who shoot RAW+JPEG pairs and use a star-rating workflow, since the rating gets applied to all images in the stack together. No extra software is needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "workflow", "metadata" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/rate_group.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

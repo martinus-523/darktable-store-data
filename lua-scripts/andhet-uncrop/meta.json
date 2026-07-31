@@ -1,0 +1,19 @@
+{
+  "author": "andhet",
+  "name": "uncrop",
+  "description": "uncrop.lua restores the full uncropped sensor image on Ricoh/Pentax raws (Pentax K-1, Ricoh GR III) by rewriting EXIF crop metadata via exiftool.",
+  "description-extensive": "This adds an 'uncrop' command that recovers the full sensor image from certain Pentax and Ricoh cameras (the Pentax K-1 and Ricoh GR III) which normally crop a little off the edges. When you run it on a selected photo, it rewrites the file's built-in crop information so darktable shows the complete, uncropped frame. It requires the free exiftool program to be installed.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "image-processing", "metadata" ],
+  "contributor": "andhet",
+  "url": "https://codeberg.org/andhet/darktable-lua-scripts",
+  "source": [ "https://codeberg.org/andhet/darktable-lua-scripts/archive/76f07ad8a1aba346d8aa96382bb95666e785f8b2.zip" ],
+  "commit": "76f07ad8a1aba346d8aa96382bb95666e785f8b2",
+  "commit-date": "2026-01-02T13:53:41+01:00",
+  "files": [ "uncrop.lua", "license.md" ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

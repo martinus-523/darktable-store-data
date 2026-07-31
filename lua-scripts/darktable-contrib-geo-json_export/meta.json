@@ -1,0 +1,19 @@
+{
+  "author": "Tobias Jakobs",
+  "name": "geoJSON_export",
+  "description": "Exports the geotag location data of selected images into a geoJSON file, generating thumbnails for use on a map.",
+  "description-extensive": "This tool takes the GPS location information stored in your photos and creates a map-ready geoJSON file, complete with small preview images. You can use the result to plot where your pictures were taken on a map. It needs the ImageMagick 'convert' tool along with common Linux utilities (mkdir, xdg-open, xdg-user-dir), and it has only been tested on Linux.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "geo", "export" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/geoJSON_export.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

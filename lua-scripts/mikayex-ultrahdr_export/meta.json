@@ -1,0 +1,19 @@
+{
+  "author": "Mikayex",
+  "name": "ultrahdr_export",
+  "description": "ultrahdr_export.lua automates UltraHDR (gain-map) JPEG export using the sigmoid module together with ImageMagick and ultrahdr_app.",
+  "description-extensive": "Adds an \"UltraHDR\" option to darktable's export menu that produces special HDR JPEG files. These photos look normal on ordinary screens but reveal brighter highlights and extra dynamic range on HDR-capable displays, all while staying compatible with regular photo viewers. To use it your photos must be processed with darktable's Sigmoid tone mapping module, and you need several external tools installed: darktable-cli (comes with darktable), Google's ultrahdr_app command-line tool, and ImageMagick. It handles the multi-step conversion for you and cleans up its temporary files afterward.",
+  "license": "MIT",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "export" ],
+  "contributor": "mikayex",
+  "url": "https://github.com/Mikayex/dt_ultrahdr",
+  "source": [ "https://github.com/Mikayex/dt_ultrahdr/archive/1d9c4608ff9bdd047991ca6ad06e7f117e538d4c.zip" ],
+  "commit": "1d9c4608ff9bdd047991ca6ad06e7f117e538d4c",
+  "commit-date": "2026-01-07T20:06:09+01:00",
+  "files": [ "ultrahdr_export.lua", "license", "readme.md" ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

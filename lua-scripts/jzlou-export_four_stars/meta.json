@@ -1,0 +1,19 @@
+{
+  "author": "jzlou",
+  "name": "export_four_stars",
+  "description": "export_four_stars.lua exports images rated four stars (a personal photography-workflow helper).",
+  "description-extensive": "A personal workflow helper for photographers who shoot RAW and JPEG at the same time. When run, it looks through the current collection for photos you've rated four stars and moves their matching JPEG files into a new \"four_star_jpgs\" folder, making it easy to gather your keepers. Note that this is a rough personal script (it runs as soon as it loads, uses Windows-style file paths, and the author mentions it needed a manual tweak to a darktable library file to handle folders with spaces), so it may need adjustment to work on your system.",
+  "license": "MIT",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "export", "workflow" ],
+  "contributor": "jzlou",
+  "url": "https://github.com/jzlou/darktable-scripts",
+  "source": [ "https://github.com/jzlou/darktable-scripts/archive/2297144491cb6c18d7da95ccd1cbf319db10bc4b.zip" ],
+  "commit": "2297144491cb6c18d7da95ccd1cbf319db10bc4b",
+  "commit-date": "2023-10-17T22:37:23-06:00",
+  "files": [ "export_four_stars.lua", "license", "readme.md" ],
+  "lua-api": null,
+  "dt-versions": [ 4.4 ],
+  "creation-date": "2026-07-31"
+}

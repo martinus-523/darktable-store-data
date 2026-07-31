@@ -1,0 +1,19 @@
+{
+  "author": "Tobias Ellinghaus",
+  "name": "enfuse",
+  "description": "Adds a lighttable module that merges selected LDR images into a single tonemapped image using enfuse and imports the result.",
+  "description-extensive": "This tool blends several differently-exposed photos into one balanced image with a wider range of light and shadow detail. It works with standard image files like JPEG, merges them together, and brings the finished result back into your library. It requires the free program enfuse to be installed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "image-processing", "export" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/enfuse.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

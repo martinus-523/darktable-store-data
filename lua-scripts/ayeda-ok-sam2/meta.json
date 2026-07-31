@@ -1,0 +1,19 @@
+{
+  "author": "Ayeda Okambawa",
+  "name": "SAM2",
+  "description": "Generates selection masks for a photo using Meta's Segment Anything 2 model via the sam2-tools helper.",
+  "description-extensive": "Automatically creates selection masks (outlines around objects) in your photo using Meta's Segment Anything 2 artificial-intelligence model, so you can adjust just part of an image. It needs the matching sam2-tools helper program installed.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "image-processing" ],
+  "contributor": "ayeda-ok",
+  "url": "https://github.com/AyedaOk/DT_custom_script",
+  "source": [ "https://github.com/AyedaOk/DT_custom_script/archive/1b1c8d94e08e556e4df1a76d4a34183cade4c23f.zip" ],
+  "commit": "1b1c8d94e08e556e4df1a76d4a34183cade4c23f",
+  "commit-date": "2026-07-25T07:44:31-04:00",
+  "files": [ "SAM2.lua", "license", "readme.md" ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

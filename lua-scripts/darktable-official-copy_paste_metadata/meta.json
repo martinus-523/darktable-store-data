@@ -1,0 +1,19 @@
+{
+  "author": "Tobias Ellinghaus",
+  "name": "copy_paste_metadata",
+  "description": "Adds buttons and keyboard shortcuts to copy metadata, ratings, color labels, and tags from one image and paste them onto others.",
+  "description-extensive": "This lets you copy all the descriptive information from one photo, such as its rating, color label, keywords, and metadata, and paste it onto other photos with a button or keyboard shortcut. It's a big time-saver when you want a whole batch of images to share the same labels and information. You can also choose whether or not it overwrites fields that are already filled in.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "metadata", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/copy_paste_metadata.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

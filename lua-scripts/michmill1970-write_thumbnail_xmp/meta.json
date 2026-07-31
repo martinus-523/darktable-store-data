@@ -1,0 +1,19 @@
+{
+  "author": "Mich Millmore",
+  "name": "write_thumbnail_xmp",
+  "description": "write_thumbnail_xmp.lua writes an edited-image thumbnail into the .xmp sidecar so digiKam displays the edited version instead of the embedded raw preview (uses LuaSocket).",
+  "description-extensive": "A small script for people who edit in darktable but organize their photo library in digiKam. It writes a thumbnail of your edited photo into the .xmp sidecar file so digiKam shows your actual darktable edits in its thumbnail views instead of the original unedited preview. You trigger it with a keyboard shortcut on selected images, and it requires the Luarocks package manager with the LuaSocket add-on installed, plus some specific settings changes in both darktable and digiKam.",
+  "license": "MIT",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "metadata", "integration" ],
+  "contributor": "michmill1970",
+  "url": "https://github.com/michmill1970/dt-dk-thumbnail",
+  "source": [ "https://github.com/michmill1970/dt-dk-thumbnail/archive/9fdfdc29a981f23649b16b1c0c43c2548eb94aa4.zip" ],
+  "commit": "9fdfdc29a981f23649b16b1c0c43c2548eb94aa4",
+  "commit-date": "2025-03-22T14:17:33-04:00",
+  "files": [ "write_thumbnail_xmp.lua", "license", "readme.md" ],
+  "lua-api": null,
+  "dt-versions": [ 5.2 ],
+  "creation-date": "2026-07-31"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Dan Torop",
+  "name": "fujifilm_dynamic_range",
+  "description": "Reads the Fujifilm raw exposure bias metadata and adjusts darktable's exposure to compensate for the camera's DR100/DR200/DR400 dynamic range setting.",
+  "description-extensive": "Fujifilm cameras have a Dynamic Range setting that quietly shifts how bright your raw files appear, which can leave photos looking darker than expected. This add-on reads that camera setting from each raw file and automatically corrects the exposure so your images look right from the start. It requires the free exiftool program to read the hidden camera information.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "image-processing", "metadata" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/fujifilm_dynamic_range.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

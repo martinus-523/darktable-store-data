@@ -1,0 +1,19 @@
+{
+  "author": "rawrdoge",
+  "name": "betterembeds",
+  "description": "Re-embeds an updated preview into DNG files produced by the companion RAW-to-DNG import pipeline, so other programs show the edited version. Uses the root betterembeds.lua (the tools/ copy is a separate work-in-progress rewrite).",
+  "description-extensive": "The darktable side of a home-built system that automatically converts camera RAW files to DNG and tracks them in a database. This plugin re-embeds an updated preview of your edited photo back into the DNG file (so other programs show the edited version) and keeps the system's records in sync. It relies on ExifTool and, when available, the DNG SDK, and only makes sense alongside the author's separate containerized conversion service. It is a personal tool rather than a polished product.",
+  "license": "MIT",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "import", "integration" ],
+  "contributor": "rawrdoge",
+  "url": "https://github.com/rawrdoge/autodngconverter",
+  "source": [ "https://github.com/rawrdoge/autodngconverter/archive/6061c4610878ceda906204ddd7a04f6c46b6f01e.zip" ],
+  "commit": "6061c4610878ceda906204ddd7a04f6c46b6f01e",
+  "commit-date": "2026-07-23T00:29:37-05:00",
+  "files": [ "betterembeds.lua", "license", "readme.md" ],
+  "lua-api": null,
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Christian Kanzian, Holger Klemm",
+  "name": "copy_attach_detach_tags",
+  "description": "Adds shortcuts and a lighttable module to copy, paste, replace, and remove keyword tags across selected images.",
+  "description-extensive": "This add-on makes it quick to manage keywords on your photos by letting you copy the tags from one set of images and paste them onto others. You can also replace or strip tags entirely, all through handy keyboard shortcuts. It is a real time-saver when you want a batch of photos to share the same descriptive keywords.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "metadata", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/copy_attach_detach_tags.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

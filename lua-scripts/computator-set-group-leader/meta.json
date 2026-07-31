@@ -1,0 +1,19 @@
+{
+  "author": "computator",
+  "name": "set-group-leader",
+  "description": "set-group-leader.lua sets the group leader of selected image groups.",
+  "description-extensive": "A small time-saver for photographers who shoot RAW and other formats together and group them in darktable. With a single keyboard shortcut, it looks through your selected images and makes the DNG file the \"leader\" (the thumbnail shown for each group), then refreshes the view so the change appears right away. No extra software is needed.",
+  "license": "MIT",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "utility" ],
+  "contributor": "computator",
+  "url": "https://github.com/computator/dt-set-group-leader",
+  "source": [ "https://github.com/computator/dt-set-group-leader/archive/189206dcfd33f440d0970d7292bba87145ba6aab.zip" ],
+  "commit": "189206dcfd33f440d0970d7292bba87145ba6aab",
+  "commit-date": "2024-11-19T23:10:51-08:00",
+  "files": [ "set-group-leader.lua", "license" ],
+  "lua-api": null,
+  "dt-versions": [ 4.8 ],
+  "creation-date": "2026-07-31"
+}

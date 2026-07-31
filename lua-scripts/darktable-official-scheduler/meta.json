@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson",
+  "name": "scheduler",
+  "description": "Provides a first-in-first-out scheduling service that lets Lua scripts cooperatively multitask.",
+  "description-extensive": "This is a behind-the-scenes helper that lets multiple darktable add-ons take turns running smoothly instead of blocking one another. Most photographers will never interact with it directly; it simply keeps other scripts cooperating politely. No extra software is needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "utility" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/scheduler.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "9.4.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson, Holger Klemm",
+  "name": "image_stack",
+  "description": "Adds an export target that aligns and combines a stack of selected images with ImageMagick and imports the resulting composite.",
+  "description-extensive": "This lets you merge a group of photos into a single combined image, which is great for reducing noise or removing passing people and objects from a scene by averaging several shots together. You pick the images, choose how to blend them, and the finished result is brought back into your library. It needs ImageMagick to do the blending and the align_image_stack tool from Hugin to line up the frames first.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "image-processing", "export" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/image_stack.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

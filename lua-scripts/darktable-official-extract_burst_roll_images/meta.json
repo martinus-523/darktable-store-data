@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson",
+  "name": "extract_burst_roll_images",
+  "description": "Detects Canon burst roll container files and extracts their embedded frames as DNG raw images, grouping them with the container, either on import or via a shortcut on selected images.",
+  "description-extensive": "Some Canon cameras save a rapid burst of shots inside a single roll file that can hold dozens of frames. This tool finds those roll files and pulls out each individual picture as a DNG raw, grouping them under the original so they are easy to browse and edit. It can run automatically when you import photos or on demand for images you pick yourself. It relies on the external programs exiv2, exiftool, and dnglab to read the files and extract the images.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "import", "image-processing" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/extract_burst_roll_images.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "9.6.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

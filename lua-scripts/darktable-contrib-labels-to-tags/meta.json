@@ -1,0 +1,19 @@
+{
+  "author": "August Schwerdfeger",
+  "name": "LabelsToTags",
+  "description": "Applies tags in bulk to selected images based on their color labels and star ratings using configurable pattern mappings.",
+  "description-extensive": "This tool lets you automatically add keyword tags to lots of photos at once, using the color labels and star ratings you have already given them as a guide. You set up rules that say things like 'any photo with a red label and 5 stars gets these tags', then run it across your selected images. It is a fast way to organize large batches without tagging each photo by hand. No extra software is required.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "metadata", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/LabelsToTags.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

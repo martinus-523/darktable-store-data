@@ -1,0 +1,19 @@
+{
+  "author": "Noah Clarke",
+  "name": "exportLUT",
+  "description": "Generates haldCLUT files from all of the user's styles using a supplied haldCLUT identity image and exports them to a chosen location.",
+  "description-extensive": "This tool turns your saved editing styles into color lookup table files that can be used in other photo and video programs. You point it at a starting identity image, and it creates a lookup file for each of your styles and saves them wherever you like. Be aware that if two files end up with the same name, the older one is quietly overwritten. No extra software is required.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "export", "image-processing" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/exportLUT.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

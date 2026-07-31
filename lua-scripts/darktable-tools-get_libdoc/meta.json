@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson",
+  "name": "get_libdoc",
+  "description": "Iterates over installed darktable Lua libraries and prints their embedded documentation sections and per-function documentation to standard output.",
+  "description-extensive": "This is a developer helper that gathers the built-in documentation from darktable's installed script libraries and prints it out so it can be read or collected. It is aimed at people writing or maintaining darktable scripts rather than at everyday photo editing. No extra software is needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "tools",
+  "category": [ "utility" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/tools/get_libdoc.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "3.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

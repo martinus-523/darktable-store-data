@@ -1,0 +1,19 @@
+{
+  "author": "Kevin Ertel",
+  "name": "HDRMerge",
+  "description": "Adds a lighttable module that merges selected bracketed exposures into a single DNG using the external HDRMerge program and auto-imports the result.",
+  "description-extensive": "If you shoot the same scene several times at different brightness levels to capture both bright skies and dark shadows, this tool combines those bracketed frames into one high-dynamic-range image. You select the bracketed shots, press a button, and the finished merged file is automatically added back into your library, optionally with a style and tags applied. It requires the free HDRMerge program (version 4.5 or newer) to be installed on your computer.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "image-processing", "integration" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/HDRMerge.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

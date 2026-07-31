@@ -1,0 +1,19 @@
+{
+  "author": "Andrea Rastelli",
+  "name": "sqlite_to_collection",
+  "description": "sqlite_to_collection.lua tags photos by creation year, exports resized copies plus a CSV of paths/metadata, and re-imports a CSV/TXT to match images in the darktable DB and assign them to collection tags (integrates with an external Python/Flask + SQLite selector).",
+  "description-extensive": "A highly experimental tool for building photo albums from an outside selection process. It can tag photos by the year they were taken, export resized copies plus a spreadsheet of file paths and metadata, and later read back a text or CSV list to match those entries against your darktable library and tag them into an album. It is designed to pair with the author's separate Python web tool for picking images over a home network, so on its own it is rough and incomplete.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "metadata", "utility" ],
+  "contributor": "andrearastelli",
+  "url": "https://codeberg.org/andrearastelli/MyDarktableLuaScripts",
+  "source": [ "https://codeberg.org/andrearastelli/MyDarktableLuaScripts/archive/0248b109c2dad75b42b726be9d10b7accdb074d2.zip" ],
+  "commit": "0248b109c2dad75b42b726be9d10b7accdb074d2",
+  "commit-date": "2026-04-19T18:11:02+01:00",
+  "files": [ "sqlite_to_collection.lua", "license.md", "readme.md" ],
+  "lua-api": null,
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

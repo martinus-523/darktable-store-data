@@ -1,0 +1,19 @@
+{
+  "author": "Jérémy Rosen",
+  "name": "image_path_in_ui",
+  "description": "Adds a widget in lighttable that displays the file path of the selected images for easy copying, with shortcuts for multiple selection buffers.",
+  "description-extensive": "This add-on shows you the exact location on disk of whichever photos you have selected, right inside the interface, so you can quickly copy the path. It is handy when you need to reference or share where an image file actually lives. It also lets you keep several selection sets on hand using shortcuts.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "ui", "utility" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/image_path_in_ui.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

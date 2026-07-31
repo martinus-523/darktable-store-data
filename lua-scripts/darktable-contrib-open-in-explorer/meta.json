@@ -1,0 +1,19 @@
+{
+  "author": "Kevin Ertel, Volker Lenhardt, Bill Ferguson",
+  "name": "OpenInExplorer",
+  "description": "Adds a module to reveal the selected images in the operating system's native file manager, with an option to create symbolic links in a chosen folder.",
+  "description-extensive": "When you want to see where your photos actually live on disk, this add-on opens your computer's file manager (Finder on Mac, Explorer on Windows, or the Linux equivalent) with the selected pictures highlighted. It saves you from manually digging through folders to locate a file. It works on macOS, Windows, and Linux using their built-in file browsers.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "integration", "ui" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/OpenInExplorer.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

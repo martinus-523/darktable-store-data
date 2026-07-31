@@ -1,0 +1,19 @@
+{
+  "author": "Tobias Ellinghaus",
+  "name": "generate_image_txt",
+  "description": "Runs a user-defined command on images to produce text that is displayed as an overlay on the image in lighttable view.",
+  "description-extensive": "This lets you run a program of your choosing against your photos to generate custom text, which is then shown floating over each image in the lighttable. It is handy for displaying extra information you generate yourself alongside your pictures. You provide whatever command-line program produces the text you want to show.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "metadata", "integration" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/generate_image_txt.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Kevin Ertel",
+  "name": "CollectHelper",
+  "description": "Adds buttons to the Selected Images module that change the collection filter based on a selected image's folder or color labels, with an option to return to the previous collection.",
+  "description-extensive": "This add-on gives you quick buttons that instantly filter your photo library to match a chosen photo. With one click you can show all pictures from the same folder or with the same color label, or jump back to your previous view. It is a handy shortcut for navigating large collections without setting up filters by hand. No extra software is required.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "ui", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/CollectHelper.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

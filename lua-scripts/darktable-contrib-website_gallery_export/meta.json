@@ -1,0 +1,19 @@
+{
+  "author": "Tino Mettler",
+  "name": "website_gallery_export",
+  "description": "Exports selected images together with generated HTML pages to build a browsable web photo gallery in a chosen output folder.",
+  "description-extensive": "This export tool takes your selected photos and builds a complete web gallery you can upload to a website. You give it a title and an output folder, and it produces the images along with the web pages needed to view them in a browser. No extra software is required.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "export", "integration" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/website_gallery_export.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": null,
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

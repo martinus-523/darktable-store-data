@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson",
+  "name": "hif_group_leader",
+  "description": "Automatically makes the JPG image the group leader in RAW-JPG image groups after import, with shortcuts to reapply this to existing collections.",
+  "description-extensive": "When you shoot RAW and JPG versions of the same photo, darktable groups them together and shows one as the main thumbnail. This tool makes sure the JPG is the one shown as the group's cover image after you import a new batch. There are also shortcuts to apply this to photos you already have in your library. No extra software is required.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "workflow", "import" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/hif_group_leader.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

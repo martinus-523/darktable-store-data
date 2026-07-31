@@ -1,0 +1,19 @@
+{
+  "author": "Marco Carrarini",
+  "name": "ext_editor",
+  "description": "Adds a module and export storage that let images be sent to and edited in external image editors, then reimported and updated.",
+  "description-extensive": "This tool lets you hand off a photo to another editing program of your choice, such as an external retouching or painting application, and have the edited result come back into your library automatically. You can set up to nine of your favorite external editors, launch them with a click or a keyboard shortcut, and either overwrite the image or work on a copy. You supply whichever external editing programs you want to use.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "integration", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/ext_editor.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

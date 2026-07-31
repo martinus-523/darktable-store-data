@@ -1,0 +1,19 @@
+{
+  "author": "Vineeth Kartha",
+  "name": "vin_attach_exif_tags",
+  "description": "Tags selected photos with camera make, model, lens and folder name, and adds a copyright line.",
+  "description-extensive": "Tags your selected photos with the camera make, model, lens, and folder name, and adds your copyright line — no extra software needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "metadata" ],
+  "contributor": "vineethkartha",
+  "url": "https://github.com/vineethkartha/darktableluascripts",
+  "source": [ "https://github.com/vineethkartha/darktableluascripts/archive/4ee164c7b53cc148b3e29eff7f455c5c6677a218.zip" ],
+  "commit": "4ee164c7b53cc148b3e29eff7f455c5c6677a218",
+  "commit-date": "2026-07-11T05:05:16+05:30",
+  "files": [ "vin_attach_exif_tags.lua", "license", "readme.md" ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

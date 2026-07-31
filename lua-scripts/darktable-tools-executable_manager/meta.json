@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson",
+  "name": "executable_manager",
+  "description": "Provides a UI tool to view and edit the stored file paths of external executables used by darktable's Lua scripts.",
+  "description-extensive": "Many darktable add-ons rely on outside programs, and each needs to know where that program lives on your computer. This tool gives you one tidy panel to review and update all of those program locations at once, so scripts can find the tools they need without you hunting through settings. Changes take effect right away, making it easy to fix a broken path.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "tools",
+  "category": [ "utility", "ui" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/tools/executable_manager.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

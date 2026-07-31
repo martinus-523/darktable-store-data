@@ -4,7 +4,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-CATEGORIES = ["presets", "styles", "themes", "luts", "camera-profiles"]
+CATEGORIES = ["presets", "styles", "themes", "luts", "camera-profiles", "lua-scripts"]
 
 
 def main() -> int:

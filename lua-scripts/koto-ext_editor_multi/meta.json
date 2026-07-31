@@ -1,0 +1,19 @@
+{
+  "author": "koto",
+  "name": "ext_editor_multi",
+  "description": "Adds a panel to configure up to nine external image editors and send selected photos to any of them.",
+  "description-extensive": "Adds a panel where you can set up as many as nine outside image editors and send your selected photos to any of them for further editing, then bring the results back.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "integration" ],
+  "contributor": "koto",
+  "url": "https://github.com/koto/darktable-lua-scripts",
+  "source": [ "https://github.com/koto/darktable-lua-scripts/archive/8931390289a143682ed020111064e24f55819208.zip" ],
+  "commit": "8931390289a143682ed020111064e24f55819208",
+  "commit-date": "2024-12-02T23:35:02+01:00",
+  "files": [ "ext_editor_multi.lua", "license", "readme.md" ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

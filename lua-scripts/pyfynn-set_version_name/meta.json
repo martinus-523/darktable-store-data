@@ -1,0 +1,19 @@
+{
+  "author": "Fynn",
+  "name": "set_version_name",
+  "description": "Adds a panel to type and apply a custom version name to selected images.",
+  "description-extensive": "Adds a small panel where you can type a name (such as 'black and white' or 'crop') and apply it to all selected photos at once, making it easier to tell different edits of the same picture apart.",
+  "license": "GPL-2.0-only",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "ui", "utility" ],
+  "contributor": "pyfynn",
+  "url": "https://codeberg.org/pyfynn/darktable-lua-scripts",
+  "source": [ "https://codeberg.org/pyfynn/darktable-lua-scripts/archive/758b6f8a5ffa54b4811aee60afb4bcc36d9a8c5c.zip" ],
+  "commit": "758b6f8a5ffa54b4811aee60afb4bcc36d9a8c5c",
+  "commit-date": "2026-04-16T20:29:25+02:00",
+  "files": [ "set_version_name.lua", "license", "readme.md" ],
+  "lua-api": null,
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

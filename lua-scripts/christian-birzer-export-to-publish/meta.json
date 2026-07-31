@@ -1,0 +1,19 @@
+{
+  "author": "Christian Birzer",
+  "name": "ExportToPublish",
+  "description": "A custom export storage that copies exported files to a chosen folder, tags them, and can open that folder in the file manager.",
+  "description-extensive": "Adds an export destination that copies your finished images into a folder you choose, adds keywords to them, and can open your file manager at that location — handy for gathering and labelling photos you plan to publish and tracking where each one was shared.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "export" ],
+  "contributor": "christian-birzer",
+  "url": "https://github.com/ChristianBirzer/darktable_extra_scripts",
+  "source": [ "https://github.com/ChristianBirzer/darktable_extra_scripts/archive/47afce14216debe0907c8948a05d9f8a33f1b6c0.zip" ],
+  "commit": "47afce14216debe0907c8948a05d9f8a33f1b6c0",
+  "commit-date": "2025-03-09T13:39:30+01:00",
+  "files": [ "ExportToPublish.lua", "license", "readme.md" ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

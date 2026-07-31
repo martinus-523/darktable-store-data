@@ -1,0 +1,19 @@
+{
+  "author": "Bill Ferguson, Wolfgang Goetz, Christian Kanzian, Tobias Jakobs",
+  "name": "gimp",
+  "description": "Adds an export target that sends selected images to GIMP for editing and reimports the saved results grouped with the originals.",
+  "description-extensive": "This add-on lets you round-trip photos to GIMP for detailed editing without leaving your normal workflow. You select images, export them to GIMP, make your edits and overwrite the file, and when you close GIMP the edited versions are automatically brought back into darktable and grouped with the originals. It requires the free image editor GIMP to be installed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "export", "integration" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/gimp.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

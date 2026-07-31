@@ -1,0 +1,33 @@
+{
+  "author": "Ulrich Gesing",
+  "name": "InitialWorkflowModule",
+  "description": "Adds an 'initial workflow' module in lighttable and darkroom that automates repetitive per-image baseline setup (exposure, white balance, lens correction, AgX, etc.) as a starting point. Shared on pixls.us thread 55824.",
+  "description-extensive": "Adds a new \"initial workflow\" panel that automates the repetitive first steps you take on every new raw photo. Instead of manually opening and adjusting the same tools each time (lens correction, exposure, contrast, filmic tone mapping, and so on), you configure your preferred starting settings once, then hit \"run\" to apply them to one or many selected images at the push of a button. Unlike a static preset, it mimics the way you'd edit by hand, so it reacts to each specific image, saving clicks and time while still giving you a sensible starting point. It requires darktable 5.4 and works in both the lighttable and darkroom views.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "workflow" ],
+  "contributor": "uli-gesing",
+  "url": "https://github.com/UliGesing/Darktable-Initial-Workflow-Module",
+  "source": [ "https://github.com/UliGesing/Darktable-Initial-Workflow-Module/archive/0072d12225c71a90ce2419fc0feb328a60987f75.zip" ],
+  "commit": "0072d12225c71a90ce2419fc0feb328a60987f75",
+  "commit-date": "2026-01-25T19:37:59+01:00",
+  "files": [
+    "InitialWorkflowModule.lua",
+    "lib/IWF_EventHelper.lua",
+    "lib/IWF_GuiAction.lua",
+    "lib/IWF_GuiTranslation.lua",
+    "lib/IWF_GuiWidgets.lua",
+    "lib/IWF_Helper.lua",
+    "lib/IWF_Log.lua",
+    "lib/IWF_ModuleTests.lua",
+    "lib/IWF_Workflow.lua",
+    "lib/IWF_WorkflowButtons.lua",
+    "lib/IWF_WorkflowSteps.lua",
+    "license",
+    "readme.md"
+  ],
+  "lua-api": "9.6.0",
+  "dt-versions": [ 5.0 ],
+  "creation-date": "2026-07-31"
+}

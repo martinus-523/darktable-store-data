@@ -1,0 +1,19 @@
+{
+  "author": "Marco Carrarini",
+  "name": "RL_out_sharp",
+  "description": "Adds an export target that applies Richardson-Lucy deconvolution output sharpening to exported images using the GMic command-line tool.",
+  "description-extensive": "When you export your photos, this adds a special output option that sharpens them using a smart deblurring technique, which is especially handy for restoring crispness lost when resizing images for the web. You control the strength and number of passes with simple sliders, and the sharpened results are saved to a folder you choose. It requires the GMic command-line program to be installed, and your image files and paths must not contain spaces.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "export", "image-processing" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/RL_out_sharp.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

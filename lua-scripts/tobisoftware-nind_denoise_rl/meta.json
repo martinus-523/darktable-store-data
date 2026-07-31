@@ -1,0 +1,19 @@
+{
+  "author": "Tobias Gröger",
+  "name": "nind_denoise_rl",
+  "description": "nind_denoise_rl.lua integrates NIND neural-network denoising (with Richardson-Lucy deconvolution) as a darktable plugin: it exports, runs the Python NN backend, and re-imports the denoised image carrying the full history stack. Shared on pixls.us thread 56567.",
+  "description-extensive": "Adds a powerful AI-based noise-removal step to darktable for cleaning up grainy, noisy photos (for example, high-ISO shots taken in low light). It appears as a new export option: pick your noisy images, export through the \"NIND-denoise\" target, and it runs them through a trained denoising model, then automatically imports the cleaned result back into darktable and stacks it with the original. You can either get a finished denoised file or bring the denoised image back for further editing. It needs a Python environment with PyTorch installed (and works faster with a supported GPU: NVIDIA, AMD, or Intel), and it downloads its denoising model automatically on first use.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "image-processing", "integration" ],
+  "contributor": "tobisoftware",
+  "url": "https://gitlab.com/tobisoftware/nind-denoise-darktable",
+  "source": [ "https://gitlab.com/tobisoftware/nind-denoise-darktable/-/archive/420bcb030341f0d8330e2394ea6c069a0e73eef6/tobisoftware--nind-denoise-darktable-420bcb030341f0d8330e2394ea6c069a0e73eef6.zip" ],
+  "commit": "420bcb030341f0d8330e2394ea6c069a0e73eef6",
+  "commit-date": "2026-03-12T02:37:14+02:00",
+  "files": [ "nind_denoise_rl.lua", "license", "readme.md" ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

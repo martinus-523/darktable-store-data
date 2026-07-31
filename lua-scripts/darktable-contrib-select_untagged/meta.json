@@ -1,0 +1,19 @@
+{
+  "author": "Jannis_V",
+  "name": "select_untagged",
+  "description": "Adds a selection option that selects all images without user-applied tags, ignoring internal darktable tags.",
+  "description-extensive": "This makes it easy to find and select every photo you haven't yet labeled with a keyword or tag, which is great for cleaning up and organizing your collection. Darktable's own internal tags are ignored so only genuinely untagged photos are picked. No extra software is needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "metadata", "ui" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/select_untagged.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

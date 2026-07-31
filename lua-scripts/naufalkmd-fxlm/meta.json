@@ -1,0 +1,26 @@
+{
+  "author": "naufalkmd",
+  "name": "fxlm",
+  "description": "Create, manage and share film-inspired looks via .fxlm files that drive filmic RGB, color balance RGB, grain and vignette. UI module under lua/fxlm/.",
+  "description-extensive": "Intends to be a \"film look\" manager that lets you apply film-inspired looks with one click, import Fujifilm or \"Mood Camera\" recipes and convert them into darktable adjustments, and dig into detailed film-simulation controls for advanced users, all saved as shareable preset files. In practice this appears to be an unfinished, largely auto-generated project: its own readme calls it a development version with features that may not be implemented, and the code relies on darktable capabilities that don't actually exist, so it is best treated as experimental and not working as-is.",
+  "license": "MIT",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "workflow", "image-processing" ],
+  "contributor": "naufalkmd",
+  "url": "https://github.com/naufalkmd/darktable-lua-fxlm",
+  "source": [ "https://github.com/naufalkmd/darktable-lua-fxlm/archive/b45d83a732108719d14b1994fa515860cd108c8c.zip" ],
+  "commit": "b45d83a732108719d14b1994fa515860cd108c8c",
+  "commit-date": "2026-02-20T20:08:12+09:00",
+  "files": [
+    "fxlm/init.lua",
+    "fxlm/core.lua",
+    "fxlm/presets.lua",
+    "fxlm/recipes.lua",
+    "fxlm/ui.lua",
+    "readme.md"
+  ],
+  "lua-api": null,
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

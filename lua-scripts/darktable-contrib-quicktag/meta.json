@@ -1,0 +1,19 @@
+{
+  "author": "Christian Kanzian",
+  "name": "quicktag",
+  "description": "Adds a lighttable module and shortcuts with configurable buttons for quickly attaching frequently used tags to images.",
+  "description-extensive": "If you find yourself applying the same keywords to your photos over and over, this adds handy buttons and keyboard shortcuts so you can attach your favorite tags with a single click. You choose how many quick-tag slots you want and assign a tag to each one. It makes organizing and labeling large batches of images much faster.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "metadata", "ui" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/quicktag.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

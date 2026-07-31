@@ -1,0 +1,19 @@
+{
+  "author": "Jérémy Rosen, Pascal Obry, Tejovanth N",
+  "name": "selection_to_pdf",
+  "description": "Adds an exporter that generates a PDF contact sheet of the selected images via LaTeX.",
+  "description-extensive": "This add-on turns your selected photos into a single PDF contact sheet, letting you choose how many thumbnails appear per row. It's useful for printing overviews or sharing a quick visual index of a shoot. It builds the PDF using pdflatex (a LaTeX installation) and needs a PDF viewer to open the result.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "export" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/selection_to_pdf.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

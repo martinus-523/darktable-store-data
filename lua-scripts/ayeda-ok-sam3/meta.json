@@ -1,0 +1,19 @@
+{
+  "author": "Ayeda Okambawa",
+  "name": "SAM3",
+  "description": "Generates selection masks using Meta's Segment Anything 3 model, including a text-prompt mode, via the sam3-tools helper.",
+  "description-extensive": "Like the SAM2 tool but using the newer Segment Anything 3 model, and it can also create masks from a text description of what you want to select. It needs the sam3-tools helper program installed.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "image-processing" ],
+  "contributor": "ayeda-ok",
+  "url": "https://github.com/AyedaOk/DT_custom_script",
+  "source": [ "https://github.com/AyedaOk/DT_custom_script/archive/1b1c8d94e08e556e4df1a76d4a34183cade4c23f.zip" ],
+  "commit": "1b1c8d94e08e556e4df1a76d4a34183cade4c23f",
+  "commit-date": "2026-07-25T07:44:31-04:00",
+  "files": [ "SAM3.lua", "license", "readme.md" ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

@@ -1,0 +1,19 @@
+{
+  "author": "Ayeda Okambawa",
+  "name": "enfuseAS",
+  "description": "Enfuse Advanced: an export/storage module that focus-stacks or HDR-blends a group of images, fixing the frame ordering so they stack correctly.",
+  "description-extensive": "A more capable version of the Enfuse blending tool, added as an export option, that merges a group of photos into one focus-stacked or HDR image and corrects a frame-ordering problem so the shots combine in the right sequence. It requires the enfuse, align_image_stack and exiftool tools.",
+  "license": "GPL-3.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "image-processing", "export" ],
+  "contributor": "ayeda-ok",
+  "url": "https://github.com/AyedaOk/DT_custom_script",
+  "source": [ "https://github.com/AyedaOk/DT_custom_script/archive/1b1c8d94e08e556e4df1a76d4a34183cade4c23f.zip" ],
+  "commit": "1b1c8d94e08e556e4df1a76d4a34183cade4c23f",
+  "commit-date": "2026-07-25T07:44:31-04:00",
+  "files": [ "enfuseAS.lua", "license", "readme.md" ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

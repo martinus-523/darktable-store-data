@@ -1,0 +1,19 @@
+{
+  "author": "Jarkko Saltiola",
+  "name": "http_server_darkroom_modules",
+  "description": "Intended to expose the editing modules of the open photo over a local web page (work in progress, marked as failing by the author).",
+  "description-extensive": "Meant to show the editing modules of the currently open photo in a browser, but the author marks it as unfinished and not working. It needs the lua-http library installed via Luarocks.",
+  "license": "MIT",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "integration", "utility" ],
+  "contributor": "jasalt",
+  "url": "https://codeberg.org/jasalt/darktable-lua-scripts",
+  "source": [ "https://codeberg.org/jasalt/darktable-lua-scripts/archive/a227a1cd0bd46834e6e7eeb139827bc019deb9b6.zip" ],
+  "commit": "a227a1cd0bd46834e6e7eeb139827bc019deb9b6",
+  "commit-date": "2025-12-28T00:34:19+02:00",
+  "files": [ "http_server_darkroom_modules.lua", "license", "readme.md" ],
+  "lua-api": "2.0.0",
+  "dt-versions": [ 5.4 ],
+  "creation-date": "2026-07-31"
+}

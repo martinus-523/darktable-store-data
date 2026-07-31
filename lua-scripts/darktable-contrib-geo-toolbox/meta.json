@@ -1,0 +1,19 @@
+{
+  "author": "Tobias Jakobs, Balázs Dura-Kovács",
+  "name": "geoToolbox",
+  "description": "Adds a lighttable module with geolocation tools for copying, pasting, and reverse-geocoding GPS coordinates on images.",
+  "description-extensive": "This toolbox adds a set of location-based helpers to your lighttable, letting you copy GPS coordinates from one photo and paste them onto others, calculate distances, and look up place names for your shots. Naming places relies on an internet connection using the command-line tools curl and jq to query the Mapbox online service. It's handy for tidying up the location data on your travel and outdoor photography.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "geo", "metadata" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/geoToolbox.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

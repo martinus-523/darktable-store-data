@@ -1,0 +1,19 @@
+{
+  "author": "Dirk Dittmar",
+  "name": "select_non_existing",
+  "description": "Selects images among the currently displayed set whose underlying files no longer exist on disk.",
+  "description-extensive": "This tool scans the photos currently shown in your library and highlights the ones whose original files can no longer be found on your drive. It makes it easy to spot and clean up entries for pictures that have been moved or deleted. No extra software is needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "utility", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/select_non_existing.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "9.1.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

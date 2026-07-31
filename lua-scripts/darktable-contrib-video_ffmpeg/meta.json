@@ -1,0 +1,19 @@
+{
+  "author": "Dominik Markiewicz",
+  "name": "video_ffmpeg",
+  "description": "Adds an export module that assembles selected images into a timelapse video using ffmpeg.",
+  "description-extensive": "This add-on turns a sequence of your photos into a timelapse video. You select the images you want as frames, choose your video settings, and export to get a finished movie file. It requires the free program ffmpeg to be installed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "export", "integration" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/video_ffmpeg.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

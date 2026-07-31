@@ -1,0 +1,19 @@
+{
+  "author": "Jannis_V",
+  "name": "gpx_export",
+  "description": "Generates a GPX track file from all images that contain GPS latitude and longitude information, creating a separate track per source folder.",
+  "description-extensive": "This tool collects the GPS locations stored in your geotagged photos and writes them into a GPX track file. Each folder of images becomes its own track, so you can view or share the route your photos followed on a map. No extra software is needed.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "geo", "export" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/gpx_export.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

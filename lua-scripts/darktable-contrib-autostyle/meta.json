@@ -1,0 +1,19 @@
+{
+  "author": "Marc Cousin",
+  "name": "autostyle",
+  "description": "Automatically applies a chosen darktable style to images whose EXIF metadata matches a configured tag value, using exiftool to read the tags.",
+  "description-extensive": "This tool automatically applies one of your saved looks to photos as soon as it spots a particular setting recorded in the image's metadata, for example a camera's dynamic range mode. You tell it which metadata value to watch for and which style to apply, and it does the rest at import time or on demand via a shortcut. It relies on the free program exiftool to read even unusual camera tags.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "contrib",
+  "category": [ "metadata", "workflow" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/contrib/autostyle.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "7.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

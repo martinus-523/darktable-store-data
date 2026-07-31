@@ -1,0 +1,24 @@
+{
+  "author": "kaerumy",
+  "name": "dt_vlm_descriptions",
+  "description": "Generates AI photo titles and descriptions using a local Vision-Language Model (Ollama / LM Studio / vLLM, OpenAI-compatible endpoint), enriched with OpenStreetMap reverse-geocoding and EXIF datetime.",
+  "description-extensive": "Uses a local AI vision model to automatically suggest a title and description for your photos based on what's actually in the image, plus context like where and when it was taken. It reads the photo's GPS location (looking up the real place name online), the capture date, and the film roll/folder name, then feeds all of that to the AI so the suggested text is more accurate and specific. You review and edit the suggestions before saving them into the image's metadata. This is a proof-of-concept and not all of its code has been fully reviewed. It requires a local AI vision model running on your own machine (via Ollama, LM Studio, vLLM, or similar), plus the curl and ImageMagick tools installed.",
+  "license": "GPL-2.0-or-later",
+  "type": "third-party",
+  "validated": false,
+  "category": [ "metadata" ],
+  "contributor": "kaerumy",
+  "url": "https://github.com/kaerumy/dt_vlm_descriptions",
+  "source": [ "https://github.com/kaerumy/dt_vlm_descriptions/archive/dc1ee1fe619d167a66adf3b61eb6bc68d2f3d300.zip" ],
+  "commit": "dc1ee1fe619d167a66adf3b61eb6bc68d2f3d300",
+  "commit-date": "2026-04-24T23:51:10+08:00",
+  "files": [
+    "dt_vlm_descriptions.lua",
+    "lib/dt_vlm.lua",
+    "lib/dt_vlm_dialog.lua",
+    "readme.md"
+  ],
+  "lua-api": "7.0.0",
+  "dt-versions": [ 4.0 ],
+  "creation-date": "2026-07-31"
+}

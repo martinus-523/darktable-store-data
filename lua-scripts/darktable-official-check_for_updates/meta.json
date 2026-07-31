@@ -1,0 +1,19 @@
+{
+  "author": "Tobias Ellinghaus",
+  "name": "check_for_updates",
+  "description": "Checks GitHub for newer darktable releases on startup, at most once a week, and notifies the user when one is available.",
+  "description-extensive": "This add-on quietly checks online whether a newer version of darktable has been released and lets you know if you are behind. It only looks once a week when the program starts, so it stays out of your way. This helps you keep your photo software up to date without having to check manually.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "utility", "integration" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/check_for_updates.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": "2.0.0",
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}

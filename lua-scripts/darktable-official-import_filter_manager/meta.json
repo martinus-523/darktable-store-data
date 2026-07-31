@@ -1,0 +1,19 @@
+{
+  "author": "Tobias Ellinghaus",
+  "name": "import_filter_manager",
+  "description": "Adds a dropdown of selectable import filters to the import dialog and lets other scripts register new filters.",
+  "description-extensive": "This adds a menu to darktable's import dialog where you can pick a filter that decides which photos actually get imported. On its own it just provides the menu; other companion scripts supply the actual filtering rules you can choose from. It's a foundation piece that makes importing more flexible for people who want fine control over what comes into their library.",
+  "license": "GPL-3.0-or-later",
+  "type": "shipped",
+  "validated": true,
+  "group": "official",
+  "category": [ "import", "ui" ],
+  "contributor": "darktable-org",
+  "url": "https://github.com/darktable-org/lua-scripts",
+  "source": [ "https://github.com/darktable-org/lua-scripts/blob/3ade2a8b4059b954ae2993b84bb29c65985f0deb/official/import_filter_manager.lua" ],
+  "commit": "3ade2a8b4059b954ae2993b84bb29c65985f0deb",
+  "commit-date": "2026-07-12T16:28:02-04:00",
+  "lua-api": null,
+  "dt-versions": [ 5.6 ],
+  "creation-date": "2026-07-31"
+}
