@@ -48,7 +48,7 @@ GROUPS = {"official", "contrib", "tools"}
 CATEGORIES = {"image-processing", "metadata", "utility", "export",
               "integration", "workflow", "ui", "geo", "import"}
 LICENSES = {"GPL-3.0-or-later", "GPL-2.0-or-later", "GPL-2.0-only",
-            "MIT", "CC-BY-NC-SA-4.0"}
+            "MIT", "CC-BY-NC-SA-4.0", 'CC0-1.0'}
 
 # Folder names mirror upstream script filenames, which commonly use underscores.
 SLUG = re.compile(r"^[a-z0-9_-]+$")

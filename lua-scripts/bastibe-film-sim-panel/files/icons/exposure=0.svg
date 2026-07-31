@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="Layer-1" serif:id="Layer 1" transform="matrix(0.09375,0,0,0.09375,0,0)">
+        <rect id="rect25474" x="0" y="0" width="512" height="512"/>
+        <g transform="matrix(0.82706,0,0,1.2091,367.363,340.023)">
+            <g id="text3078-3-4-6-5">
+                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:207.381px;fill:white;">0</text>
+            </g>
+        </g>
+        <g id="g1055">
+            <rect id="rect25862" x="13.84" y="92.352" width="310.568" height="327.296" style="fill:white;"/>
+        </g>
+        <path id="rect2816" d="M32.478,116.296L302.283,116.296C160.04,258.54 189.745,236.835 32.478,394.102L32.478,116.296Z" style="fill-rule:nonzero;stroke:white;stroke-width:3.02px;"/>
+        <rect id="path26452-3" x="68.229" y="189.188" width="75.137" height="17.854" style="fill:white;fill-rule:nonzero;"/>
+        <rect id="path26452-6-6" x="96.87" y="160.546" width="17.854" height="75.137" style="fill:white;fill-rule:nonzero;"/>
+        <rect id="path26452-3-7" x="190.359" y="308.814" width="75.137" height="17.854" style="fill-rule:nonzero;"/>
+    </g>
+</svg>
