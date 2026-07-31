@@ -1,5 +1,6 @@
 {
-  "author": "Tobias Ellinghaus, Christian Mandel",
+  "author": "Tobias Ellinghaus",
+  "co-authors": [ "Christian Mandel" ],
   "name": "import_filters",
   "description": "Adds import filters that either skip all JPEGs or ignore JPEGs only when a matching non-JPEG file exists during import.",
   "description-extensive": "This tool gives you extra choices for which files get brought in when you import photos. One option skips all JPEGs, while a smarter option ignores a JPEG only when there is a matching RAW file with the same name, so you keep standalone JPEGs but avoid duplicates. It requires the companion import filter manager script and needs no other software.",

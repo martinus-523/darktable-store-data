@@ -1,5 +1,6 @@
 {
-  "author": "Jérémy Rosen, Pascal Obry, Tejovanth N",
+  "author": "Jérémy Rosen",
+  "co-authors": [ "Pascal Obry", "Tejovanth N" ],
   "name": "selection_to_pdf",
   "description": "Adds an exporter that generates a PDF contact sheet of the selected images via LaTeX.",
   "description-extensive": "This add-on turns your selected photos into a single PDF contact sheet, letting you choose how many thumbnails appear per row. It's useful for printing overviews or sharing a quick visual index of a shoot. It builds the PDF using pdflatex (a LaTeX installation) and needs a PDF viewer to open the result.",

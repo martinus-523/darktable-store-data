@@ -1,5 +1,6 @@
 {
-  "author": "Sebastian Witt, Bill Ferguson",
+  "author": "Sebastian Witt",
+  "co-authors": [ "Bill Ferguson" ],
   "name": "rename-tags",
   "description": "Adds a lighttable entry to rename an existing tag by replacing it with a new name across all images (deprecated).",
   "description-extensive": "This add-on lets you rename a keyword tag: you type the old tag name and a new one, and it swaps them on every photo that used the old tag. It saves you from removing and re-adding tags one photo at a time. This script is marked as deprecated as of darktable 4.0, since the feature is now built in.",

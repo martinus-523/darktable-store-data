@@ -1,5 +1,6 @@
 {
-  "author": "Wolfgang Goetz, Christian Kanzian, Tobias Jakobs",
+  "author": "Wolfgang Goetz",
+  "co-authors": [ "Christian Kanzian", "Tobias Jakobs" ],
   "name": "hugin",
   "description": "Adds an export storage option that sends selected images to Hugin to be stitched into a panorama and reimports the result.",
   "description-extensive": "If you shoot overlapping frames to make a panorama, this add-on hands your selected photos off to the Hugin panorama stitcher with a single click. Once Hugin builds the combined image, it can be pulled straight back into your darktable library. You need the free Hugin panorama software installed for this to work.",

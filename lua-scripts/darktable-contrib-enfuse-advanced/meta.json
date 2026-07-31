@@ -1,5 +1,6 @@
 {
-  "author": "Holger Klemm, Kevin Ertel",
+  "author": "Holger Klemm",
+  "co-authors": [ "Kevin Ertel" ],
   "name": "enfuseAdvanced",
   "description": "Adds an export module that aligns and blends bracketed or focus-shifted image sets into a single dynamic-range-increased or focus-stacked image.",
   "description-extensive": "This export module merges a series of photos into one improved picture, either combining different exposures for greater dynamic range or blending shots focused at different distances for front-to-back sharpness (focus stacking). You pick your bracketed or focus-shifted images, set your options, and it produces a new blended image that can be imported back automatically. It needs the free programs align_image_stack, enfuse (version 4.2 or newer), and exiftool installed.",

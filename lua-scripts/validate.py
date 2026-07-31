@@ -106,6 +106,14 @@ def validate(folder: Path) -> list[str]:
         elif meta[field] is not None and not isinstance(meta[field], str):
             errors.append(f"field '{field}' must be a string or null")
 
+    # 'author' holds a single person; additional authors go in 'co-authors'.
+    if isinstance(meta.get("author"), str) and "," in meta["author"]:
+        errors.append("field 'author' must name a single person (put others in 'co-authors')")
+    coauthors = meta.get("co-authors")
+    if coauthors is not None and (not isinstance(coauthors, list) or not coauthors
+                                  or not all(isinstance(a, str) and a.strip() for a in coauthors)):
+        errors.append("field 'co-authors' must be a non-empty list of non-empty strings")
+
     if meta.get("type") not in TYPES:
         errors.append(f"field 'type' must be one of {sorted(TYPES)}")
     if isinstance(meta.get("license"), str) and meta["license"] not in LICENSES:
@@ -148,6 +156,7 @@ def validate(folder: Path) -> list[str]:
 def main() -> int:
     scripts_dir = Path(__file__).parent
     failed = False
+    counts = {"shipped": 0, "third-party": 0}
     for folder in sorted(p for p in scripts_dir.iterdir() if p.is_dir() and not p.name.startswith(".")):
         errors = validate(folder)
         if errors:
@@ -157,6 +166,15 @@ def main() -> int:
                 print(f"      - {error}")
         else:
             print(f"OK    {folder.name}")
+        meta_path = folder / "meta.json"
+        if meta_path.is_file():
+            try:
+                stype = json.loads(meta_path.read_text()).get("type")
+                counts[stype] = counts.get(stype, 0) + 1
+            except json.JSONDecodeError:
+                pass
+    total = sum(counts.values())
+    print(f"Found {total} Lua script(s) ({counts['shipped']} shipped, {counts['third-party']} third-party)")
     return 1 if failed else 0
 
 

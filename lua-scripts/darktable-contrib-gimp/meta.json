@@ -1,5 +1,6 @@
 {
-  "author": "Bill Ferguson, Wolfgang Goetz, Christian Kanzian, Tobias Jakobs",
+  "author": "Bill Ferguson",
+  "co-authors": [ "Wolfgang Goetz", "Christian Kanzian", "Tobias Jakobs" ],
   "name": "gimp",
   "description": "Adds an export target that sends selected images to GIMP for editing and reimports the saved results grouped with the originals.",
   "description-extensive": "This add-on lets you round-trip photos to GIMP for detailed editing without leaving your normal workflow. You select images, export them to GIMP, make your edits and overwrite the file, and when you close GIMP the edited versions are automatically brought back into darktable and grouped with the originals. It requires the free image editor GIMP to be installed.",

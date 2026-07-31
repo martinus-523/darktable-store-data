@@ -1,5 +1,6 @@
 {
-  "author": "Kåre Hampf, Christian Sültrop",
+  "author": "Kåre Hampf",
+  "co-authors": [ "Christian Sültrop" ],
   "name": "passport_guide_germany",
   "description": "Adds a cropping guide overlay for German passport and ID card photos based on the official German ministry template.",
   "description-extensive": "This provides an on-screen guide for cropping portraits to meet the official German passport and ID card (Personalausweis) photo requirements. When cropping, you select the Passport Photo Germany guide and it shows exactly where the face and head should sit within the frame. You can also add a matching 35x45mm aspect ratio. No extra software is needed.",

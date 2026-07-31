@@ -1,5 +1,6 @@
 {
-  "author": "Tobias Jakobs, Erik Augustin",
+  "author": "Tobias Jakobs",
+  "co-authors": [ "Erik Augustin" ],
   "name": "kml_export",
   "description": "Exports selected geotagged images along with a KML/KMZ file plotting their locations for viewing in Google Earth.",
   "description-extensive": "This tool takes your geotagged photos and creates a map file you can open in Google Earth, showing where each picture was taken. It exports the images together with the location data so you can visually browse your travels. It needs ImageMagick installed, plus the zip and xdg-user-dir utilities on Linux for creating KMZ files.",

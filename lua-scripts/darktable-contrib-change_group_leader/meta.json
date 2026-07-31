@@ -1,5 +1,6 @@
 {
-  "author": "Bill Ferguson, Angel Angelov",
+  "author": "Bill Ferguson",
+  "co-authors": [ "Angel Angelov" ],
   "name": "change_group_leader",
   "description": "Automatically sets the group leader of raw+jpg paired image groups to either the jpg or the raw file for selected images.",
   "description-extensive": "When you shoot in raw plus jpg, darktable groups the two files together and picks one as the representative thumbnail. This tool lets you select many such groups at once and instantly choose whether the jpg or the raw becomes the one shown, saving you from changing each pair by hand. No extra software is needed.",

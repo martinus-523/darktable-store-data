@@ -1,5 +1,6 @@
 {
-  "author": "Christian Kanzian, Holger Klemm",
+  "author": "Christian Kanzian",
+  "co-authors": [ "Holger Klemm" ],
   "name": "copy_attach_detach_tags",
   "description": "Adds shortcuts and a lighttable module to copy, paste, replace, and remove keyword tags across selected images.",
   "description-extensive": "This add-on makes it quick to manage keywords on your photos by letting you copy the tags from one set of images and paste them onto others. You can also replace or strip tags entirely, all through handy keyboard shortcuts. It is a real time-saver when you want a batch of photos to share the same descriptive keywords.",

@@ -1,5 +1,6 @@
 {
-  "author": "Tobias Jakobs, Balázs Dura-Kovács",
+  "author": "Tobias Jakobs",
+  "co-authors": [ "Balázs Dura-Kovács" ],
   "name": "geoToolbox",
   "description": "Adds a lighttable module with geolocation tools for copying, pasting, and reverse-geocoding GPS coordinates on images.",
   "description-extensive": "This toolbox adds a set of location-based helpers to your lighttable, letting you copy GPS coordinates from one photo and paste them onto others, calculate distances, and look up place names for your shots. Naming places relies on an internet connection using the command-line tools curl and jq to query the Mapbox online service. It's handy for tidying up the location data on your travel and outdoor photography.",

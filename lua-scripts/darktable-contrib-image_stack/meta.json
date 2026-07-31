@@ -1,5 +1,6 @@
 {
-  "author": "Bill Ferguson, Holger Klemm",
+  "author": "Bill Ferguson",
+  "co-authors": [ "Holger Klemm" ],
   "name": "image_stack",
   "description": "Adds an export target that aligns and combines a stack of selected images with ImageMagick and imports the resulting composite.",
   "description-extensive": "This lets you merge a group of photos into a single combined image, which is great for reducing noise or removing passing people and objects from a scene by averaging several shots together. You pick the images, choose how to blend them, and the finished result is brought back into your library. It needs ImageMagick to do the blending and the align_image_stack tool from Hugin to line up the frames first.",

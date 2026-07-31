@@ -1,5 +1,6 @@
 {
-  "author": "Kevin Ertel, Volker Lenhardt, Bill Ferguson",
+  "author": "Kevin Ertel",
+  "co-authors": [ "Volker Lenhardt", "Bill Ferguson" ],
   "name": "OpenInExplorer",
   "description": "Adds a module to reveal the selected images in the operating system's native file manager, with an option to create symbolic links in a chosen folder.",
   "description-extensive": "When you want to see where your photos actually live on disk, this add-on opens your computer's file manager (Finder on Mac, Explorer on Windows, or the Linux equivalent) with the selected pictures highlighted. It saves you from manually digging through folders to locate a file. It works on macOS, Windows, and Linux using their built-in file browsers.",
